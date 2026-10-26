@@ -1,0 +1,1186 @@
+{
+  "version": 1,
+  "encid": "3431301a1190fd",
+  "name": "Pora Topora 8",
+  "game_system": "wc",
+  "format": "swiss",
+  "cardinality": "singles",
+  "tier": "standalone",
+  "type_description": "Tournament",
+  "state": "finished",
+  "access": "public",
+  "casual": false,
+  "scoring": {
+    "primary_points": "Result",
+    "secondary_points": "Victory points",
+    "tertiary_points": "Strength of schedule"
+  },
+  "parent": null,
+  "organiser": "Dziadu z Lasu",
+  "start": "2026-07-18",
+  "location": "Poland",
+  "address": "ul. Chmielna 122, Warszawa",
+  "link": "https://drive.google.com/file/d/1FpjkUCPbDSNtWFX2ybNX-tQyoU0d4CQu/view",
+  "series": {
+    "id": 32,
+    "name": "Pora Topora"
+  },
+  "rounds": 3,
+  "current_round": 3,
+  "max_players": 20,
+  "participant_count": 12,
+  "battle_plans": [
+    {
+      "round": 1,
+      "title": "Gorące ziemniaki z Aqshy"
+    },
+    {
+      "round": 2,
+      "title": "Atak czy Obora"
+    },
+    {
+      "round": 3,
+      "title": "Pora Topora 1.2"
+    }
+  ],
+  "champion": null,
+  "participants": [
+    {
+      "encid": "34323532f13315e1",
+      "name": "jtrochim",
+      "faction": "Kharadron Overlords",
+      "dropped": false,
+      "managed": false,
+      "placement": 1,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 12,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 28,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 15,
+        "secondary_points": 44,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3433303085732a7a",
+      "name": "Pan Tulipan",
+      "faction": "Order of Azyr",
+      "dropped": false,
+      "managed": false,
+      "placement": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 12,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 16,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 13,
+        "secondary_points": 34,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34323138546e677b",
+      "name": "Mateusz Górecki",
+      "faction": "Slaves to Darkness",
+      "dropped": false,
+      "managed": false,
+      "placement": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 9,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 29,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 42,
+        "tertiary_points": 21,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34323035766ca142",
+      "name": "Michał \"Bułka\"",
+      "faction": "Cities of Sigmar: Dispossessed",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 14,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 23,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 1,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 38,
+        "tertiary_points": 37,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34313334b7415e5d",
+      "name": "Jaco Fluffy Babbler",
+      "faction": "Stormcast Eternals Ruination Chamber",
+      "dropped": false,
+      "managed": false,
+      "placement": 5,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 12,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 21,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 5,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 38,
+        "tertiary_points": 23,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "343333351a56331a",
+      "name": "Wernest",
+      "faction": "Kharadron Overlords",
+      "dropped": false,
+      "managed": false,
+      "placement": 6,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 12,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 33,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 9,
+        "secondary_points": 47,
+        "tertiary_points": 32,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34323335a55c7c72",
+      "name": "Matt",
+      "faction": "Kruleboyz",
+      "dropped": false,
+      "managed": false,
+      "placement": 7,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 11,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 14,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 9,
+        "secondary_points": 33,
+        "tertiary_points": 23,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3433323604184d48",
+      "name": "Złowieszcza Gęś",
+      "faction": "Stormcast Eternals Sacrosanct Chamber",
+      "dropped": false,
+      "managed": false,
+      "placement": 8,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 9,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 27,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 40,
+        "tertiary_points": 32,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3431333543633608",
+      "name": "xyzq",
+      "faction": "Idoneth Deepkin",
+      "dropped": false,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 10,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 27,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 37,
+        "tertiary_points": 43,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "343333343cfd7dd3",
+      "name": "VRGvks",
+      "faction": "Gorger Mawpack",
+      "dropped": false,
+      "managed": false,
+      "placement": 10,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 9,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 12,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 27,
+        "tertiary_points": 30,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34313632edb34491",
+      "name": "Rufus",
+      "faction": "Vulkyn Flameseekers",
+      "dropped": false,
+      "managed": false,
+      "placement": 11,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 11,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 15,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 1,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 5,
+        "secondary_points": 27,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "343233323b518a44",
+      "name": "GigaIga",
+      "faction": "Royal Beastflayers",
+      "dropped": false,
+      "managed": false,
+      "placement": 12,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 9,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 5,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 3,
+        "secondary_points": 14,
+        "tertiary_points": 34,
+        "quaternary_points": null
+      }
+    }
+  ],
+  "battles": [
+    {
+      "encid": "363535367f7edfba",
+      "round": 1,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "3431333543633608",
+      "created_at": "2026-07-18T08:23:08Z",
+      "players": [
+        {
+          "participant": "34323138546e677b",
+          "name": "Mateusz Górecki",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 1,
+            "victory_points": 9
+          }
+        },
+        {
+          "participant": "3431333543633608",
+          "name": "xyzq",
+          "faction": "Idoneth Deepkin",
+          "values": {
+            "result": 5,
+            "victory_points": 10
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3635353713d329bf",
+      "round": 1,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "jtrochim wins",
+      "winner": "34323532f13315e1",
+      "created_at": "2026-07-18T08:23:08Z",
+      "players": [
+        {
+          "participant": "34323532f13315e1",
+          "name": "jtrochim",
+          "faction": "Kharadron Overlords",
+          "values": {
+            "result": 5,
+            "victory_points": 12
+          }
+        },
+        {
+          "participant": "343333343cfd7dd3",
+          "name": "VRGvks",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 1,
+            "victory_points": 9
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353538707948d3",
+      "round": 1,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2026-07-18T08:23:08Z",
+      "players": [
+        {
+          "participant": "34323335a55c7c72",
+          "name": "Matt",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 3,
+            "victory_points": 11
+          }
+        },
+        {
+          "participant": "34313632edb34491",
+          "name": "Rufus",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 3,
+            "victory_points": 11
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363535395d046d90",
+      "round": 1,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "34323035766ca142",
+      "created_at": "2026-07-18T08:23:08Z",
+      "players": [
+        {
+          "participant": "34323035766ca142",
+          "name": "Michał \"Bułka\"",
+          "faction": "Cities of Sigmar: Dispossessed",
+          "values": {
+            "result": 5,
+            "victory_points": 14
+          }
+        },
+        {
+          "participant": "3433323604184d48",
+          "name": "Złowieszcza Gęś",
+          "faction": "Stormcast Eternals Sacrosanct Chamber",
+          "values": {
+            "result": 1,
+            "victory_points": 9
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353630f4de24f2",
+      "round": 1,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Jaco Fluffy Babbler wins",
+      "winner": "34313334b7415e5d",
+      "created_at": "2026-07-18T08:23:08Z",
+      "players": [
+        {
+          "participant": "34313334b7415e5d",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Ruination Chamber",
+          "values": {
+            "result": 5,
+            "victory_points": 12
+          }
+        },
+        {
+          "participant": "343233323b518a44",
+          "name": "GigaIga",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 1,
+            "victory_points": 9
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3635363166b6f399",
+      "round": 1,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2026-07-18T08:23:08Z",
+      "players": [
+        {
+          "participant": "3433303085732a7a",
+          "name": "Pan Tulipan",
+          "faction": "Order of Azyr",
+          "values": {
+            "result": 3,
+            "victory_points": 12
+          }
+        },
+        {
+          "participant": "343333351a56331a",
+          "name": "Wernest",
+          "faction": "Kharadron Overlords",
+          "values": {
+            "result": 3,
+            "victory_points": 12
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353638f1f0455b",
+      "round": 2,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "34323035766ca142",
+      "created_at": "2026-07-18T10:13:10Z",
+      "players": [
+        {
+          "participant": "34323035766ca142",
+          "name": "Michał \"Bułka\"",
+          "faction": "Cities of Sigmar: Dispossessed",
+          "values": {
+            "result": 5,
+            "victory_points": 23
+          }
+        },
+        {
+          "participant": "34313334b7415e5d",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Ruination Chamber",
+          "values": {
+            "result": 1,
+            "victory_points": 21
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353639d08d4c27",
+      "round": 2,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "3433303085732a7a",
+      "created_at": "2026-07-18T10:13:10Z",
+      "players": [
+        {
+          "participant": "3433303085732a7a",
+          "name": "Pan Tulipan",
+          "faction": "Order of Azyr",
+          "values": {
+            "result": 5,
+            "victory_points": 16
+          }
+        },
+        {
+          "participant": "34323335a55c7c72",
+          "name": "Matt",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 1,
+            "victory_points": 14
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353730762613b6",
+      "round": 2,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "jtrochim wins",
+      "winner": "34323532f13315e1",
+      "created_at": "2026-07-18T10:13:10Z",
+      "players": [
+        {
+          "participant": "34323532f13315e1",
+          "name": "jtrochim",
+          "faction": "Kharadron Overlords",
+          "values": {
+            "result": 5,
+            "victory_points": 28
+          }
+        },
+        {
+          "participant": "3431333543633608",
+          "name": "xyzq",
+          "faction": "Idoneth Deepkin",
+          "values": {
+            "result": 1,
+            "victory_points": 27
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363537310c845046",
+      "round": 2,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Wernest wins",
+      "winner": "343333351a56331a",
+      "created_at": "2026-07-18T10:13:10Z",
+      "players": [
+        {
+          "participant": "343333351a56331a",
+          "name": "Wernest",
+          "faction": "Kharadron Overlords",
+          "values": {
+            "result": 5,
+            "victory_points": 33
+          }
+        },
+        {
+          "participant": "34313632edb34491",
+          "name": "Rufus",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 1,
+            "victory_points": 15
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353732d693442e",
+      "round": 2,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Złowieszcza Gęś wins",
+      "winner": "3433323604184d48",
+      "created_at": "2026-07-18T10:13:10Z",
+      "players": [
+        {
+          "participant": "3433323604184d48",
+          "name": "Złowieszcza Gęś",
+          "faction": "Stormcast Eternals Sacrosanct Chamber",
+          "values": {
+            "result": 5,
+            "victory_points": 27
+          }
+        },
+        {
+          "participant": "343333343cfd7dd3",
+          "name": "VRGvks",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 1,
+            "victory_points": 12
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353733b825e724",
+      "round": 2,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Mateusz Górecki wins",
+      "winner": "34323138546e677b",
+      "created_at": "2026-07-18T10:13:10Z",
+      "players": [
+        {
+          "participant": "34323138546e677b",
+          "name": "Mateusz Górecki",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 5,
+            "victory_points": 29
+          }
+        },
+        {
+          "participant": "343233323b518a44",
+          "name": "GigaIga",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 1,
+            "victory_points": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353737ba39e885",
+      "round": 3,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "VRGvks wins",
+      "winner": "343333343cfd7dd3",
+      "created_at": "2026-07-18T12:03:20Z",
+      "players": [
+        {
+          "participant": "34313632edb34491",
+          "name": "Rufus",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 1,
+            "victory_points": 1
+          }
+        },
+        {
+          "participant": "343333343cfd7dd3",
+          "name": "VRGvks",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353738ae410373",
+      "round": 3,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Mateusz Górecki wins",
+      "winner": "34323138546e677b",
+      "created_at": "2026-07-18T12:03:20Z",
+      "players": [
+        {
+          "participant": "343333351a56331a",
+          "name": "Wernest",
+          "faction": "Kharadron Overlords",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        },
+        {
+          "participant": "34323138546e677b",
+          "name": "Mateusz Górecki",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353739019ea976",
+      "round": 3,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Jaco Fluffy Babbler wins",
+      "winner": "34313334b7415e5d",
+      "created_at": "2026-07-18T12:03:20Z",
+      "players": [
+        {
+          "participant": "3433323604184d48",
+          "name": "Złowieszcza Gęś",
+          "faction": "Stormcast Eternals Sacrosanct Chamber",
+          "values": {
+            "result": 1,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34313334b7415e5d",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Ruination Chamber",
+          "values": {
+            "result": 5,
+            "victory_points": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36353830d6bae28b",
+      "round": 3,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "3433303085732a7a",
+      "created_at": "2026-07-18T12:03:20Z",
+      "players": [
+        {
+          "participant": "3433303085732a7a",
+          "name": "Pan Tulipan",
+          "faction": "Order of Azyr",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "3431333543633608",
+          "name": "xyzq",
+          "faction": "Idoneth Deepkin",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3635383126525266",
+      "round": 3,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "jtrochim wins",
+      "winner": "34323532f13315e1",
+      "created_at": "2026-07-18T12:03:20Z",
+      "players": [
+        {
+          "participant": "34323532f13315e1",
+          "name": "jtrochim",
+          "faction": "Kharadron Overlords",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34323035766ca142",
+          "name": "Michał \"Bułka\"",
+          "faction": "Cities of Sigmar: Dispossessed",
+          "values": {
+            "result": 1,
+            "victory_points": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3635383223c93290",
+      "round": 3,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Matt wins",
+      "winner": "34323335a55c7c72",
+      "created_at": "2026-07-18T12:03:20Z",
+      "players": [
+        {
+          "participant": "34323335a55c7c72",
+          "name": "Matt",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        },
+        {
+          "participant": "343233323b518a44",
+          "name": "GigaIga",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        }
+      ]
+    }
+  ],
+  "votes": [
+    {
+      "title": "Najfajniejsza banda, albo z kim się najlepiej grało, albo rozmawiało na przerwie, albo nie wiem :)",
+      "status": "finished",
+      "results": [
+        {
+          "participant": "343333351a56331a",
+          "name": "Wernest",
+          "votes": 4
+        },
+        {
+          "participant": "343333343cfd7dd3",
+          "name": "VRGvks",
+          "votes": 2
+        },
+        {
+          "participant": "34313334b7415e5d",
+          "name": "Jaco Fluffy Babbler",
+          "votes": 1
+        },
+        {
+          "participant": "34323138546e677b",
+          "name": "Mateusz Górecki",
+          "votes": 1
+        },
+        {
+          "participant": "34323035766ca142",
+          "name": "Michał \"Bułka\"",
+          "votes": 1
+        },
+        {
+          "participant": "3433303085732a7a",
+          "name": "Pan Tulipan",
+          "votes": 1
+        },
+        {
+          "participant": "3431333543633608",
+          "name": "xyzq",
+          "votes": 1
+        }
+      ]
+    }
+  ]
+}

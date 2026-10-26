@@ -1,0 +1,79 @@
+{
+  "catalog_version": "proposal-v0.1",
+  "years": [
+    {
+      "year": 2025,
+      "detailed_events": 8,
+      "distinct_display_names": 74,
+      "achievement_counts": {
+        "first_muster": 74,
+        "campaign_regular": 18,
+        "season_veteran": 4,
+        "first_blood": 66,
+        "proven_fighter": 16,
+        "battle_hardened": 3,
+        "crossed_blades": 35,
+        "known_rival": 17,
+        "across_the_warlands": 5,
+        "many_faces": 27,
+        "rise_again": 51,
+        "unbroken": 16,
+        "on_the_podium": 17,
+        "champion": 5
+      },
+      "badge_count_distribution": {
+        "1": 8,
+        "2": 3,
+        "3": 25,
+        "4": 10,
+        "5": 7,
+        "6": 1,
+        "7": 4,
+        "8": 6,
+        "9": 2,
+        "10": 3,
+        "11": 2,
+        "12": 1,
+        "13": 2
+      },
+      "caveat": "Incomplete event discovery; 2026 through 25 October only; unverified display-name identity and raw faction labels. Historical qualification is a calibration proxy, not a prize entry."
+    },
+    {
+      "year": 2026,
+      "detailed_events": 7,
+      "distinct_display_names": 46,
+      "achievement_counts": {
+        "first_muster": 46,
+        "campaign_regular": 18,
+        "season_veteran": 8,
+        "first_blood": 42,
+        "proven_fighter": 13,
+        "battle_hardened": 5,
+        "crossed_blades": 26,
+        "known_rival": 14,
+        "across_the_warlands": 4,
+        "many_faces": 19,
+        "rise_again": 30,
+        "unbroken": 11,
+        "on_the_podium": 12,
+        "champion": 4
+      },
+      "badge_count_distribution": {
+        "1": 4,
+        "2": 6,
+        "3": 10,
+        "4": 4,
+        "5": 4,
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "10": 3,
+        "11": 2,
+        "12": 1,
+        "13": 1,
+        "14": 2
+      },
+      "caveat": "Incomplete event discovery; 2026 through 25 October only; unverified display-name identity and raw faction labels. Historical qualification is a calibration proxy, not a prize entry."
+    }
+  ]
+}

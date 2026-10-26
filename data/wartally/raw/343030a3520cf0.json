@@ -1,0 +1,1722 @@
+{
+  "version": 1,
+  "encid": "343030a3520cf0",
+  "name": "Pora Topora 7",
+  "game_system": "wc",
+  "format": "swiss",
+  "cardinality": "singles",
+  "tier": "standalone",
+  "type_description": "Tournament",
+  "state": "finished",
+  "access": "public",
+  "casual": false,
+  "scoring": {
+    "primary_points": "Result",
+    "secondary_points": "Victory points",
+    "tertiary_points": "Strength of schedule"
+  },
+  "parent": null,
+  "organiser": "Dziadu z Lasu",
+  "start": "2026-04-18",
+  "location": "Poland",
+  "address": "ulica Żelazna 69A, 00-866 Warszawa, Polska",
+  "link": "https://drive.google.com/file/d/1BxxSy7BdaAYuYRhP7sb8D_7L9hjNoiiH/view",
+  "series": {
+    "id": 32,
+    "name": "Pora Topora"
+  },
+  "rounds": 4,
+  "current_round": 4,
+  "max_players": 20,
+  "participant_count": 14,
+  "battle_plans": [
+    {
+      "round": 1,
+      "title": "Ten dziwny z Zającem 1.2"
+    },
+    {
+      "round": 2,
+      "title": "Palić i Rabować!"
+    },
+    {
+      "round": 3,
+      "title": "Ostatnia ćwiartka Wernera Gundolfa"
+    },
+    {
+      "round": 4,
+      "title": "Pora Topora 1.2"
+    }
+  ],
+  "champion": null,
+  "participants": [
+    {
+      "encid": "34303435146146f5",
+      "name": "Bartosz Wysoczański",
+      "faction": "Slaves to Darkness",
+      "dropped": false,
+      "managed": false,
+      "placement": 1,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 20,
+        "secondary_points": 24,
+        "tertiary_points": 31,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34303935238a1a26",
+      "name": "Rufus",
+      "faction": "Fyreslayers",
+      "dropped": false,
+      "managed": false,
+      "placement": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 7,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 16,
+        "secondary_points": 21,
+        "tertiary_points": 30,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3430313800701070",
+      "name": "Pan Tulipan",
+      "faction": "Stormcast Eternals Thunderstrike Stormcast",
+      "dropped": false,
+      "managed": false,
+      "placement": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 16,
+        "secondary_points": 20,
+        "tertiary_points": 30,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "33393638f5534b59",
+      "name": "xyzq",
+      "faction": "Idoneth Deepkin",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 7,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 16,
+        "secondary_points": 19,
+        "tertiary_points": 33,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "33393433af671bdc",
+      "name": "jtrochim",
+      "faction": "Skaven",
+      "dropped": false,
+      "managed": false,
+      "placement": 5,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 9,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 3,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 14,
+        "secondary_points": 24,
+        "tertiary_points": 35,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34303337a73b5ff1",
+      "name": "Mateusz Górecki",
+      "faction": "Kruleboyz",
+      "dropped": false,
+      "managed": false,
+      "placement": 6,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 5,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 12,
+        "secondary_points": 19,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34303434ce0ce73e",
+      "name": "Matt",
+      "faction": "Kruleboyz",
+      "dropped": false,
+      "managed": false,
+      "placement": 7,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 12,
+        "secondary_points": 18,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34303930e20052e6",
+      "name": "Balint Lengyel",
+      "faction": "The Unmade",
+      "dropped": false,
+      "managed": false,
+      "placement": 8,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 3,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 12,
+        "secondary_points": 17,
+        "tertiary_points": 33,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34303537c842605c",
+      "name": "Łukasz",
+      "faction": "Splintered Fang",
+      "dropped": false,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 10,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 12,
+        "secondary_points": 16,
+        "tertiary_points": 33,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "343039317a0dd43a",
+      "name": "MateuszP",
+      "faction": "Blades of Khorne: Bloodbound",
+      "dropped": false,
+      "managed": false,
+      "placement": 10,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 1,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 10,
+        "secondary_points": 15,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34303538fa97ba35",
+      "name": "Wiktor",
+      "faction": "Ogor Mawtribes",
+      "dropped": false,
+      "managed": false,
+      "placement": 11,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 3,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 8,
+        "secondary_points": 15,
+        "tertiary_points": 31,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34303536a5761198",
+      "name": "VRGvks",
+      "faction": "Helsmiths of Hashut",
+      "dropped": false,
+      "managed": false,
+      "placement": 12,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 7,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 8,
+        "secondary_points": 15,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "33393430fce6ea48",
+      "name": "Michał \"Bułka\"",
+      "faction": "Helsmiths of Hashut",
+      "dropped": false,
+      "managed": false,
+      "placement": 13,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 8,
+        "secondary_points": 10,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "33393431b453af74",
+      "name": "Dziadu z Lasu",
+      "faction": "Slaves to Darkness",
+      "dropped": false,
+      "managed": false,
+      "placement": 14,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 5,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 2,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 4,
+        "secondary_points": 13,
+        "tertiary_points": 28,
+        "quaternary_points": null
+      }
+    }
+  ],
+  "battles": [
+    {
+      "encid": "3631313914d82878",
+      "round": 1,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "34303435146146f5",
+      "created_at": "2026-04-18T08:57:14Z",
+      "players": [
+        {
+          "participant": "34303435146146f5",
+          "name": "Bartosz Wysoczański",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34303536a5761198",
+          "name": "VRGvks",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313230f2ab6e53",
+      "round": 1,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "3430313800701070",
+      "created_at": "2026-04-18T08:57:14Z",
+      "players": [
+        {
+          "participant": "3430313800701070",
+          "name": "Pan Tulipan",
+          "faction": "Stormcast Eternals Thunderstrike Stormcast",
+          "values": {
+            "result": 5,
+            "victory_points": 2
+          }
+        },
+        {
+          "participant": "34303434ce0ce73e",
+          "name": "Matt",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363132312f1748e7",
+      "round": 1,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Balint Lengyel wins",
+      "winner": "34303930e20052e6",
+      "created_at": "2026-04-18T08:57:14Z",
+      "players": [
+        {
+          "participant": "33393430fce6ea48",
+          "name": "Michał \"Bułka\"",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        },
+        {
+          "participant": "34303930e20052e6",
+          "name": "Balint Lengyel",
+          "faction": "The Unmade",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363132327ca133ec",
+      "round": 1,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "jtrochim wins",
+      "winner": "33393433af671bdc",
+      "created_at": "2026-04-18T08:57:14Z",
+      "players": [
+        {
+          "participant": "33393433af671bdc",
+          "name": "jtrochim",
+          "faction": "Skaven",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        },
+        {
+          "participant": "33393431b453af74",
+          "name": "Dziadu z Lasu",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363132333f40f175",
+      "round": 1,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Rufus wins",
+      "winner": "34303935238a1a26",
+      "created_at": "2026-04-18T08:57:14Z",
+      "players": [
+        {
+          "participant": "34303935238a1a26",
+          "name": "Rufus",
+          "faction": "Fyreslayers",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34303537c842605c",
+          "name": "Łukasz",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313234e7fd9fa4",
+      "round": 1,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "33393638f5534b59",
+      "created_at": "2026-04-18T08:57:14Z",
+      "players": [
+        {
+          "participant": "33393638f5534b59",
+          "name": "xyzq",
+          "faction": "Idoneth Deepkin",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34303337a73b5ff1",
+          "name": "Mateusz Górecki",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363132354da9b5e1",
+      "round": 1,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Wiktor wins",
+      "winner": "34303538fa97ba35",
+      "created_at": "2026-04-18T08:57:14Z",
+      "players": [
+        {
+          "participant": "343039317a0dd43a",
+          "name": "MateuszP",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        },
+        {
+          "participant": "34303538fa97ba35",
+          "name": "Wiktor",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363132369cb63042",
+      "round": 2,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2026-04-18T10:26:32Z",
+      "players": [
+        {
+          "participant": "33393433af671bdc",
+          "name": "jtrochim",
+          "faction": "Skaven",
+          "values": {
+            "result": 3,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34303935238a1a26",
+          "name": "Rufus",
+          "faction": "Fyreslayers",
+          "values": {
+            "result": 3,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313237882d674f",
+      "round": 2,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "33393638f5534b59",
+      "created_at": "2026-04-18T10:26:32Z",
+      "players": [
+        {
+          "participant": "34303538fa97ba35",
+          "name": "Wiktor",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        },
+        {
+          "participant": "33393638f5534b59",
+          "name": "xyzq",
+          "faction": "Idoneth Deepkin",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313238b9fbe841",
+      "round": 2,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "3430313800701070",
+      "created_at": "2026-04-18T10:26:32Z",
+      "players": [
+        {
+          "participant": "3430313800701070",
+          "name": "Pan Tulipan",
+          "faction": "Stormcast Eternals Thunderstrike Stormcast",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "34303337a73b5ff1",
+          "name": "Mateusz Górecki",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 1,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3631323998d8dc98",
+      "round": 2,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "34303435146146f5",
+      "created_at": "2026-04-18T10:26:32Z",
+      "players": [
+        {
+          "participant": "34303435146146f5",
+          "name": "Bartosz Wysoczański",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "34303930e20052e6",
+          "name": "Balint Lengyel",
+          "faction": "The Unmade",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313330a4ee44c3",
+      "round": 2,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "MateuszP wins",
+      "winner": "343039317a0dd43a",
+      "created_at": "2026-04-18T10:26:32Z",
+      "players": [
+        {
+          "participant": "33393431b453af74",
+          "name": "Dziadu z Lasu",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 1,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "343039317a0dd43a",
+          "name": "MateuszP",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363133315c062c25",
+      "round": 2,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "33393430fce6ea48",
+      "created_at": "2026-04-18T10:26:32Z",
+      "players": [
+        {
+          "participant": "33393430fce6ea48",
+          "name": "Michał \"Bułka\"",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34303536a5761198",
+          "name": "VRGvks",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313332c70a7562",
+      "round": 2,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Łukasz wins",
+      "winner": "34303537c842605c",
+      "created_at": "2026-04-18T10:26:32Z",
+      "players": [
+        {
+          "participant": "34303434ce0ce73e",
+          "name": "Matt",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 1,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "34303537c842605c",
+          "name": "Łukasz",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3631333300433cb2",
+      "round": 3,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Balint Lengyel wins",
+      "winner": "34303930e20052e6",
+      "created_at": "2026-04-18T12:15:53Z",
+      "players": [
+        {
+          "participant": "34303930e20052e6",
+          "name": "Balint Lengyel",
+          "faction": "The Unmade",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        },
+        {
+          "participant": "34303538fa97ba35",
+          "name": "Wiktor",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 1,
+            "victory_points": 6
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313334f28d5136",
+      "round": 3,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2026-04-18T12:15:54Z",
+      "players": [
+        {
+          "participant": "34303935238a1a26",
+          "name": "Rufus",
+          "faction": "Fyreslayers",
+          "values": {
+            "result": 3,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "343039317a0dd43a",
+          "name": "MateuszP",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 3,
+            "victory_points": 6
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3631333542a1a76a",
+      "round": 3,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "34303435146146f5",
+      "created_at": "2026-04-18T12:15:54Z",
+      "players": [
+        {
+          "participant": "34303435146146f5",
+          "name": "Bartosz Wysoczański",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        },
+        {
+          "participant": "33393638f5534b59",
+          "name": "xyzq",
+          "faction": "Idoneth Deepkin",
+          "values": {
+            "result": 1,
+            "victory_points": 7
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313336a3695d02",
+      "round": 3,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Łukasz wins",
+      "winner": "34303537c842605c",
+      "created_at": "2026-04-18T12:15:54Z",
+      "players": [
+        {
+          "participant": "34303537c842605c",
+          "name": "Łukasz",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 5,
+            "victory_points": 10
+          }
+        },
+        {
+          "participant": "33393430fce6ea48",
+          "name": "Michał \"Bułka\"",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 1,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3631333753ae809f",
+      "round": 3,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "jtrochim wins",
+      "winner": "33393433af671bdc",
+      "created_at": "2026-04-18T12:15:54Z",
+      "players": [
+        {
+          "participant": "3430313800701070",
+          "name": "Pan Tulipan",
+          "faction": "Stormcast Eternals Thunderstrike Stormcast",
+          "values": {
+            "result": 1,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "33393433af671bdc",
+          "name": "jtrochim",
+          "faction": "Skaven",
+          "values": {
+            "result": 5,
+            "victory_points": 9
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313338cc52cb0c",
+      "round": 3,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Matt wins",
+      "winner": "34303434ce0ce73e",
+      "created_at": "2026-04-18T12:15:54Z",
+      "players": [
+        {
+          "participant": "34303536a5761198",
+          "name": "VRGvks",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 1,
+            "victory_points": 7
+          }
+        },
+        {
+          "participant": "34303434ce0ce73e",
+          "name": "Matt",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313339a86d7d0f",
+      "round": 3,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Mateusz Górecki wins",
+      "winner": "34303337a73b5ff1",
+      "created_at": "2026-04-18T12:15:54Z",
+      "players": [
+        {
+          "participant": "34303337a73b5ff1",
+          "name": "Mateusz Górecki",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        },
+        {
+          "participant": "33393431b453af74",
+          "name": "Dziadu z Lasu",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 1,
+            "victory_points": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313430bf6f1cca",
+      "round": 4,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "33393638f5534b59",
+      "created_at": "2026-04-18T13:51:05Z",
+      "players": [
+        {
+          "participant": "34303537c842605c",
+          "name": "Łukasz",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        },
+        {
+          "participant": "33393638f5534b59",
+          "name": "xyzq",
+          "faction": "Idoneth Deepkin",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313431f68d6b7f",
+      "round": 4,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "34303435146146f5",
+      "created_at": "2026-04-18T13:51:05Z",
+      "players": [
+        {
+          "participant": "34303435146146f5",
+          "name": "Bartosz Wysoczański",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "33393433af671bdc",
+          "name": "jtrochim",
+          "faction": "Skaven",
+          "values": {
+            "result": 1,
+            "victory_points": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36313432ca57231f",
+      "round": 4,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Matt wins",
+      "winner": "34303434ce0ce73e",
+      "created_at": "2026-04-18T13:51:05Z",
+      "players": [
+        {
+          "participant": "34303434ce0ce73e",
+          "name": "Matt",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "33393430fce6ea48",
+          "name": "Michał \"Bułka\"",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363134331a36b0a1",
+      "round": 4,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "3430313800701070",
+      "created_at": "2026-04-18T13:51:05Z",
+      "players": [
+        {
+          "participant": "3430313800701070",
+          "name": "Pan Tulipan",
+          "faction": "Stormcast Eternals Thunderstrike Stormcast",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        },
+        {
+          "participant": "343039317a0dd43a",
+          "name": "MateuszP",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 1,
+            "victory_points": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363134342059da7b",
+      "round": 4,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Mateusz Górecki wins",
+      "winner": "34303337a73b5ff1",
+      "created_at": "2026-04-18T13:51:05Z",
+      "players": [
+        {
+          "participant": "34303337a73b5ff1",
+          "name": "Mateusz Górecki",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5,
+            "victory_points": 5
+          }
+        },
+        {
+          "participant": "34303538fa97ba35",
+          "name": "Wiktor",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 1,
+            "victory_points": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3631343540954e2c",
+      "round": 4,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Rufus wins",
+      "winner": "34303935238a1a26",
+      "created_at": "2026-04-18T13:51:05Z",
+      "players": [
+        {
+          "participant": "34303935238a1a26",
+          "name": "Rufus",
+          "faction": "Fyreslayers",
+          "values": {
+            "result": 5,
+            "victory_points": 7
+          }
+        },
+        {
+          "participant": "34303930e20052e6",
+          "name": "Balint Lengyel",
+          "faction": "The Unmade",
+          "values": {
+            "result": 1,
+            "victory_points": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3631343684a54a3b",
+      "round": 4,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "VRGvks wins",
+      "winner": "34303536a5761198",
+      "created_at": "2026-04-18T13:51:05Z",
+      "players": [
+        {
+          "participant": "34303536a5761198",
+          "name": "VRGvks",
+          "faction": "Helsmiths of Hashut",
+          "values": {
+            "result": 5,
+            "victory_points": 4
+          }
+        },
+        {
+          "participant": "33393431b453af74",
+          "name": "Dziadu z Lasu",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 1,
+            "victory_points": 2
+          }
+        }
+      ]
+    }
+  ],
+  "votes": [
+    {
+      "title": "Najfajniejsza banda, albo z kim się najlepiej grało, albo rozmawiało na przerwie, albo nie wiem :)",
+      "status": "finished",
+      "results": [
+        {
+          "participant": "34303538fa97ba35",
+          "name": "Wiktor",
+          "votes": 4
+        },
+        {
+          "participant": "34303337a73b5ff1",
+          "name": "Mateusz Górecki",
+          "votes": 2
+        },
+        {
+          "participant": "33393433af671bdc",
+          "name": "jtrochim",
+          "votes": 2
+        },
+        {
+          "participant": "33393638f5534b59",
+          "name": "xyzq",
+          "votes": 1
+        },
+        {
+          "participant": "34303536a5761198",
+          "name": "VRGvks",
+          "votes": 1
+        },
+        {
+          "participant": "33393430fce6ea48",
+          "name": "Michał \"Bułka\"",
+          "votes": 1
+        },
+        {
+          "participant": "34303935238a1a26",
+          "name": "Rufus",
+          "votes": 1
+        }
+      ]
+    }
+  ]
+}

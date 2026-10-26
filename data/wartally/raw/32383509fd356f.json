@@ -1,0 +1,2034 @@
+{
+  "version": 1,
+  "encid": "32383509fd356f",
+  "name": "Warcry w Krakowie vol. 5 - Bespoke One box edition",
+  "game_system": "wc",
+  "format": "swiss",
+  "cardinality": "singles",
+  "tier": "standalone",
+  "type_description": "Tournament",
+  "state": "finished",
+  "access": "public",
+  "casual": false,
+  "scoring": {
+    "primary_points": "Result",
+    "secondary_points": "Victory points",
+    "tertiary_points": "Kill points",
+    "quaternary_points": "Strength of schedule"
+  },
+  "parent": null,
+  "organiser": "Groch",
+  "start": "2025-06-28",
+  "location": "Poland",
+  "address": "Sklep Mr Puggy - Nefrytowa 4, 30-798 Kraków",
+  "link": null,
+  "series": null,
+  "rounds": 4,
+  "current_round": 4,
+  "max_players": 24,
+  "participant_count": 16,
+  "battle_plans": [
+    {
+      "round": 1,
+      "title": "You Can’t Handle the Oath!"
+    },
+    {
+      "round": 2,
+      "title": "Dedicated to Victory"
+    },
+    {
+      "round": 3,
+      "title": "Blood Ball"
+    },
+    {
+      "round": 4,
+      "title": "Gorewyrms Armageddon"
+    }
+  ],
+  "champion": null,
+  "participants": [
+    {
+      "encid": "3239373672f5dffa",
+      "name": "Bartosz Wysoczański",
+      "faction": "Gorger Mawpack",
+      "dropped": false,
+      "managed": false,
+      "placement": 1,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 6,
+            "tertiary_points": 830,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 16,
+            "tertiary_points": 895,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 4,
+            "tertiary_points": 835,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 14,
+            "tertiary_points": 315,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 70,
+        "secondary_points": 40,
+        "tertiary_points": 2875,
+        "quaternary_points": 116
+      }
+    },
+    {
+      "encid": "323939382da6e1b5",
+      "name": "Szymon Kozioł",
+      "faction": "Wildercorps Hunters",
+      "dropped": false,
+      "managed": false,
+      "placement": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 4,
+            "tertiary_points": 400,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 16,
+            "tertiary_points": 830,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 1,
+            "tertiary_points": 630,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 5,
+            "tertiary_points": 500,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 60,
+        "secondary_points": 26,
+        "tertiary_points": 2360,
+        "quaternary_points": 94
+      }
+    },
+    {
+      "encid": "323938333fc5f506",
+      "name": "Michał \"Bułka\"",
+      "faction": "Gorger Mawpack",
+      "dropped": false,
+      "managed": false,
+      "placement": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 0,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": 700,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 1,
+            "tertiary_points": 835,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 16,
+            "tertiary_points": 305,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 60,
+        "secondary_points": 25,
+        "tertiary_points": 1840,
+        "quaternary_points": 100
+      }
+    },
+    {
+      "encid": "32393732abb8d20d",
+      "name": "Dorota",
+      "faction": "Kruleboyz Monsta-killaz",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 4,
+            "tertiary_points": 575,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 9,
+            "tertiary_points": 395,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 1,
+            "tertiary_points": 725,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 12,
+            "tertiary_points": 540,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 55,
+        "secondary_points": 26,
+        "tertiary_points": 2235,
+        "quaternary_points": 81
+      }
+    },
+    {
+      "encid": "3239393197dda114",
+      "name": "Rufus",
+      "faction": "Vulkyn Flameseekers",
+      "dropped": false,
+      "managed": false,
+      "placement": 5,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 1,
+            "tertiary_points": 1000,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 11,
+            "tertiary_points": 600,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 3,
+            "tertiary_points": 760,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 9,
+            "tertiary_points": 585,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 50,
+        "secondary_points": 24,
+        "tertiary_points": 2945,
+        "quaternary_points": 125
+      }
+    },
+    {
+      "encid": "33303632461a2c7b",
+      "name": "Armirat",
+      "faction": "Iron Golems",
+      "dropped": false,
+      "managed": false,
+      "placement": 6,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 5,
+            "tertiary_points": 550,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 5,
+            "tertiary_points": 415,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 1,
+            "tertiary_points": 635,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 13,
+            "tertiary_points": 75,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 50,
+        "secondary_points": 24,
+        "tertiary_points": 1675,
+        "quaternary_points": 97
+      }
+    },
+    {
+      "encid": "323938357544005e",
+      "name": "Artur R",
+      "faction": "Tarantulos Brood",
+      "dropped": false,
+      "managed": false,
+      "placement": 7,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 1,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 11,
+            "tertiary_points": 330,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 1,
+            "tertiary_points": 295,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 3,
+            "tertiary_points": 250,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 45,
+        "secondary_points": 16,
+        "tertiary_points": 875,
+        "quaternary_points": 125
+      }
+    },
+    {
+      "encid": "323939354083626c",
+      "name": "Kapouak",
+      "faction": "Royal Beastflayers",
+      "dropped": false,
+      "managed": false,
+      "placement": 8,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 3,
+            "tertiary_points": 170,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 17,
+            "tertiary_points": 675,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 7,
+            "tertiary_points": 485,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 6,
+            "tertiary_points": 360,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 35,
+        "secondary_points": 33,
+        "tertiary_points": 1690,
+        "quaternary_points": 78
+      }
+    },
+    {
+      "encid": "3238383266e5ac3e",
+      "name": "CzikenOne (Michal)",
+      "faction": "Darkoath Savagers",
+      "dropped": false,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 0,
+            "tertiary_points": 505,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 7,
+            "tertiary_points": 320,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 8,
+            "tertiary_points": 465,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 11,
+            "tertiary_points": 740,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 35,
+        "secondary_points": 26,
+        "tertiary_points": 2030,
+        "quaternary_points": 81
+      }
+    },
+    {
+      "encid": "32393837ca23a9f3",
+      "name": "Dziadu z Lasu",
+      "faction": "Stormcast Eternals Questor Soulsworn",
+      "dropped": false,
+      "managed": false,
+      "placement": 10,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 4,
+            "tertiary_points": 555,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 6,
+            "tertiary_points": 310,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 0,
+            "tertiary_points": 180,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 4,
+            "tertiary_points": 330,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 35,
+        "secondary_points": 14,
+        "tertiary_points": 1375,
+        "quaternary_points": 113
+      }
+    },
+    {
+      "encid": "323937375c4c949b",
+      "name": "Reut",
+      "faction": "Untamed Beasts",
+      "dropped": false,
+      "managed": false,
+      "placement": 11,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 0,
+            "tertiary_points": 230,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 15,
+            "tertiary_points": 820,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 1,
+            "tertiary_points": 435,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 10,
+            "tertiary_points": 300,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 30,
+        "secondary_points": 26,
+        "tertiary_points": 1785,
+        "quaternary_points": 131
+      }
+    },
+    {
+      "encid": "33313731f1eebdb3",
+      "name": "Tomasz",
+      "faction": "Spire Tyrants",
+      "dropped": false,
+      "managed": false,
+      "placement": 12,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 4,
+            "tertiary_points": 275,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 16,
+            "tertiary_points": 875,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 1,
+            "tertiary_points": 660,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 3,
+            "tertiary_points": 510,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 30,
+        "secondary_points": 24,
+        "tertiary_points": 2320,
+        "quaternary_points": 94
+      }
+    },
+    {
+      "encid": "323936354a023ff6",
+      "name": "Michu",
+      "faction": "Twistweald",
+      "dropped": false,
+      "managed": false,
+      "placement": 13,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 0,
+            "tertiary_points": 430,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 6,
+            "tertiary_points": 480,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 0,
+            "tertiary_points": 820,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 7,
+            "tertiary_points": 805,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 30,
+        "secondary_points": 13,
+        "tertiary_points": 2535,
+        "quaternary_points": 75
+      }
+    },
+    {
+      "encid": "32393831a91d0438",
+      "name": "Pan Tulipan",
+      "faction": "Corvus Cabal",
+      "dropped": false,
+      "managed": false,
+      "placement": 14,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 15,
+            "secondary_points": 3,
+            "tertiary_points": 750,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 10,
+            "secondary_points": 9,
+            "tertiary_points": 540,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 1,
+            "tertiary_points": 440,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 11,
+            "tertiary_points": 500,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 25,
+        "secondary_points": 24,
+        "tertiary_points": 2230,
+        "quaternary_points": 119
+      }
+    },
+    {
+      "encid": "323937384af25adf",
+      "name": "Jaco Fluffy Babbler",
+      "faction": "Stormcast Eternals Questor Soulsworn",
+      "dropped": false,
+      "managed": false,
+      "placement": 15,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 0,
+            "tertiary_points": 355,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 3,
+            "tertiary_points": 340,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 4,
+            "tertiary_points": 615,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 3,
+            "tertiary_points": 665,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 25,
+        "secondary_points": 10,
+        "tertiary_points": 1975,
+        "quaternary_points": 84
+      }
+    },
+    {
+      "encid": "32383831c1549ea8",
+      "name": "Groch",
+      "faction": "Pyregheists",
+      "dropped": true,
+      "managed": false,
+      "placement": 16,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 6,
+            "tertiary_points": 800,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 20,
+        "secondary_points": 6,
+        "tertiary_points": 800,
+        "quaternary_points": 75
+      }
+    },
+    {
+      "encid": "32393937b44579e9",
+      "name": "zavo",
+      "faction": "Rotmire Creed",
+      "dropped": false,
+      "managed": false,
+      "placement": 17,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 2,
+            "tertiary_points": 315,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 7,
+            "tertiary_points": 160,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 0,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 4,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 4,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 0,
+        "secondary_points": 13,
+        "tertiary_points": 475,
+        "quaternary_points": 94
+      }
+    },
+    {
+      "encid": "32393936aac170b4",
+      "name": "Marcin B",
+      "faction": "Splintered Fang",
+      "dropped": true,
+      "managed": false,
+      "placement": 18,
+      "round_scores": [],
+      "total_score": {
+        "primary_points": null,
+        "secondary_points": null,
+        "tertiary_points": null,
+        "quaternary_points": 0
+      }
+    }
+  ],
+  "battles": [
+    {
+      "encid": "34373531d2d13889",
+      "round": 1,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Groch wins",
+      "winner": "32383831c1549ea8",
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "32383831c1549ea8",
+          "name": "Groch",
+          "faction": "Pyregheists",
+          "values": {
+            "result": 20,
+            "victory_points": 6,
+            "kill_points": 800
+          }
+        },
+        {
+          "participant": "323937375c4c949b",
+          "name": "Reut",
+          "faction": "Untamed Beasts",
+          "values": {
+            "result": 0,
+            "victory_points": 0,
+            "kill_points": 230
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343735322547ddcc",
+      "round": 1,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Armirat wins",
+      "winner": "33303632461a2c7b",
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "33303632461a2c7b",
+          "name": "Armirat",
+          "faction": "Iron Golems",
+          "values": {
+            "result": 20,
+            "victory_points": 5,
+            "kill_points": 550
+          }
+        },
+        {
+          "participant": "33313731f1eebdb3",
+          "name": "Tomasz",
+          "faction": "Spire Tyrants",
+          "values": {
+            "result": 0,
+            "victory_points": 4,
+            "kill_points": 275
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343735335f04cdf4",
+      "round": 1,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Dziadu z Lasu wins",
+      "winner": "32393837ca23a9f3",
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "32393837ca23a9f3",
+          "name": "Dziadu z Lasu",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 20,
+            "victory_points": 4,
+            "kill_points": 555
+          }
+        },
+        {
+          "participant": "323939354083626c",
+          "name": "Kapouak",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 0,
+            "victory_points": 3,
+            "kill_points": 170
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373534e2617a3d",
+      "round": 1,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Dorota wins",
+      "winner": "32393732abb8d20d",
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "323936354a023ff6",
+          "name": "Michu",
+          "faction": "Twistweald",
+          "values": {
+            "result": 5,
+            "victory_points": 0,
+            "kill_points": 430
+          }
+        },
+        {
+          "participant": "32393732abb8d20d",
+          "name": "Dorota",
+          "faction": "Kruleboyz Monsta-killaz",
+          "values": {
+            "result": 15,
+            "victory_points": 4,
+            "kill_points": 575
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373535a6531867",
+      "round": 1,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "3239393197dda114",
+          "name": "Rufus",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 10,
+            "victory_points": 1,
+            "kill_points": 1000
+          }
+        },
+        {
+          "participant": "323938357544005e",
+          "name": "Artur R",
+          "faction": "Tarantulos Brood",
+          "values": {
+            "result": 10,
+            "victory_points": 1,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343735365d939efe",
+      "round": 1,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Szymon Kozioł wins",
+      "winner": "323939382da6e1b5",
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "32393937b44579e9",
+          "name": "zavo",
+          "faction": "Rotmire Creed",
+          "values": {
+            "result": 0,
+            "victory_points": 2,
+            "kill_points": 315
+          }
+        },
+        {
+          "participant": "323939382da6e1b5",
+          "name": "Szymon Kozioł",
+          "faction": "Wildercorps Hunters",
+          "values": {
+            "result": 20,
+            "victory_points": 4,
+            "kill_points": 400
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373537a03b9978",
+      "round": 1,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "32393831a91d0438",
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "3238383266e5ac3e",
+          "name": "CzikenOne (Michal)",
+          "faction": "Darkoath Savagers",
+          "values": {
+            "result": 5,
+            "victory_points": 0,
+            "kill_points": 505
+          }
+        },
+        {
+          "participant": "32393831a91d0438",
+          "name": "Pan Tulipan",
+          "faction": "Corvus Cabal",
+          "values": {
+            "result": 15,
+            "victory_points": 3,
+            "kill_points": 750
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373538c94b4153",
+      "round": 1,
+      "table": 8,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "3239373672f5dffa",
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "323937384af25adf",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 0,
+            "victory_points": 0,
+            "kill_points": 355
+          }
+        },
+        {
+          "participant": "3239373672f5dffa",
+          "name": "Bartosz Wysoczański",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 20,
+            "victory_points": 6,
+            "kill_points": 830
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373539b7df5de5",
+      "round": 1,
+      "table": null,
+      "matchup": null,
+      "state": "bye",
+      "bye": true,
+      "finished": true,
+      "result": "Bye",
+      "winner": null,
+      "created_at": "2025-06-28T09:06:25Z",
+      "players": [
+        {
+          "participant": "323938333fc5f506",
+          "name": "Michał \"Bułka\"",
+          "faction": "Gorger Mawpack",
+          "values": {}
+        }
+      ]
+    },
+    {
+      "encid": "34373632268c4ba0",
+      "round": 2,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "3239373672f5dffa",
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "3239373672f5dffa",
+          "name": "Bartosz Wysoczański",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 20,
+            "victory_points": 16,
+            "kill_points": 895
+          }
+        },
+        {
+          "participant": "33303632461a2c7b",
+          "name": "Armirat",
+          "faction": "Iron Golems",
+          "values": {
+            "result": 0,
+            "victory_points": 5,
+            "kill_points": 415
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373633b88b6d21",
+      "round": 2,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Szymon Kozioł wins",
+      "winner": "323939382da6e1b5",
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "32393837ca23a9f3",
+          "name": "Dziadu z Lasu",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 0,
+            "victory_points": 6,
+            "kill_points": 310
+          }
+        },
+        {
+          "participant": "323939382da6e1b5",
+          "name": "Szymon Kozioł",
+          "faction": "Wildercorps Hunters",
+          "values": {
+            "result": 20,
+            "victory_points": 16,
+            "kill_points": 830
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373634f8bfc3d1",
+      "round": 2,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "32393732abb8d20d",
+          "name": "Dorota",
+          "faction": "Kruleboyz Monsta-killaz",
+          "values": {
+            "result": 10,
+            "victory_points": 9,
+            "kill_points": 395
+          }
+        },
+        {
+          "participant": "32393831a91d0438",
+          "name": "Pan Tulipan",
+          "faction": "Corvus Cabal",
+          "values": {
+            "result": 10,
+            "victory_points": 9,
+            "kill_points": 540
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373635a5bafa64",
+      "round": 2,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Rufus wins",
+      "winner": "3239393197dda114",
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "323938333fc5f506",
+          "name": "Michał \"Bułka\"",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 5,
+            "victory_points": 8,
+            "kill_points": 700
+          }
+        },
+        {
+          "participant": "3239393197dda114",
+          "name": "Rufus",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 15,
+            "victory_points": 11,
+            "kill_points": 600
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373636e682ae67",
+      "round": 2,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Tomasz wins",
+      "winner": "33313731f1eebdb3",
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "323936354a023ff6",
+          "name": "Michu",
+          "faction": "Twistweald",
+          "values": {
+            "result": 0,
+            "victory_points": 6,
+            "kill_points": 480
+          }
+        },
+        {
+          "participant": "33313731f1eebdb3",
+          "name": "Tomasz",
+          "faction": "Spire Tyrants",
+          "values": {
+            "result": 20,
+            "victory_points": 16,
+            "kill_points": 875
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3437363765143706",
+      "round": 2,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Artur R wins",
+      "winner": "323938357544005e",
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "323938357544005e",
+          "name": "Artur R",
+          "faction": "Tarantulos Brood",
+          "values": {
+            "result": 20,
+            "victory_points": 11,
+            "kill_points": 330
+          }
+        },
+        {
+          "participant": "3238383266e5ac3e",
+          "name": "CzikenOne (Michal)",
+          "faction": "Darkoath Savagers",
+          "values": {
+            "result": 0,
+            "victory_points": 7,
+            "kill_points": 320
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373638b1d52543",
+      "round": 2,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Kapouak wins",
+      "winner": "323939354083626c",
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "323939354083626c",
+          "name": "Kapouak",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 20,
+            "victory_points": 17,
+            "kill_points": 675
+          }
+        },
+        {
+          "participant": "32393937b44579e9",
+          "name": "zavo",
+          "faction": "Rotmire Creed",
+          "values": {
+            "result": 0,
+            "victory_points": 7,
+            "kill_points": 160
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373639e4e528fe",
+      "round": 2,
+      "table": 8,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Reut wins",
+      "winner": "323937375c4c949b",
+      "created_at": "2025-06-28T10:49:25Z",
+      "players": [
+        {
+          "participant": "323937384af25adf",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 0,
+            "victory_points": 3,
+            "kill_points": 340
+          }
+        },
+        {
+          "participant": "323937375c4c949b",
+          "name": "Reut",
+          "faction": "Untamed Beasts",
+          "values": {
+            "result": 20,
+            "victory_points": 15,
+            "kill_points": 820
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3437373227faff50",
+      "round": 3,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "323938357544005e",
+          "name": "Artur R",
+          "faction": "Tarantulos Brood",
+          "values": {
+            "result": 10,
+            "victory_points": 1,
+            "kill_points": 295
+          }
+        },
+        {
+          "participant": "32393732abb8d20d",
+          "name": "Dorota",
+          "faction": "Kruleboyz Monsta-killaz",
+          "values": {
+            "result": 10,
+            "victory_points": 1,
+            "kill_points": 725
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373733f94965e9",
+      "round": 3,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Rufus wins",
+      "winner": "3239393197dda114",
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "3239393197dda114",
+          "name": "Rufus",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 20,
+            "victory_points": 3,
+            "kill_points": 760
+          }
+        },
+        {
+          "participant": "32393831a91d0438",
+          "name": "Pan Tulipan",
+          "faction": "Corvus Cabal",
+          "values": {
+            "result": 0,
+            "victory_points": 1,
+            "kill_points": 440
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3437373440819e09",
+      "round": 3,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "3239373672f5dffa",
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "3239373672f5dffa",
+          "name": "Bartosz Wysoczański",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 15,
+            "victory_points": 4,
+            "kill_points": 835
+          }
+        },
+        {
+          "participant": "323939382da6e1b5",
+          "name": "Szymon Kozioł",
+          "faction": "Wildercorps Hunters",
+          "values": {
+            "result": 5,
+            "victory_points": 1,
+            "kill_points": 630
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343737359b5d7f1c",
+      "round": 3,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Kapouak wins",
+      "winner": "323939354083626c",
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "33313731f1eebdb3",
+          "name": "Tomasz",
+          "faction": "Spire Tyrants",
+          "values": {
+            "result": 5,
+            "victory_points": 1,
+            "kill_points": 660
+          }
+        },
+        {
+          "participant": "323939354083626c",
+          "name": "Kapouak",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 15,
+            "victory_points": 7,
+            "kill_points": 485
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343737367b4fce00",
+      "round": 3,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "323937375c4c949b",
+          "name": "Reut",
+          "faction": "Untamed Beasts",
+          "values": {
+            "result": 10,
+            "victory_points": 1,
+            "kill_points": 435
+          }
+        },
+        {
+          "participant": "33303632461a2c7b",
+          "name": "Armirat",
+          "faction": "Iron Golems",
+          "values": {
+            "result": 10,
+            "victory_points": 1,
+            "kill_points": 635
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373737f3b42f69",
+      "round": 3,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "323938333fc5f506",
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "32393837ca23a9f3",
+          "name": "Dziadu z Lasu",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 0,
+            "victory_points": 0,
+            "kill_points": 180
+          }
+        },
+        {
+          "participant": "323938333fc5f506",
+          "name": "Michał \"Bułka\"",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 20,
+            "victory_points": 1,
+            "kill_points": 835
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373738bb09a9d6",
+      "round": 3,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Jaco Fluffy Babbler wins",
+      "winner": "323937384af25adf",
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "32393937b44579e9",
+          "name": "zavo",
+          "faction": "Rotmire Creed",
+          "values": {
+            "result": 0,
+            "victory_points": 0,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "323937384af25adf",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 20,
+            "victory_points": 4,
+            "kill_points": 615
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343737390dd3ebdf",
+      "round": 3,
+      "table": 8,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "CzikenOne (Michal) wins",
+      "winner": "3238383266e5ac3e",
+      "created_at": "2025-06-28T12:37:11Z",
+      "players": [
+        {
+          "participant": "3238383266e5ac3e",
+          "name": "CzikenOne (Michal)",
+          "faction": "Darkoath Savagers",
+          "values": {
+            "result": 15,
+            "victory_points": 8,
+            "kill_points": 465
+          }
+        },
+        {
+          "participant": "323936354a023ff6",
+          "name": "Michu",
+          "faction": "Twistweald",
+          "values": {
+            "result": 5,
+            "victory_points": 0,
+            "kill_points": 820
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343738303a15ef6c",
+      "round": 4,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "323938333fc5f506",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "323938333fc5f506",
+          "name": "Michał \"Bułka\"",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 20,
+            "victory_points": 16,
+            "kill_points": 305
+          }
+        },
+        {
+          "participant": "323939354083626c",
+          "name": "Kapouak",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 0,
+            "victory_points": 6,
+            "kill_points": 360
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343738312ad0625f",
+      "round": 4,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Dorota wins",
+      "winner": "32393732abb8d20d",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "32393732abb8d20d",
+          "name": "Dorota",
+          "faction": "Kruleboyz Monsta-killaz",
+          "values": {
+            "result": 20,
+            "victory_points": 12,
+            "kill_points": 540
+          }
+        },
+        {
+          "participant": "323937375c4c949b",
+          "name": "Reut",
+          "faction": "Untamed Beasts",
+          "values": {
+            "result": 0,
+            "victory_points": 10,
+            "kill_points": 300
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343738329140a874",
+      "round": 4,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "CzikenOne (Michal) wins",
+      "winner": "3238383266e5ac3e",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "33313731f1eebdb3",
+          "name": "Tomasz",
+          "faction": "Spire Tyrants",
+          "values": {
+            "result": 5,
+            "victory_points": 3,
+            "kill_points": 510
+          }
+        },
+        {
+          "participant": "3238383266e5ac3e",
+          "name": "CzikenOne (Michal)",
+          "faction": "Darkoath Savagers",
+          "values": {
+            "result": 15,
+            "victory_points": 11,
+            "kill_points": 740
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3437383357fcda4b",
+      "round": 4,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Szymon Kozioł wins",
+      "winner": "323939382da6e1b5",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "323939382da6e1b5",
+          "name": "Szymon Kozioł",
+          "faction": "Wildercorps Hunters",
+          "values": {
+            "result": 15,
+            "victory_points": 5,
+            "kill_points": 500
+          }
+        },
+        {
+          "participant": "323938357544005e",
+          "name": "Artur R",
+          "faction": "Tarantulos Brood",
+          "values": {
+            "result": 5,
+            "victory_points": 3,
+            "kill_points": 250
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343738346663447d",
+      "round": 4,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Dziadu z Lasu wins",
+      "winner": "32393837ca23a9f3",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "32393837ca23a9f3",
+          "name": "Dziadu z Lasu",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 15,
+            "victory_points": 4,
+            "kill_points": 330
+          }
+        },
+        {
+          "participant": "323937384af25adf",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 5,
+            "victory_points": 3,
+            "kill_points": 665
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3437383549775d3f",
+      "round": 4,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Wysoczański wins",
+      "winner": "3239373672f5dffa",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "3239373672f5dffa",
+          "name": "Bartosz Wysoczański",
+          "faction": "Gorger Mawpack",
+          "values": {
+            "result": 15,
+            "victory_points": 14,
+            "kill_points": 315
+          }
+        },
+        {
+          "participant": "3239393197dda114",
+          "name": "Rufus",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 5,
+            "victory_points": 9,
+            "kill_points": 585
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3437383652d6f497",
+      "round": 4,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michu wins",
+      "winner": "323936354a023ff6",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "323936354a023ff6",
+          "name": "Michu",
+          "faction": "Twistweald",
+          "values": {
+            "result": 20,
+            "victory_points": 7,
+            "kill_points": 805
+          }
+        },
+        {
+          "participant": "32393937b44579e9",
+          "name": "zavo",
+          "faction": "Rotmire Creed",
+          "values": {
+            "result": 0,
+            "victory_points": 4,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343738375bfe45db",
+      "round": 4,
+      "table": 8,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Armirat wins",
+      "winner": "33303632461a2c7b",
+      "created_at": "2025-06-28T14:00:23Z",
+      "players": [
+        {
+          "participant": "33303632461a2c7b",
+          "name": "Armirat",
+          "faction": "Iron Golems",
+          "values": {
+            "result": 20,
+            "victory_points": 13,
+            "kill_points": 75
+          }
+        },
+        {
+          "participant": "32393831a91d0438",
+          "name": "Pan Tulipan",
+          "faction": "Corvus Cabal",
+          "values": {
+            "result": 0,
+            "victory_points": 11,
+            "kill_points": 500
+          }
+        }
+      ]
+    }
+  ],
+  "votes": []
+}

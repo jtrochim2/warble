@@ -1,0 +1,14 @@
+{% load i18n %}
+  <dialog id="join-dialog" aria-labelledby="join-title"
+          aria-describedby="join-description"{% if join_open %} open{% endif %}>
+    <div class="dialog-heading">
+      <span class="dialog-kicker">{% translate "Your next chapter" %}</span>
+      <a href="{% url 'core:home' %}" class="dialog-close" data-close-join
+         aria-label="{% translate "Close join dialog" %}">&times;</a>
+    </div>
+    <img class="dialog-wartally-logo" src="https://wartally.com/assets/wt-logo-kunz-white-4b795892.png" alt="Wartally" width="160" height="54" decoding="async">
+    <h2 id="join-title">{% translate "Enter the story." %}</h2>
+    <p id="join-description">{% translate "Every adventurer has a name." %}<br>{% translate "What do they call you on Wartally?" %}</p>
+    {% include "core/partials/join.html" %}
+    <p class="dialog-note"><span class="tiny-diamond" aria-hidden="true"></span> {% translate "Verification is coming in a future chapter." %}</p>
+  </dialog>

@@ -1,0 +1,1474 @@
+{
+  "version": 1,
+  "encid": "31393059732f8b",
+  "name": "Pora Topora 2",
+  "game_system": "wc",
+  "format": "swiss",
+  "cardinality": "singles",
+  "tier": "standalone",
+  "type_description": "Tournament",
+  "state": "finished",
+  "access": "public",
+  "casual": false,
+  "scoring": {
+    "primary_points": "Result",
+    "secondary_points": "Strength of schedule"
+  },
+  "parent": null,
+  "organiser": "Dziadu z Lasu",
+  "start": "2025-01-18",
+  "location": "Poland",
+  "address": "ulica Żelazna 69A, 00-866 Warszawa, Polska",
+  "link": "https://drive.google.com/file/d/10l-zGP9t3d8A8g1mbR7hGKwLqgysq5tc/view?usp=sharing",
+  "series": {
+    "id": 32,
+    "name": "Pora Topora"
+  },
+  "rounds": 3,
+  "current_round": 3,
+  "max_players": 16,
+  "participant_count": 16,
+  "battle_plans": [
+    {
+      "round": 1,
+      "title": "The Time Of The Axe"
+    },
+    {
+      "round": 2,
+      "title": "Lightning Raid"
+    },
+    {
+      "round": 3,
+      "title": "Brutal Encounter"
+    }
+  ],
+  "champion": null,
+  "participants": [
+    {
+      "encid": "323036398bac34e2",
+      "name": "Piotr Lewandowski",
+      "faction": "Wildercorps Hunters",
+      "dropped": false,
+      "managed": false,
+      "placement": 1,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 15,
+        "secondary_points": 32,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "323238356214de7a",
+      "name": "Mariola z Rembertowa",
+      "faction": "Blades of Khorne: Bloodbound",
+      "dropped": false,
+      "managed": false,
+      "placement": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 13,
+        "secondary_points": 23,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3232353109b29d9a",
+      "name": "Maciej \"cahe\" Janowski",
+      "faction": "Kruleboyz",
+      "dropped": false,
+      "managed": false,
+      "placement": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 37,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "32323537d172ccff",
+      "name": "Balint Lengyel",
+      "faction": "Sylvaneth",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 30,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3231353139c39699",
+      "name": "Lukas Bdg",
+      "faction": "Ogor Mawtribes",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 30,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "32303835e71799c9",
+      "name": "Łukasz",
+      "faction": "Bonesplitterz",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 30,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "32303730070cabe0",
+      "name": "Maciej Dobjasz",
+      "faction": "Kruleboyz",
+      "dropped": false,
+      "managed": false,
+      "placement": 5,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 28,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "32303733f93b0e45",
+      "name": "Mateusz Górecki",
+      "faction": "Ogor Mawtribes",
+      "dropped": false,
+      "managed": false,
+      "placement": 6,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 9,
+        "secondary_points": 37,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3233323324962af5",
+      "name": "Dziadu z Lasu",
+      "faction": "Slaves to Darkness",
+      "dropped": false,
+      "managed": false,
+      "placement": 7,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 9,
+        "secondary_points": 34,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "32303739f758c421",
+      "name": "Bartosz F",
+      "faction": "Ironjawz",
+      "dropped": false,
+      "managed": false,
+      "placement": 8,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 9,
+        "secondary_points": 26,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3230383855abd19b",
+      "name": "Wernest",
+      "faction": "Stormcast Eternals Thunderstrike Stormcast",
+      "dropped": false,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 32,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "32323439b784b646",
+      "name": "Wiktor Trupiszewski",
+      "faction": "Ogor Mawtribes",
+      "dropped": false,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 32,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "323037319c33a0a9",
+      "name": "Dzubab",
+      "faction": "Hunters of Huanchi",
+      "dropped": false,
+      "managed": false,
+      "placement": 10,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 28,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3230383660a4ae65",
+      "name": "Birdperson",
+      "faction": "Blades of Khorne: Bloodbound",
+      "dropped": false,
+      "managed": false,
+      "placement": 11,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 21,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3230393574b66130",
+      "name": "Bonku",
+      "faction": "Teratic Cohort",
+      "dropped": false,
+      "managed": false,
+      "placement": 12,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 3,
+        "secondary_points": 37,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3230383737646aa1",
+      "name": "Ed",
+      "faction": "Skaven",
+      "dropped": false,
+      "managed": false,
+      "placement": 13,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": null,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 3,
+        "secondary_points": 23,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "323235304f9d48e3",
+      "name": "Buchalter",
+      "faction": "Khainite Shadowstalkers",
+      "dropped": true,
+      "managed": false,
+      "placement": 14,
+      "round_scores": [],
+      "total_score": {
+        "primary_points": null,
+        "secondary_points": 0,
+        "tertiary_points": null,
+        "quaternary_points": null
+      }
+    }
+  ],
+  "battles": [
+    {
+      "encid": "33353139cb59bd2d",
+      "round": 1,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Mariola z Rembertowa wins",
+      "winner": "323238356214de7a",
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "323238356214de7a",
+          "name": "Mariola z Rembertowa",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230393574b66130",
+          "name": "Bonku",
+          "faction": "Teratic Cohort",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335323090c91165",
+      "round": 1,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Lukas Bdg wins",
+      "winner": "3231353139c39699",
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "3231353139c39699",
+          "name": "Lukas Bdg",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230383855abd19b",
+          "name": "Wernest",
+          "faction": "Stormcast Eternals Thunderstrike Stormcast",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335323101fb9b19",
+      "round": 1,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Dziadu z Lasu wins",
+      "winner": "3233323324962af5",
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "3233323324962af5",
+          "name": "Dziadu z Lasu",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230383660a4ae65",
+          "name": "Birdperson",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335323236dbf2cc",
+      "round": 1,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Wiktor Trupiszewski wins",
+      "winner": "32323439b784b646",
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "32323439b784b646",
+          "name": "Wiktor Trupiszewski",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230383737646aa1",
+          "name": "Ed",
+          "faction": "Skaven",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335323319b060c3",
+      "round": 1,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Maciej \"cahe\" Janowski wins",
+      "winner": "3232353109b29d9a",
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "323037319c33a0a9",
+          "name": "Dzubab",
+          "faction": "Hunters of Huanchi",
+          "values": {
+            "result": 1
+          }
+        },
+        {
+          "participant": "3232353109b29d9a",
+          "name": "Maciej \"cahe\" Janowski",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335323462052b32",
+      "round": 1,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "32303739f758c421",
+          "name": "Bartosz F",
+          "faction": "Ironjawz",
+          "values": {
+            "result": 3
+          }
+        },
+        {
+          "participant": "32303835e71799c9",
+          "name": "Łukasz",
+          "faction": "Bonesplitterz",
+          "values": {
+            "result": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353235f336b1e5",
+      "round": 1,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Piotr Lewandowski wins",
+      "winner": "323036398bac34e2",
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "32303730070cabe0",
+          "name": "Maciej Dobjasz",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 1
+          }
+        },
+        {
+          "participant": "323036398bac34e2",
+          "name": "Piotr Lewandowski",
+          "faction": "Wildercorps Hunters",
+          "values": {
+            "result": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353236bcd51296",
+      "round": 1,
+      "table": 8,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-01-18T10:23:14Z",
+      "players": [
+        {
+          "participant": "32323537d172ccff",
+          "name": "Balint Lengyel",
+          "faction": "Sylvaneth",
+          "values": {
+            "result": 3
+          }
+        },
+        {
+          "participant": "32303733f93b0e45",
+          "name": "Mateusz Górecki",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353237cf1b44c9",
+      "round": 2,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Piotr Lewandowski wins",
+      "winner": "323036398bac34e2",
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "323036398bac34e2",
+          "name": "Piotr Lewandowski",
+          "faction": "Wildercorps Hunters",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "32323439b784b646",
+          "name": "Wiktor Trupiszewski",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335323877dabdb2",
+      "round": 2,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "323238356214de7a",
+          "name": "Mariola z Rembertowa",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 3
+          }
+        },
+        {
+          "participant": "3233323324962af5",
+          "name": "Dziadu z Lasu",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335323911cad98a",
+      "round": 2,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Maciej \"cahe\" Janowski wins",
+      "winner": "3232353109b29d9a",
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "3232353109b29d9a",
+          "name": "Maciej \"cahe\" Janowski",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3231353139c39699",
+          "name": "Lukas Bdg",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "333533301f7b50c4",
+      "round": 2,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Mateusz Górecki wins",
+      "winner": "32303733f93b0e45",
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "32303739f758c421",
+          "name": "Bartosz F",
+          "faction": "Ironjawz",
+          "values": {
+            "result": 1
+          }
+        },
+        {
+          "participant": "32303733f93b0e45",
+          "name": "Mateusz Górecki",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353331809f5429",
+      "round": 2,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "32323537d172ccff",
+          "name": "Balint Lengyel",
+          "faction": "Sylvaneth",
+          "values": {
+            "result": 3
+          }
+        },
+        {
+          "participant": "32303835e71799c9",
+          "name": "Łukasz",
+          "faction": "Bonesplitterz",
+          "values": {
+            "result": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "333533325d176a13",
+      "round": 2,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Wernest wins",
+      "winner": "3230383855abd19b",
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "3230383660a4ae65",
+          "name": "Birdperson",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 1
+          }
+        },
+        {
+          "participant": "3230383855abd19b",
+          "name": "Wernest",
+          "faction": "Stormcast Eternals Thunderstrike Stormcast",
+          "values": {
+            "result": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353333394a7865",
+      "round": 2,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Dzubab wins",
+      "winner": "323037319c33a0a9",
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "323037319c33a0a9",
+          "name": "Dzubab",
+          "faction": "Hunters of Huanchi",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230383737646aa1",
+          "name": "Ed",
+          "faction": "Skaven",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335333417af1767",
+      "round": 2,
+      "table": 8,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Maciej Dobjasz wins",
+      "winner": "32303730070cabe0",
+      "created_at": "2025-01-18T11:56:11Z",
+      "players": [
+        {
+          "participant": "32303730070cabe0",
+          "name": "Maciej Dobjasz",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230393574b66130",
+          "name": "Bonku",
+          "faction": "Teratic Cohort",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353335f90c369e",
+      "round": 3,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Lukas Bdg wins",
+      "winner": "3231353139c39699",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "3233323324962af5",
+          "name": "Dziadu z Lasu",
+          "faction": "Slaves to Darkness",
+          "values": {
+            "result": 1
+          }
+        },
+        {
+          "participant": "3231353139c39699",
+          "name": "Lukas Bdg",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3335333675d46a20",
+      "round": 3,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Piotr Lewandowski wins",
+      "winner": "323036398bac34e2",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "323036398bac34e2",
+          "name": "Piotr Lewandowski",
+          "faction": "Wildercorps Hunters",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3232353109b29d9a",
+          "name": "Maciej \"cahe\" Janowski",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "333533370aeec2f4",
+      "round": 3,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Mariola z Rembertowa wins",
+      "winner": "323238356214de7a",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "323238356214de7a",
+          "name": "Mariola z Rembertowa",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "32303733f93b0e45",
+          "name": "Mateusz Górecki",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353338e024cac2",
+      "round": 3,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Maciej Dobjasz wins",
+      "winner": "32303730070cabe0",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "32303730070cabe0",
+          "name": "Maciej Dobjasz",
+          "faction": "Kruleboyz",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "323037319c33a0a9",
+          "name": "Dzubab",
+          "faction": "Hunters of Huanchi",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "333533392242f37d",
+      "round": 3,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz F wins",
+      "winner": "32303739f758c421",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "32303739f758c421",
+          "name": "Bartosz F",
+          "faction": "Ironjawz",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230393574b66130",
+          "name": "Bonku",
+          "faction": "Teratic Cohort",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "33353430f33bdc43",
+      "round": 3,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Balint Lengyel wins",
+      "winner": "32323537d172ccff",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "32323537d172ccff",
+          "name": "Balint Lengyel",
+          "faction": "Sylvaneth",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "32323439b784b646",
+          "name": "Wiktor Trupiszewski",
+          "faction": "Ogor Mawtribes",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "333534312807b7b5",
+      "round": 3,
+      "table": 7,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Łukasz wins",
+      "winner": "32303835e71799c9",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "32303835e71799c9",
+          "name": "Łukasz",
+          "faction": "Bonesplitterz",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230383855abd19b",
+          "name": "Wernest",
+          "faction": "Stormcast Eternals Thunderstrike Stormcast",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "333534321fb40887",
+      "round": 3,
+      "table": 8,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Birdperson wins",
+      "winner": "3230383660a4ae65",
+      "created_at": "2025-01-18T13:26:46Z",
+      "players": [
+        {
+          "participant": "3230383660a4ae65",
+          "name": "Birdperson",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 5
+          }
+        },
+        {
+          "participant": "3230383737646aa1",
+          "name": "Ed",
+          "faction": "Skaven",
+          "values": {
+            "result": 1
+          }
+        }
+      ]
+    }
+  ],
+  "votes": []
+}

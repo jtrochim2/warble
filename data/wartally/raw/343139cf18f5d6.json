@@ -1,0 +1,822 @@
+{
+  "version": 1,
+  "encid": "343139cf18f5d6",
+  "name": "Warcry Catacombs: The Empty Throne",
+  "game_system": "wc",
+  "format": "swiss",
+  "cardinality": "singles",
+  "tier": "standalone",
+  "type_description": "Tournament",
+  "state": "finished",
+  "access": "public",
+  "casual": true,
+  "scoring": {
+    "primary_points": "Result",
+    "secondary_points": "Victory points",
+    "tertiary_points": "Strength of schedule"
+  },
+  "parent": null,
+  "organiser": "jtrochim",
+  "start": "2026-09-19",
+  "location": "Poland",
+  "address": "Matisoft, ul. Baleya 9",
+  "link": "https://drive.google.com/file/d/1FKrvIBZ1xDNEw_y76XyHiCTPKeaOo7K2/view",
+  "series": null,
+  "rounds": 3,
+  "current_round": 3,
+  "max_players": 16,
+  "participant_count": 8,
+  "battle_plans": [
+    {
+      "round": 1,
+      "title": "Buried Alive"
+    },
+    {
+      "round": 2,
+      "title": "The Five Shards"
+    },
+    {
+      "round": 3,
+      "title": "The Hollow King"
+    }
+  ],
+  "champion": null,
+  "participants": [
+    {
+      "encid": "34343232c48ffcbd",
+      "name": "xyzq",
+      "faction": "Cypher Lords",
+      "dropped": false,
+      "managed": false,
+      "placement": 1,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 10,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 10,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 9,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 15,
+        "secondary_points": 29,
+        "tertiary_points": 30,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34343238cc2821b0",
+      "name": "MateuszP",
+      "faction": "Horns of Hashut",
+      "dropped": false,
+      "managed": false,
+      "placement": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 7,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 13,
+        "secondary_points": 21,
+        "tertiary_points": 26,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34343230bb790ee6",
+      "name": "Michał \"Bułka\"",
+      "faction": "Splintered Fang",
+      "dropped": false,
+      "managed": false,
+      "placement": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 1,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 11,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 18,
+        "tertiary_points": 32,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "343434360eb6e3d6",
+      "name": "Balint Lengyel",
+      "faction": "Spire Tyrants",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 3,
+            "secondary_points": 7,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 9,
+        "secondary_points": 21,
+        "tertiary_points": 39,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3434323182eead2a",
+      "name": "Dziadu z Lasu",
+      "faction": "Chaos Legionnaires",
+      "dropped": false,
+      "managed": false,
+      "placement": 5,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 10,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 12,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 22,
+        "tertiary_points": 26,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "343434374d39ffac",
+      "name": "Matt",
+      "faction": "Darkoath Savagers",
+      "dropped": false,
+      "managed": false,
+      "placement": 6,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 9,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 5,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 4,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 18,
+        "tertiary_points": 34,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3434323574ae9929",
+      "name": "Jaco Fluffy Babbler",
+      "faction": "Stormcast Eternals Questor Soulsworn",
+      "dropped": false,
+      "managed": false,
+      "placement": 7,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 3,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 7,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 1,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 11,
+        "tertiary_points": 30,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3435373339d6e4a7",
+      "name": "Kuba Puchała",
+      "faction": "Vulkyn Flameseekers",
+      "dropped": false,
+      "managed": false,
+      "placement": 8,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 1,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 6,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 3,
+        "secondary_points": 7,
+        "tertiary_points": 23,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3435333831be4151",
+      "name": "Pan Tulipan",
+      "faction": "Iron Golems",
+      "dropped": true,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [],
+      "total_score": {
+        "primary_points": null,
+        "secondary_points": null,
+        "tertiary_points": 0,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "34343538e7819b19",
+      "name": "Piotr Maleszyk",
+      "faction": null,
+      "dropped": true,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [],
+      "total_score": {
+        "primary_points": null,
+        "secondary_points": null,
+        "tertiary_points": 0,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "3433323053135e29",
+      "name": "jtrochim",
+      "faction": "Kruleboyz Monsta-killaz",
+      "dropped": true,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [],
+      "total_score": {
+        "primary_points": null,
+        "secondary_points": null,
+        "tertiary_points": 0,
+        "quaternary_points": null
+      }
+    }
+  ],
+  "battles": [
+    {
+      "encid": "3638303483217344",
+      "round": 1,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "34343232c48ffcbd",
+      "created_at": "2026-09-19T08:31:35Z",
+      "players": [
+        {
+          "participant": "34343230bb790ee6",
+          "name": "Michał \"Bułka\"",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 1,
+            "victory_points": 1
+          }
+        },
+        {
+          "participant": "34343232c48ffcbd",
+          "name": "xyzq",
+          "faction": "Cypher Lords",
+          "values": {
+            "result": 5,
+            "victory_points": 10
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383035f42432d5",
+      "round": 1,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Balint Lengyel wins",
+      "winner": "343434360eb6e3d6",
+      "created_at": "2026-09-19T08:31:35Z",
+      "players": [
+        {
+          "participant": "3434323182eead2a",
+          "name": "Dziadu z Lasu",
+          "faction": "Chaos Legionnaires",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        },
+        {
+          "participant": "343434360eb6e3d6",
+          "name": "Balint Lengyel",
+          "faction": "Spire Tyrants",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383036b88c519b",
+      "round": 1,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "MateuszP wins",
+      "winner": "34343238cc2821b0",
+      "created_at": "2026-09-19T08:31:35Z",
+      "players": [
+        {
+          "participant": "34343238cc2821b0",
+          "name": "MateuszP",
+          "faction": "Horns of Hashut",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "3434323574ae9929",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 1,
+            "victory_points": 3
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383037114585b1",
+      "round": 1,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Matt wins",
+      "winner": "343434374d39ffac",
+      "created_at": "2026-09-19T08:31:35Z",
+      "players": [
+        {
+          "participant": "343434374d39ffac",
+          "name": "Matt",
+          "faction": "Darkoath Savagers",
+          "values": {
+            "result": 5,
+            "victory_points": 9
+          }
+        },
+        {
+          "participant": "3435373339d6e4a7",
+          "name": "Kuba Puchała",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 1,
+            "victory_points": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363830383222f559",
+      "round": 2,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Draw",
+      "winner": null,
+      "created_at": "2026-09-19T10:02:39Z",
+      "players": [
+        {
+          "participant": "343434360eb6e3d6",
+          "name": "Balint Lengyel",
+          "faction": "Spire Tyrants",
+          "values": {
+            "result": 3,
+            "victory_points": 7
+          }
+        },
+        {
+          "participant": "34343238cc2821b0",
+          "name": "MateuszP",
+          "faction": "Horns of Hashut",
+          "values": {
+            "result": 3,
+            "victory_points": 7
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383039ca7b37e7",
+      "round": 2,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "34343232c48ffcbd",
+      "created_at": "2026-09-19T10:02:39Z",
+      "players": [
+        {
+          "participant": "34343232c48ffcbd",
+          "name": "xyzq",
+          "faction": "Cypher Lords",
+          "values": {
+            "result": 5,
+            "victory_points": 10
+          }
+        },
+        {
+          "participant": "343434374d39ffac",
+          "name": "Matt",
+          "faction": "Darkoath Savagers",
+          "values": {
+            "result": 1,
+            "victory_points": 5
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383130a0fe7db3",
+      "round": 2,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Jaco Fluffy Babbler wins",
+      "winner": "3434323574ae9929",
+      "created_at": "2026-09-19T10:02:39Z",
+      "players": [
+        {
+          "participant": "3434323574ae9929",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 5,
+            "victory_points": 7
+          }
+        },
+        {
+          "participant": "3435373339d6e4a7",
+          "name": "Kuba Puchała",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 1,
+            "victory_points": 6
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383131bc65771b",
+      "round": 2,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "34343230bb790ee6",
+      "created_at": "2026-09-19T10:02:39Z",
+      "players": [
+        {
+          "participant": "34343230bb790ee6",
+          "name": "Michał \"Bułka\"",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 5,
+            "victory_points": 11
+          }
+        },
+        {
+          "participant": "3434323182eead2a",
+          "name": "Dziadu z Lasu",
+          "faction": "Chaos Legionnaires",
+          "values": {
+            "result": 1,
+            "victory_points": 10
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383132936c5985",
+      "round": 3,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "MateuszP wins",
+      "winner": "34343238cc2821b0",
+      "created_at": "2026-09-19T11:50:24Z",
+      "players": [
+        {
+          "participant": "34343238cc2821b0",
+          "name": "MateuszP",
+          "faction": "Horns of Hashut",
+          "values": {
+            "result": 5,
+            "victory_points": 8
+          }
+        },
+        {
+          "participant": "343434374d39ffac",
+          "name": "Matt",
+          "faction": "Darkoath Savagers",
+          "values": {
+            "result": 1,
+            "victory_points": 4
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3638313334f66581",
+      "round": 3,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "34343230bb790ee6",
+      "created_at": "2026-09-19T11:50:24Z",
+      "players": [
+        {
+          "participant": "34343230bb790ee6",
+          "name": "Michał \"Bułka\"",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 5,
+            "victory_points": 6
+          }
+        },
+        {
+          "participant": "3434323574ae9929",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 1,
+            "victory_points": 1
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383134c2041de2",
+      "round": 3,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "34343232c48ffcbd",
+      "created_at": "2026-09-19T11:50:24Z",
+      "players": [
+        {
+          "participant": "34343232c48ffcbd",
+          "name": "xyzq",
+          "faction": "Cypher Lords",
+          "values": {
+            "result": 5,
+            "victory_points": 9
+          }
+        },
+        {
+          "participant": "343434360eb6e3d6",
+          "name": "Balint Lengyel",
+          "faction": "Spire Tyrants",
+          "values": {
+            "result": 1,
+            "victory_points": 6
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383135a98acf81",
+      "round": 3,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Dziadu z Lasu wins",
+      "winner": "3434323182eead2a",
+      "created_at": "2026-09-19T11:50:24Z",
+      "players": [
+        {
+          "participant": "3434323182eead2a",
+          "name": "Dziadu z Lasu",
+          "faction": "Chaos Legionnaires",
+          "values": {
+            "result": 5,
+            "victory_points": 12
+          }
+        },
+        {
+          "participant": "3435373339d6e4a7",
+          "name": "Kuba Puchała",
+          "faction": "Vulkyn Flameseekers",
+          "values": {
+            "result": 1,
+            "victory_points": 0
+          }
+        }
+      ]
+    }
+  ],
+  "votes": []
+}

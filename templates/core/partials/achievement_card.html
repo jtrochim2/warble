@@ -1,0 +1,21 @@
+{% load static i18n %}
+{% translate badge.name as badge_name %}
+<article class="achievement-card{% if show_progress %}{% if badge.unlocked %} badge-earned{% else %} badge-locked{% endif %}{% endif %}" id="{{ badge.key }}">
+  <div class="badge-art" aria-hidden="true">
+    <img src="{% static badge.image %}" alt="" width="160" height="160" loading="lazy" decoding="async">
+  </div>
+  {% if show_progress %}
+    <span class="badge-state">{% if badge.unlocked %}<span aria-hidden="true">✓</span> {% translate "Earned" %}{% else %}{% translate "Not yet earned" %}{% endif %}</span>
+  {% endif %}
+  <p class="badge-category">{% if group.key == 'moments' %}{% translate "A moment to remember" %}{% else %}{% blocktranslate with level=forloop.counter %}Milestone {{ level }} / 3{% endblocktranslate %}{% endif %}</p>
+  <h3>{{ badge_name }}</h3>
+  <p class="badge-description">{% translate badge.description %}</p>
+  {% if show_progress %}
+    <div class="badge-progress">
+      <div><span>{% translate "Progress" %}</span><strong>{{ badge.progress }} / {{ badge.threshold }}</strong></div>
+      <meter min="0" max="{{ badge.threshold }}" value="{{ badge.progress }}" aria-label="{% blocktranslate with name=badge_name current=badge.progress target=badge.threshold %}{{ name }}: {{ current }} of {{ target }}{% endblocktranslate %}">{{ badge.progress }} / {{ badge.threshold }}</meter>
+    </div>
+  {% else %}
+    <span class="badge-frequency">{% translate "Once per season" %}</span>
+  {% endif %}
+</article>

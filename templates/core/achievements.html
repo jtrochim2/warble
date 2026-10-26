@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Achievements" %} — Warble{% endblock %}
+{% block content %}
+  <div class="content-page achievements-page">
+    <section class="page-intro" aria-labelledby="achievements-title">
+      <div>
+        <div class="hero-kicker"><span class="ornament-line"></span><span>{% translate "The season's challenges" %}</span></div>
+        <h1 id="achievements-title">{% translate "Earn your" %}<br><em>{% translate "place in the story." %}</em></h1>
+        <p class="page-description">{% blocktranslate with total=achievement_total %}{{ total }} achievements. A season of possibility.{% endblocktranslate %}<br>{% translate "Show up, cross blades, and make every battle count." %}</p>
+        <a class="text-link" href="{% url 'core:home' %}">{% translate "See the season ranking" %} <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+    <nav class="achievement-nav" aria-label="{% translate "Achievement categories" %}">{% for group in achievement_groups %}<a href="#{{ group.key }}">{% translate group.name %}</a>{% endfor %}<a href="#counting-rules">{% translate "How it counts" %}</a></nav>
+    {% for group in achievement_groups %}
+    <section class="achievement-section" id="{{ group.key }}" aria-labelledby="{{ group.key }}-title">
+      <div class="achievement-section-heading"><span class="section-number" aria-hidden="true">0{{ forloop.counter }}</span><div><h2 id="{{ group.key }}-title">{% translate group.name %}</h2><p>{% translate group.description %}</p></div><span class="category-count">{% blocktranslate count count=group.badges|length %}{{ count }} achievement{% plural %}{{ count }} achievements{% endblocktranslate %}</span></div>
+      <div class="achievement-grid">
+        {% for badge in group.badges %}
+        {% include "core/partials/achievement_card.html" %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+    <section class="counting-rules" id="counting-rules" aria-labelledby="counting-title">
+      <div><p class="section-kicker">{% translate "The terms of the campaign" %}</p><h2 id="counting-title">{% translate "Every deed has its measure." %}</h2><p>{% translate "Earn each badge once per season. Higher milestones unlock the earlier tiers, too. Achievement totals determine rank; wins only order players sharing that rank." %}</p></div>
+      <ul><li>{% translate "Complete every scheduled round of an approved event, with at least two actual opponent battles, to count an event. An approved league counts as one event." %}</li><li>{% translate "Byes account for rounds, but do not count as wins, battles, or opponents. Rematches do not add a new opponent." %}</li><li>{% translate "Unbroken allows draws. Many Faces counts primary factions, not allies; faction names must be reconciled before awards are verified." %}</li><li>{% translate "The current ranking previews historical results. Account ownership and achievement completion must be verified before trophy eligibility is confirmed." %}</li></ul>
+      <a class="text-link" href="{% url 'core:trophies' %}">{% translate "Explore the season trophy" %} <span aria-hidden="true">→</span></a>
+    </section>
+  </div>
+{% endblock %}

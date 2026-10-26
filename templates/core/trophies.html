@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static i18n %}
+{% block title %}{% translate "Trophies" %} — Warble{% endblock %}
+{% block content %}
+<div class="content-page trophies-page">
+  <section class="page-intro" aria-labelledby="trophies-title">
+    <div>
+      <div class="hero-kicker"><span class="ornament-line"></span><span>{% translate "The spoils of a complete campaign" %}</span></div>
+      <h1 id="trophies-title">{% translate "Glory you can" %}<br><em>{% translate "hold in your hands." %}</em></h1>
+      <p class="page-description">{% translate "Every badge tells a story. The complete collection earns its place beyond the battlefield." %}</p>
+    </div>
+  </section>
+  <section class="trophy-showcase" aria-labelledby="trophy-title">
+    <figure class="trophy-figure">
+      <img src="{% static 'images/trophies/season-2026.webp' %}" width="1086" height="1448" alt="{% translate 'The 2026 trophy: a gold-toned horned war helm with a spiked halo and skull-lined pedestal.' %}" decoding="async" fetchpriority="high">
+      <figcaption><span class="tiny-diamond" aria-hidden="true"></span>{% blocktranslate with year=trophy_year %}Warble · Season {{ year }}{% endblocktranslate %}</figcaption>
+    </figure>
+    <div class="trophy-story">
+      <span class="trophy-season">{% translate "Season" %} {{ trophy_year }}</span>
+      <p class="section-kicker">{% translate "The season trophy" %}</p>
+      <h2 id="trophy-title">{% blocktranslate with year=trophy_year %}The {{ year }} trophy{% endblocktranslate %}</h2>
+      <p class="trophy-description">{% translate "Beneath the gaze of the Dark Gods, glory belongs to those who endure every trial. Let this helm bear witness to your deeds, and let your rivals remember the name that rose from the ashes of the Eightpoints." %}</p>
+      <div class="trophy-requirement">
+        <span class="trophy-requirement-count">{{ achievement_total }}<span>/ {{ achievement_total }}</span></span>
+        <div><strong>{% translate "The complete collection" %}</strong><span>{% translate "Every achievement. One season." %}</span></div>
+      </div>
+      <h3>{% translate "Earn your eligibility" %}</h3>
+      <p class="trophy-eligibility">{% blocktranslate with total=achievement_total year=trophy_year %}Collect all {{ total }} achievements during the {{ year }} season to be eligible to earn a physical copy of this trophy.{% endblocktranslate %}</p>
+      <p class="trophy-verification">{% translate "Achievement completion and Wartally account ownership must be verified before trophy eligibility is confirmed." %}</p>
+      <a class="button trophy-action" href="{% url 'core:achievements' %}">{% translate "Explore the achievements" %}<span class="button-arrow" aria-hidden="true">↗</span></a>
+      <a class="text-link" href="{% url 'core:home' %}?season={{ trophy_year }}">{% translate "See the season ranking" %}<span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+</div>
+{% endblock %}

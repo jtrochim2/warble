@@ -1,0 +1,86 @@
+{
+  "retrieved_on": "2026-10-25",
+  "years": {
+    "2025": {
+      "verified_events": 8,
+      "tournaments": 7,
+      "leagues": 1,
+      "published_player_entries": 143,
+      "median_published_field": 16.0,
+      "mean_published_field": 17.88,
+      "detailed_events": 8,
+      "detailed_scored_entries": 145,
+      "distinct_display_names_in_detailed_events": 74,
+      "recorded_battles": 262,
+      "byes_excluded_from_battles": 10,
+      "achievement_thresholds_in_detailed_events": {
+        "events>=1": 74,
+        "events>=2": 34,
+        "events>=3": 18,
+        "events>=5": 4,
+        "wins>=1": 66,
+        "wins>=3": 33,
+        "wins>=5": 16,
+        "wins>=10": 3,
+        "matches>=3": 74,
+        "matches>=10": 18,
+        "matches>=20": 2,
+        "podiums>=1": 17,
+        "podiums>=2": 4,
+        "factions>=2": 27,
+        "factions>=3": 12,
+        "opponents>=5": 35,
+        "opponents>=10": 17
+      },
+      "events_per_display_name": {
+        "1": 40,
+        "2": 16,
+        "3": 5,
+        "4": 9,
+        "5": 2,
+        "6": 2
+      }
+    },
+    "2026": {
+      "verified_events": 7,
+      "tournaments": 7,
+      "leagues": 0,
+      "published_player_entries": 114,
+      "median_published_field": 14,
+      "mean_published_field": 16.29,
+      "detailed_events": 7,
+      "detailed_scored_entries": 114,
+      "distinct_display_names_in_detailed_events": 46,
+      "recorded_battles": 202,
+      "byes_excluded_from_battles": 0,
+      "achievement_thresholds_in_detailed_events": {
+        "events>=1": 46,
+        "events>=2": 26,
+        "events>=3": 18,
+        "events>=5": 8,
+        "wins>=1": 42,
+        "wins>=3": 22,
+        "wins>=5": 13,
+        "wins>=10": 5,
+        "matches>=3": 46,
+        "matches>=10": 17,
+        "matches>=20": 3,
+        "podiums>=1": 12,
+        "podiums>=2": 5,
+        "factions>=2": 19,
+        "factions>=3": 11,
+        "opponents>=5": 26,
+        "opponents>=10": 14
+      },
+      "events_per_display_name": {
+        "1": 20,
+        "2": 8,
+        "3": 7,
+        "4": 3,
+        "5": 5,
+        "6": 1,
+        "7": 2
+      }
+    }
+  }
+}

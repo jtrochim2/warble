@@ -1,0 +1,14 @@
+{% load i18n %}
+<div id="join-form">
+  <div role="status" aria-live="polite" aria-atomic="true">
+    {% if confirmation %}<p class="confirmation">{{ confirmation }}</p>{% endif %}
+    {% for message in messages %}<p class="confirmation">{{ message }}</p>{% endfor %}
+  </div>
+  <form method="post" action="{% url 'core:join' %}"
+        hx-post="{% url 'core:join' %}" hx-target="#join-form"
+        hx-swap="outerHTML" hx-disabled-elt="find button">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="button button-submit" type="submit"><span>{% translate "Join Warble" %}</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+  </form>
+</div>

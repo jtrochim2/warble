@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Season ranking" %} — Warble{% endblock %}
+{% block content %}
+  <div class="content-page ranking-page">
+    <section class="page-intro" aria-labelledby="ranking-title">
+      <div>
+        <div class="hero-kicker"><span class="ornament-line"></span><span>{% translate "Warcry · Poland" %}</span></div>
+        <h1 id="ranking-title">{% translate "Play Warcry." %}<br><em>{% translate "Earn achievements." %}</em></h1>
+        <p class="page-description">{% translate "Every tournament adds to your season. Collect all 14 achievements in 2026 to become eligible for a physical trophy." %}</p>
+        <a class="text-link" href="{% url 'core:achievements' %}">{% translate "Explore the achievements" %} <span aria-hidden="true">→</span></a>
+      </div>
+      <a class="season-seal" href="{% url 'core:achievements' %}">
+        <span>{% translate "The complete collection" %}</span><strong>{{ achievement_total }}</strong><span>{% translate "Seasonal achievements" %}</span>
+      </a>
+    </section>
+    <section class="ranking-panel" aria-labelledby="standings-title">
+      <div class="ranking-heading">
+        <div><p class="section-kicker">{% translate "The gathering of warbands" %}</p><h2 id="standings-title">{% translate "Season ranking" %}{% if season %} <span>{{ season }}</span>{% endif %}</h2></div>
+        <span class="snapshot-label"><span class="scene-dot" aria-hidden="true"></span>{% translate "Historical standings" %}</span>
+      </div>
+      <div class="ranking-summary">
+        <span>{% translate "Players" %}: <strong>{{ player_count }}</strong></span>
+        <span>{% translate "Events" %}: <strong>{{ event_count }}</strong></span>
+        <span>{% translate "Battles" %}: <strong>{{ battle_count }}</strong></span>
+        <span class="ranking-rule">{% translate "Rank is determined by achievements. Wins order players within the same rank." %}</span>
+      </div>
+      <div class="ranking-filters">
+        <form class="ranking-search"{% if request.static_export %} data-static-search{% endif %} method="get" action="{% url 'core:home' %}" role="search" aria-label="{% translate 'Find a player in the season ranking' %}">
+          <input type="hidden" name="season" value="{{ season|default:'' }}">
+          <div class="search-field">
+            <label for="player-search">{% translate "Find a player" %}</label>
+            <div class="search-box"><input type="search" id="player-search" name="q" value="{{ query }}" placeholder="{% translate 'Search Wartally nickname' %}" maxlength="100"><button class="ranking-search-submit" type="submit" aria-label="{% translate 'Find a player' %}"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.5"/></svg></button></div>
+          </div>
+        </form>
+        {% include "core/partials/season_buttons.html" %}
+        {% if query %}<a class="clear-search" href="?season={{ season }}">{% translate "Clear search" %}</a>{% endif %}
+      </div>
+      <table class="ranking-table">
+        <caption class="sr-only">{% blocktranslate with year=season|default:"" %}{{ year }} historical achievement ranking, ordered by wins within shared ranks{% endblocktranslate %}</caption>
+        <thead><tr><th scope="col" class="rank-column">{% translate "Rank" %}</th><th scope="col">{% translate "Player" %}</th><th scope="col" class="stat-column">{% translate "Events" %}</th><th scope="col" class="stat-column">{% translate "Wins" %}</th><th scope="col" class="achievements-column">{% translate "Achievements" %}</th></tr></thead>
+        <tbody>
+          {% if request.static_export %}<tr data-static-empty hidden><td colspan="5" class="ranking-empty">{% translate "No players found." %}</td></tr>{% endif %}
+          {% for player in ranking_page %}
+          <tr{% if player.rank <= 3 %} class="leading-row"{% endif %}>
+            <td class="rank-value">{{ player.rank|stringformat:"02d" }}</td>
+            <th scope="row" class="player-cell"><div class="player-identity"><a class="player-name player-link" href="{% url 'core:player_detail' nickname=player.nickname %}?season={{ season }}">{{ player.nickname }}</a>{% if player.achievement_count == achievement_total %}{% translate "All achievements collected — eligible for the season trophy" as trophy_label %}<a class="trophy-emblem" href="{% url 'core:trophies' %}" title="{{ trophy_label }}" aria-label="{{ trophy_label }}"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h10v6a5 5 0 0 1-10 0V3Z" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/><path d="M7 5H3v3a4 4 0 0 0 4 4m10-7h4v3a4 4 0 0 1-4 4M12 14v5m-4 2h8m-7-2h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="m12 5 .7 1.5 1.6.2-1.2 1.2.3 1.6-1.4-.8-1.4.8.3-1.6-1.2-1.2 1.6-.2L12 5Z" fill="currentColor"/></svg></a>{% endif %}</div><span class="player-detail">{% translate "Battles" %}: {{ player.matches }} · {% translate "Opponents" %}: {{ player.opponents }}</span></th>
+            <td class="stat-column">{{ player.events }}</td><td class="stat-column">{{ player.wins }}</td>
+            <td class="achievement-score"><strong>{{ player.achievement_count }}</strong><span> / {{ achievement_total }}</span><meter min="0" max="{{ achievement_total }}" value="{{ player.achievement_count }}" aria-label="{% blocktranslate with nickname=player.nickname earned=player.achievement_count total=achievement_total %}{{ nickname }}: {{ earned }} of {{ total }} achievements{% endblocktranslate %}">{% blocktranslate with earned=player.achievement_count total=achievement_total %}{{ earned }} of {{ total }}{% endblocktranslate %}</meter></td>
+          </tr>
+          {% empty %}
+          <tr><td colspan="5" class="ranking-empty">{% if query %}{% blocktranslate %}No players match “{{ query }}”. Try another nickname.{% endblocktranslate %}{% else %}{% translate "The field is quiet. Season standings will appear when results are available." %}{% endif %}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% if ranking_page.paginator.num_pages > 1 %}
+      <nav class="ranking-pagination" aria-label="{% translate "Ranking pages" %}"><span>{% blocktranslate with first=ranking_page.start_index last=ranking_page.end_index total=ranking_page.paginator.count %}Players {{ first }}–{{ last }} of {{ total }}{% endblocktranslate %}</span><div>{% if previous_url %}<a href="{{ previous_url }}" rel="prev">← {% translate "Previous" %}</a>{% endif %}<span>{% blocktranslate with page=ranking_page.number pages=ranking_page.paginator.num_pages %}Page {{ page }} of {{ pages }}{% endblocktranslate %}</span>{% if next_url %}<a href="{{ next_url }}" rel="next">{% translate "Next" %} →</a>{% endif %}</div></nav>
+      {% endif %}
+      <p class="ranking-note">{% blocktranslate with date=snapshot_date|default:"—" %}Recorded Polish events through {{ date }}. Names and achievements are a historical preview; player verification is pending. Prize rules will be announced separately.{% endblocktranslate %}</p>
+    </section>
+  </div>
+{% endblock %}

@@ -1,0 +1,598 @@
+{
+  "version": 1,
+  "encid": "3239380d9ccce4",
+  "name": "1 Box Bespoke the second",
+  "game_system": "wc",
+  "format": "swiss",
+  "cardinality": "singles",
+  "tier": "standalone",
+  "type_description": "Tournament",
+  "state": "finished",
+  "access": "public",
+  "casual": false,
+  "scoring": {
+    "primary_points": "Result",
+    "secondary_points": "Kill points",
+    "tertiary_points": "Strength of schedule"
+  },
+  "parent": null,
+  "organiser": "Coen",
+  "start": "2025-06-22",
+  "location": "Poland",
+  "address": "Awaria Prądu,\nSzczytnicka 28, 50-382 Wrocław",
+  "link": "https://docs.google.com/document/d/1969wEFoUC5m1uns_pqKStdK78t9FMIgW/edit?usp=drivesdk&ouid=101668480006979217566&rtpof=true&sd=true",
+  "series": {
+    "id": 22,
+    "name": "1 Box Bespoke"
+  },
+  "rounds": 3,
+  "current_round": 3,
+  "max_players": 12,
+  "participant_count": 6,
+  "battle_plans": [
+    {
+      "round": 1,
+      "title": "VI Extraction"
+    },
+    {
+      "round": 2,
+      "title": "IV Hidden Tunnel"
+    },
+    {
+      "round": 3,
+      "title": "XIII Bloody Trophies"
+    }
+  ],
+  "champion": null,
+  "participants": [
+    {
+      "encid": "3331333103c1aba7",
+      "name": "Andrzej Raven",
+      "faction": "Corvus Cabal",
+      "dropped": false,
+      "managed": false,
+      "placement": 1,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 380,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 680,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 1000,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 60,
+        "secondary_points": 2060,
+        "tertiary_points": 89,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "333038315e2a789d",
+      "name": "Pawel Janicki",
+      "faction": "Iron Golems",
+      "dropped": false,
+      "managed": false,
+      "placement": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 410,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 645,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 400,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 40,
+        "secondary_points": 1455,
+        "tertiary_points": 133,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "33313832169a7c7e",
+      "name": "Kornel Kisielewicz",
+      "faction": "Royal Beastflayers",
+      "dropped": false,
+      "managed": false,
+      "placement": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 350,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 295,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 330,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 40,
+        "secondary_points": 975,
+        "tertiary_points": 67,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "333036341f266362",
+      "name": "Coen",
+      "faction": "Kruleboyz Monsta-killaz",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 1000,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 525,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 165,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 20,
+        "secondary_points": 1690,
+        "tertiary_points": 111,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "33313831b745f557",
+      "name": "Bartosz Kozik vel Hunderus",
+      "faction": "Splintered Fang",
+      "dropped": false,
+      "managed": false,
+      "placement": 5,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 595,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 20,
+            "secondary_points": 325,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 0,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 20,
+        "secondary_points": 920,
+        "tertiary_points": 111,
+        "quaternary_points": null
+      }
+    },
+    {
+      "encid": "333134335bb3f00a",
+      "name": "Michal O",
+      "faction": "Stormcast Eternals Questor Soulsworn",
+      "dropped": false,
+      "managed": false,
+      "placement": 6,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 175,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 680,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 0,
+            "secondary_points": 655,
+            "tertiary_points": null,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 0,
+        "secondary_points": 1510,
+        "tertiary_points": 89,
+        "quaternary_points": null
+      }
+    }
+  ],
+  "battles": [
+    {
+      "encid": "343733383d6c72ca",
+      "round": 1,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Andrzej Raven wins",
+      "winner": "3331333103c1aba7",
+      "created_at": "2025-06-22T12:12:01Z",
+      "players": [
+        {
+          "participant": "3331333103c1aba7",
+          "name": "Andrzej Raven",
+          "faction": "Corvus Cabal",
+          "values": {
+            "result": 20,
+            "kill_points": 380
+          }
+        },
+        {
+          "participant": "333038315e2a789d",
+          "name": "Pawel Janicki",
+          "faction": "Iron Golems",
+          "values": {
+            "result": 0,
+            "kill_points": 410
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3437333936ee6f56",
+      "round": 1,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Kornel Kisielewicz wins",
+      "winner": "33313832169a7c7e",
+      "created_at": "2025-06-22T12:12:01Z",
+      "players": [
+        {
+          "participant": "33313831b745f557",
+          "name": "Bartosz Kozik vel Hunderus",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 0,
+            "kill_points": 595
+          }
+        },
+        {
+          "participant": "33313832169a7c7e",
+          "name": "Kornel Kisielewicz",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 20,
+            "kill_points": 350
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373430d0b22590",
+      "round": 1,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Coen wins",
+      "winner": "333036341f266362",
+      "created_at": "2025-06-22T12:12:02Z",
+      "players": [
+        {
+          "participant": "333134335bb3f00a",
+          "name": "Michal O",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 0,
+            "kill_points": 175
+          }
+        },
+        {
+          "participant": "333036341f266362",
+          "name": "Coen",
+          "faction": "Kruleboyz Monsta-killaz",
+          "values": {
+            "result": 20,
+            "kill_points": 1000
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343734310335e9c0",
+      "round": 2,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Bartosz Kozik vel Hunderus wins",
+      "winner": "33313831b745f557",
+      "created_at": "2025-06-22T14:03:25Z",
+      "players": [
+        {
+          "participant": "33313831b745f557",
+          "name": "Bartosz Kozik vel Hunderus",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 20,
+            "kill_points": 325
+          }
+        },
+        {
+          "participant": "333134335bb3f00a",
+          "name": "Michal O",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 0,
+            "kill_points": 680
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373432329eecd8",
+      "round": 2,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Andrzej Raven wins",
+      "winner": "3331333103c1aba7",
+      "created_at": "2025-06-22T14:03:25Z",
+      "players": [
+        {
+          "participant": "333036341f266362",
+          "name": "Coen",
+          "faction": "Kruleboyz Monsta-killaz",
+          "values": {
+            "result": 0,
+            "kill_points": 525
+          }
+        },
+        {
+          "participant": "3331333103c1aba7",
+          "name": "Andrzej Raven",
+          "faction": "Corvus Cabal",
+          "values": {
+            "result": 20,
+            "kill_points": 680
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343734333cdf2353",
+      "round": 2,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pawel Janicki wins",
+      "winner": "333038315e2a789d",
+      "created_at": "2025-06-22T14:03:25Z",
+      "players": [
+        {
+          "participant": "33313832169a7c7e",
+          "name": "Kornel Kisielewicz",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 0,
+            "kill_points": 295
+          }
+        },
+        {
+          "participant": "333038315e2a789d",
+          "name": "Pawel Janicki",
+          "faction": "Iron Golems",
+          "values": {
+            "result": 20,
+            "kill_points": 645
+          }
+        }
+      ]
+    },
+    {
+      "encid": "34373434d86ab31b",
+      "round": 3,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pawel Janicki wins",
+      "winner": "333038315e2a789d",
+      "created_at": "2025-06-22T15:44:49Z",
+      "players": [
+        {
+          "participant": "333036341f266362",
+          "name": "Coen",
+          "faction": "Kruleboyz Monsta-killaz",
+          "values": {
+            "result": 0,
+            "kill_points": 165
+          }
+        },
+        {
+          "participant": "333038315e2a789d",
+          "name": "Pawel Janicki",
+          "faction": "Iron Golems",
+          "values": {
+            "result": 20,
+            "kill_points": 400
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343734359fcb692a",
+      "round": 3,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Kornel Kisielewicz wins",
+      "winner": "33313832169a7c7e",
+      "created_at": "2025-06-22T15:44:49Z",
+      "players": [
+        {
+          "participant": "33313832169a7c7e",
+          "name": "Kornel Kisielewicz",
+          "faction": "Royal Beastflayers",
+          "values": {
+            "result": 20,
+            "kill_points": 330
+          }
+        },
+        {
+          "participant": "333134335bb3f00a",
+          "name": "Michal O",
+          "faction": "Stormcast Eternals Questor Soulsworn",
+          "values": {
+            "result": 0,
+            "kill_points": 655
+          }
+        }
+      ]
+    },
+    {
+      "encid": "343734364cc6a9ae",
+      "round": 3,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Andrzej Raven wins",
+      "winner": "3331333103c1aba7",
+      "created_at": "2025-06-22T15:44:49Z",
+      "players": [
+        {
+          "participant": "3331333103c1aba7",
+          "name": "Andrzej Raven",
+          "faction": "Corvus Cabal",
+          "values": {
+            "result": 20,
+            "kill_points": 1000
+          }
+        },
+        {
+          "participant": "33313831b745f557",
+          "name": "Bartosz Kozik vel Hunderus",
+          "faction": "Splintered Fang",
+          "values": {
+            "result": 0,
+            "kill_points": 0
+          }
+        }
+      ]
+    }
+  ],
+  "votes": []
+}

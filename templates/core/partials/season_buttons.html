@@ -1,0 +1,14 @@
+{% load i18n %}
+<nav class="season-picker" aria-label="{% translate 'Season' %}"
+     hx-boost="true" hx-target="#main" hx-select="#main"
+     hx-swap="outerHTML show:none focus-scroll:false" hx-push-url="true"
+     hx-sync="#main:replace">
+  <span class="season-picker-label">{% translate "Season" %}</span>
+  <div class="season-options">
+    {% for year in seasons %}
+      <a class="season-option" href="?season={{ year }}{% if query %}&amp;q={{ query|urlencode }}{% endif %}"{% if year == season %} aria-current="true"{% endif %}><span class="season-year">{{ year }}</span></a>
+    {% empty %}
+      <span class="season-picker-empty">{% translate "No seasons yet" %}</span>
+    {% endfor %}
+  </div>
+</nav>

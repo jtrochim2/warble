@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{{ player.nickname }} — {% translate "Player achievements" %} — Warble{% endblock %}
+{% block content %}
+<div class="content-page player-page">
+  <a class="text-link player-back" href="{% url 'core:home' %}?season={{ season }}"><span aria-hidden="true">←</span> {% translate "Back to season ranking" %}</a>
+  <section class="page-intro player-intro" aria-labelledby="player-title">
+    <div>
+      <div class="hero-kicker"><span class="ornament-line"></span><span>{% translate "Player chronicle" %} · {{ season }}</span></div>
+      <h1 id="player-title">{{ player.nickname }}</h1>
+      <p class="page-description">{% translate "A season told through battles, rivals, and achievements." %}</p>
+      <span class="snapshot-label"><span class="scene-dot" aria-hidden="true"></span>{% translate "Historical standings" %} · {% translate "Verification pending" %}</span>
+    </div>
+    <div class="season-seal player-seal"><span>{% translate "Achievements earned" %}</span><strong>{{ player.achievement_count }}</strong><span>{% blocktranslate with total=achievement_total %}of {{ total }} this season{% endblocktranslate %}</span></div>
+  </section>
+  <div class="player-toolbar">
+    <dl class="player-stats">
+      <div><dt>{% translate "Rank" %}</dt><dd>{% if player.rank %}#{{ player.rank }}{% else %}—{% endif %}</dd></div>
+      <div><dt>{% translate "Events" %}</dt><dd>{{ player.events }}</dd></div>
+      <div><dt>{% translate "Battles" %}</dt><dd>{{ player.matches }}</dd></div>
+      <div><dt>{% translate "Wins" %}</dt><dd>{{ player.wins }}</dd></div>
+      <div><dt>{% translate "Opponents" %}</dt><dd>{{ player.opponents }}</dd></div>
+    </dl>
+    {% include "core/partials/season_buttons.html" %}
+  </div>
+  <div class="player-collection-heading"><div><p class="section-kicker">{% translate "The badge collection" %}</p><h2>{% translate "Every deed, remembered." %}</h2></div><span>{% blocktranslate with earned=player.achievement_count total=achievement_total %}{{ earned }} of {{ total }} earned{% endblocktranslate %}</span></div>
+  {% if not player.matches %}<p class="player-empty">{% translate "No recorded events for this player in this season. Choose another season to see their achievements." %}</p>{% endif %}
+  <nav class="achievement-nav" aria-label="{% translate 'Achievement categories' %}">{% for group in achievement_groups %}<a href="#{{ group.key }}">{% translate group.name %} <span>{{ group.unlocked_count }}/{{ group.badges|length }}</span></a>{% endfor %}</nav>
+  {% for group in achievement_groups %}
+  <section class="achievement-section" id="{{ group.key }}" aria-labelledby="{{ group.key }}-title">
+    <div class="achievement-section-heading"><span class="section-number" aria-hidden="true">0{{ forloop.counter }}</span><div><h2 id="{{ group.key }}-title">{% translate group.name %}</h2><p>{% translate group.description %}</p></div><span class="category-count">{% translate "Earned" %}: {{ group.unlocked_count }} / {{ group.badges|length }}</span></div>
+    <div class="achievement-grid">{% for badge in group.badges %}{% include "core/partials/achievement_card.html" with show_progress=True %}{% endfor %}</div>
+  </section>
+  {% endfor %}
+  <p class="player-source-note">{% blocktranslate with date=snapshot_date %}Based on recorded Polish events through {{ date }}. These achievements are a historical preview, not verified account awards or prize entries.{% endblocktranslate %} <a href="{% url 'core:achievements' %}#counting-rules">{% translate "How it counts" %} →</a></p>
+</div>
+{% endblock %}

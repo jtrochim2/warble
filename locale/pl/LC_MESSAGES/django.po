@@ -1,0 +1,640 @@
+# Polish translations for Warble.
+msgid ""
+msgstr ""
+"Project-Id-Version: Warble 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-26 20:18+0000\n"
+"PO-Revision-Date: 2026-10-25 00:00+0000\n"
+"Last-Translator: Warble contributors\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0 : (n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+
+#: core/achievements.py:15
+msgid "The campaign"
+msgstr "Kampania"
+
+#: core/achievements.py:15
+msgid "Show up. Return to the field. Build a season."
+msgstr "Stań do walki. Wracaj na pole bitwy. Zbuduj swój sezon."
+
+#: core/achievements.py:18
+msgid "Forged in battle"
+msgstr "Wykuci w boju"
+
+#: core/achievements.py:19
+msgid "From your first victory to a proven record."
+msgstr "Od pierwszego zwycięstwa do sprawdzonego wojownika."
+
+#: core/achievements.py:21
+msgid "Crossed paths"
+msgstr "Na wspólnym szlaku"
+
+#: core/achievements.py:21
+msgid "Meet new opponents across the warlands."
+msgstr "Poznawaj nowych rywali na polach bitew."
+
+#: core/achievements.py:22
+msgid "Moments of glory"
+msgstr "Chwile chwały"
+
+#: core/achievements.py:22
+msgid "The results and stories worth remembering."
+msgstr "Wyniki i historie, które warto zapamiętać."
+
+#: core/achievements.py:42
+msgid "First Muster"
+msgstr "Pierwsza zbiórka"
+
+#: core/achievements.py:46
+msgid "Complete your first event of the season."
+msgstr "Ukończ pierwsze wydarzenie w sezonie."
+
+#: core/achievements.py:51
+msgid "Campaign Regular"
+msgstr "Bywalec kampanii"
+
+#: core/achievements.py:55
+msgid "Complete 3 events during the season."
+msgstr "Ukończ 3 wydarzenia w sezonie."
+
+#: core/achievements.py:60
+msgid "Season Veteran"
+msgstr "Weteran sezonu"
+
+#: core/achievements.py:64
+msgid "Complete 5 events during the season."
+msgstr "Ukończ 5 wydarzeń w sezonie."
+
+#: core/achievements.py:69
+msgid "First Blood"
+msgstr "Pierwsza krew"
+
+#: core/achievements.py:73
+msgid "Win your first battle against an opponent."
+msgstr "Wygraj pierwszą bitwę z rywalem."
+
+#: core/achievements.py:78
+msgid "Proven Fighter"
+msgstr "Sprawdzony wojownik"
+
+#: core/achievements.py:82
+msgid "Win 5 battles against opponents during the season."
+msgstr "Wygraj 5 bitew z rywalami w sezonie."
+
+#: core/achievements.py:87
+msgid "Battle Hardened"
+msgstr "Zahartowany w boju"
+
+#: core/achievements.py:91
+msgid "Win 10 battles against opponents during the season."
+msgstr "Wygraj 10 bitew z rywalami w sezonie."
+
+#: core/achievements.py:96
+msgid "Crossed Blades"
+msgstr "Skrzyżowane ostrza"
+
+#: core/achievements.py:100
+msgid "Face 5 different opponents during the season."
+msgstr "Zmierz się z 5 różnymi rywalami w sezonie."
+
+#: core/achievements.py:105
+msgid "Known Rival"
+msgstr "Znany rywal"
+
+#: core/achievements.py:109
+msgid "Face 10 different opponents during the season."
+msgstr "Zmierz się z 10 różnymi rywalami w sezonie."
+
+#: core/achievements.py:114
+msgid "Across the Warlands"
+msgstr "Przez krainy wojny"
+
+#: core/achievements.py:118
+msgid "Face 15 different opponents during the season."
+msgstr "Zmierz się z 15 różnymi rywalami w sezonie."
+
+#: core/achievements.py:123
+msgid "Many Faces"
+msgstr "Wiele twarzy"
+
+#: core/achievements.py:127
+msgid "Play 2 different primary factions at events during the season."
+msgstr "Zagraj 2 różnymi głównymi frakcjami na wydarzeniach w sezonie."
+
+#: core/achievements.py:132
+msgid "Rise Again"
+msgstr "Powstań ponownie"
+
+#: core/achievements.py:136
+msgid "Lose a battle, then win a later battle at the same event."
+msgstr "Przegraj bitwę, a następnie wygraj późniejszą bitwę podczas tego samego wydarzenia."
+
+#: core/achievements.py:141
+msgid "Unbroken"
+msgstr "Niezłomny"
+
+#: core/achievements.py:146
+msgid "Complete an event undefeated, playing at least 3 actual battles. Draws are allowed."
+msgstr "Ukończ wydarzenie bez porażki, rozgrywając co najmniej 3 rzeczywiste bitwy. Remisy są dozwolone."
+
+#: core/achievements.py:153
+msgid "On the Podium"
+msgstr "Na podium"
+
+#: core/achievements.py:157
+msgid "Finish an event in an official top-three position."
+msgstr "Zajmij oficjalnie jedno z trzech pierwszych miejsc w wydarzeniu."
+
+#: core/achievements.py:162
+msgid "Champion"
+msgstr "Czempion"
+
+#: core/achievements.py:166
+msgid "Finish an event in first place."
+msgstr "Zajmij pierwsze miejsce w wydarzeniu."
+
+#: core/forms.py:7
+msgid "This nickname has already joined."
+msgstr "Ten pseudonim jest już zarejestrowany."
+
+#: core/forms.py:12
+msgid "Wartally nickname"
+msgstr "Pseudonim w Wartally"
+
+#: core/tests.py:296 templates/core/achievements.html:17
+#, python-format
+msgid "%(count)s achievement"
+msgid_plural "%(count)s achievements"
+msgstr[0] "%(count)s osiągnięcie"
+msgstr[1] "%(count)s osiągnięcia"
+msgstr[2] "%(count)s osiągnięć"
+
+#: core/views.py:105
+msgid "Player not found."
+msgstr "Nie znaleziono gracza."
+
+#: core/views.py:187
+#, python-format
+msgid "Thanks for joining, %(nickname)s! Your account has been created. Verification is coming soon."
+msgstr "Dzięki za dołączenie, %(nickname)s! Twoje konto zostało utworzone. Weryfikacja pojawi się wkrótce."
+
+#: templates/base.html:9
+msgid "Play Warcry. Earn achievements. Follow the season ranking on Warble."
+msgstr "Graj w Warcry. Zdobywaj osiągnięcia. Śledź ranking sezonu w Warble."
+
+#: templates/base.html:10 templates/core/home.html:3
+#: templates/core/home.html:19
+msgid "Season ranking"
+msgstr "Ranking sezonu"
+
+#: templates/base.html:22
+msgid "Skip to content"
+msgstr "Przejdź do treści"
+
+#: templates/base.html:35
+msgid "Warble home"
+msgstr "Warble — strona główna"
+
+#: templates/base.html:38
+msgid "Main navigation"
+msgstr "Nawigacja główna"
+
+#: templates/base.html:39
+msgid "Ranking"
+msgstr "Ranking"
+
+#: templates/base.html:40 templates/core/achievements.html:3
+#: templates/core/home.html:41
+msgid "Achievements"
+msgstr "Osiągnięcia"
+
+#: templates/base.html:41 templates/core/trophies.html:3
+msgid "Trophies"
+msgstr "Trofea"
+
+#: templates/base.html:44 templates/base.html:49
+msgid "Language"
+msgstr "Język"
+
+#: templates/base.html:57
+msgid "Join with"
+msgstr "Dołącz przez"
+
+#: templates/base.html:64
+msgid "Play. Achieve. Return."
+msgstr "Graj. Zdobywaj. Wracaj."
+
+#: templates/base.html:65
+msgid "The Ashen Marches"
+msgstr "Popielne Pogranicze"
+
+#: templates/base.html:66
+msgid "Play atmosphere"
+msgstr "Włącz animacje"
+
+#: templates/base.html:66 templates/base.html:69
+msgid "Pause atmosphere"
+msgstr "Wstrzymaj animacje"
+
+#: templates/core/achievements.html:8
+msgid "The season's challenges"
+msgstr "Wyzwania sezonu"
+
+#: templates/core/achievements.html:9
+msgid "Earn your"
+msgstr "Zdobądź swoje"
+
+#: templates/core/achievements.html:9
+msgid "place in the story."
+msgstr "miejsce w historii."
+
+#: templates/core/achievements.html:10
+#, python-format
+msgid "%(total)s achievements. A season of possibility."
+msgstr "%(total)s osiągnięć. Sezon pełen możliwości."
+
+#: templates/core/achievements.html:10
+msgid "Show up, cross blades, and make every battle count."
+msgstr "Stań do walki, skrzyżuj ostrza i spraw, by każda bitwa miała znaczenie."
+
+#: templates/core/achievements.html:11 templates/core/trophies.html:31
+msgid "See the season ranking"
+msgstr "Zobacz ranking sezonu"
+
+#: templates/core/achievements.html:14 templates/core/player_detail.html:28
+msgid "Achievement categories"
+msgstr "Kategorie osiągnięć"
+
+#: templates/core/achievements.html:14 templates/core/player_detail.html:35
+msgid "How it counts"
+msgstr "Zasady zaliczania"
+
+#: templates/core/achievements.html:26
+msgid "The terms of the campaign"
+msgstr "Zasady kampanii"
+
+#: templates/core/achievements.html:26
+msgid "Every deed has its measure."
+msgstr "Każdy czyn ma swoją miarę."
+
+#: templates/core/achievements.html:26
+msgid "Earn each badge once per season. Higher milestones unlock the earlier tiers, too. Achievement totals determine rank; wins only order players sharing that rank."
+msgstr "Każdą odznakę zdobywasz raz na sezon. Wyższe progi odblokowują także wcześniejsze poziomy. O miejscu decyduje liczba osiągnięć; zwycięstwa ustalają jedynie kolejność graczy zajmujących to samo miejsce."
+
+#: templates/core/achievements.html:27
+msgid "Complete every scheduled round of an approved event, with at least two actual opponent battles, to count an event. An approved league counts as one event."
+msgstr "Aby zaliczyć wydarzenie, ukończ wszystkie zaplanowane rundy zatwierdzonego wydarzenia i rozegraj co najmniej dwie rzeczywiste bitwy z rywalami. Zatwierdzona liga liczy się jako jedno wydarzenie."
+
+#: templates/core/achievements.html:27
+msgid "Byes account for rounds, but do not count as wins, battles, or opponents. Rematches do not add a new opponent."
+msgstr "Pauzy zaliczają rundę, ale nie liczą się jako zwycięstwa, bitwy ani rywale. Rewanż nie dodaje nowego rywala."
+
+#: templates/core/achievements.html:27
+msgid "Unbroken allows draws. Many Faces counts primary factions, not allies; faction names must be reconciled before awards are verified."
+msgstr "Niezłomny dopuszcza remisy. Wiele twarzy uwzględnia główne frakcje, a nie sojuszników. Nazwy frakcji muszą zostać ujednolicone przed weryfikacją odznak."
+
+#
+#: templates/core/achievements.html:27
+msgid "The current ranking previews historical results. Account ownership and achievement completion must be verified before trophy eligibility is confirmed."
+msgstr "Obecny ranking przedstawia wyniki historyczne. Przed potwierdzeniem prawa do trofeum wymagane jest zweryfikowanie własności konta i zdobytych osiągnięć."
+
+#
+#: templates/core/achievements.html:28
+msgid "Explore the season trophy"
+msgstr "Zobacz trofeum sezonu"
+
+#: templates/core/home.html:8
+msgid "Warcry · Poland"
+msgstr "Warcry · Polska"
+
+#: templates/core/home.html:9
+msgid "Play Warcry."
+msgstr "Graj w Warcry."
+
+#
+#: templates/core/home.html:9
+msgid "Earn achievements."
+msgstr "Zdobywaj osiągnięcia."
+
+#: templates/core/home.html:10
+msgid "Every tournament adds to your season. Collect all 14 achievements in 2026 to become eligible for a physical trophy."
+msgstr "Każdy turniej to kolejny krok w sezonie. Zdobądź wszystkie 14 osiągnięć w 2026 roku, aby uzyskać możliwość otrzymania fizycznego trofeum."
+
+#: templates/core/home.html:11 templates/core/trophies.html:30
+msgid "Explore the achievements"
+msgstr "Poznaj osiągnięcia"
+
+#
+#: templates/core/home.html:14 templates/core/trophies.html:25
+msgid "The complete collection"
+msgstr "Pełna kolekcja"
+
+#: templates/core/home.html:14
+msgid "Seasonal achievements"
+msgstr "Osiągnięcia sezonowe"
+
+#: templates/core/home.html:19
+msgid "The gathering of warbands"
+msgstr "Zgromadzenie band"
+
+#: templates/core/home.html:20 templates/core/player_detail.html:12
+msgid "Historical standings"
+msgstr "Ranking historyczny"
+
+#: templates/core/home.html:23
+msgid "Players"
+msgstr "Gracze"
+
+#: templates/core/home.html:24 templates/core/home.html:41
+#: templates/core/player_detail.html:19
+msgid "Events"
+msgstr "Wydarzenia"
+
+#: templates/core/home.html:25 templates/core/home.html:47
+#: templates/core/player_detail.html:20
+msgid "Battles"
+msgstr "Bitwy"
+
+#: templates/core/home.html:26
+msgid "Rank is determined by achievements. Wins order players within the same rank."
+msgstr "O miejscu decyduje liczba osiągnięć. Zwycięstwa ustalają kolejność graczy zajmujących to samo miejsce."
+
+#: templates/core/home.html:29
+msgid "Find a player in the season ranking"
+msgstr "Znajdź gracza w rankingu sezonu"
+
+#: templates/core/home.html:32 templates/core/home.html:33
+msgid "Find a player"
+msgstr "Znajdź gracza"
+
+#: templates/core/home.html:33
+msgid "Search Wartally nickname"
+msgstr "Wpisz pseudonim z Wartally"
+
+#: templates/core/home.html:37
+msgid "Clear search"
+msgstr "Wyczyść wyszukiwanie"
+
+#: templates/core/home.html:40
+#, python-format
+msgid "%(year)s historical achievement ranking, ordered by wins within shared ranks"
+msgstr "Historyczny ranking osiągnięć %(year)s, uporządkowany według zwycięstw w ramach wspólnych miejsc"
+
+#: templates/core/home.html:41 templates/core/player_detail.html:18
+msgid "Rank"
+msgstr "Miejsce"
+
+#: templates/core/home.html:41
+msgid "Player"
+msgstr "Gracz"
+
+#: templates/core/home.html:41 templates/core/player_detail.html:21
+msgid "Wins"
+msgstr "Zwycięstwa"
+
+#: templates/core/home.html:43
+#, fuzzy
+#| msgid "Player not found."
+msgid "No players found."
+msgstr "Nie znaleziono gracza."
+
+#: templates/core/home.html:47
+msgid "All achievements collected — eligible for the season trophy"
+msgstr "Wszystkie osiągnięcia zdobyte — prawo do trofeum sezonu"
+
+#: templates/core/home.html:47 templates/core/player_detail.html:22
+msgid "Opponents"
+msgstr "Rywale"
+
+#: templates/core/home.html:49
+#, python-format
+msgid "%(nickname)s: %(earned)s of %(total)s achievements"
+msgstr "%(nickname)s: %(earned)s z %(total)s osiągnięć"
+
+#: templates/core/home.html:49
+#, python-format
+msgid "%(earned)s of %(total)s"
+msgstr "%(earned)s z %(total)s"
+
+#: templates/core/home.html:52
+#, python-format
+msgid "No players match “%(query)s”. Try another nickname."
+msgstr "Nie znaleziono graczy pasujących do „%(query)s”. Spróbuj innego pseudonimu."
+
+#: templates/core/home.html:52
+msgid "The field is quiet. Season standings will appear when results are available."
+msgstr "Na polu bitwy cisza. Ranking sezonu pojawi się, gdy będą dostępne wyniki."
+
+#: templates/core/home.html:57
+msgid "Ranking pages"
+msgstr "Strony rankingu"
+
+#: templates/core/home.html:57
+#, python-format
+msgid "Players %(first)s–%(last)s of %(total)s"
+msgstr "Gracze %(first)s–%(last)s z %(total)s"
+
+#: templates/core/home.html:57
+msgid "Previous"
+msgstr "Poprzednia"
+
+#: templates/core/home.html:57
+#, python-format
+msgid "Page %(page)s of %(pages)s"
+msgstr "Strona %(page)s z %(pages)s"
+
+#: templates/core/home.html:57
+msgid "Next"
+msgstr "Następna"
+
+#: templates/core/home.html:59
+#, python-format
+msgid "Recorded Polish events through %(date)s. Names and achievements are a historical preview; player verification is pending. Prize rules will be announced separately."
+msgstr "Zarejestrowane wydarzenia w Polsce do %(date)s. Pseudonimy i osiągnięcia przedstawiają dane historyczne; weryfikacja graczy jest w toku. Zasady nagród zostaną ogłoszone osobno."
+
+#: templates/core/partials/achievement_card.html:8
+#: templates/core/player_detail.html:31
+msgid "Earned"
+msgstr "Zdobyte"
+
+#: templates/core/partials/achievement_card.html:8
+msgid "Not yet earned"
+msgstr "Jeszcze niezdobyte"
+
+#: templates/core/partials/achievement_card.html:10
+msgid "A moment to remember"
+msgstr "Chwila warta zapamiętania"
+
+#: templates/core/partials/achievement_card.html:10
+#, python-format
+msgid "Milestone %(level)s / 3"
+msgstr "Poziom %(level)s / 3"
+
+#: templates/core/partials/achievement_card.html:15
+msgid "Progress"
+msgstr "Postęp"
+
+#: templates/core/partials/achievement_card.html:16
+#, python-format
+msgid "%(name)s: %(current)s of %(target)s"
+msgstr "%(name)s: %(current)s z %(target)s"
+
+#: templates/core/partials/achievement_card.html:19
+msgid "Once per season"
+msgstr "Raz na sezon"
+
+#: templates/core/partials/join.html:12
+msgid "Join Warble"
+msgstr "Dołącz do Warble"
+
+#: templates/core/partials/join_dialog.html:5
+msgid "Your next chapter"
+msgstr "Twój kolejny rozdział"
+
+#: templates/core/partials/join_dialog.html:7
+msgid "Close join dialog"
+msgstr "Zamknij okno dołączania"
+
+#: templates/core/partials/join_dialog.html:10
+msgid "Enter the story."
+msgstr "Dołącz do opowieści."
+
+#: templates/core/partials/join_dialog.html:11
+msgid "Every adventurer has a name."
+msgstr "Każdy wojownik ma imię."
+
+#: templates/core/partials/join_dialog.html:11
+msgid "What do they call you on Wartally?"
+msgstr "Jak nazywasz się na Wartally?"
+
+#: templates/core/partials/join_dialog.html:13
+msgid "Verification is coming in a future chapter."
+msgstr "Weryfikacja pojawi się w kolejnym rozdziale."
+
+#: templates/core/partials/season_buttons.html:2
+#: templates/core/partials/season_buttons.html:6
+#: templates/core/trophies.html:19
+msgid "Season"
+msgstr "Sezon"
+
+#: templates/core/partials/season_buttons.html:11
+msgid "No seasons yet"
+msgstr "Brak sezonów"
+
+#
+#: templates/core/player_detail.html:3
+msgid "Player achievements"
+msgstr "Osiągnięcia gracza"
+
+#
+#: templates/core/player_detail.html:6
+msgid "Back to season ranking"
+msgstr "Wróć do rankingu sezonu"
+
+#: templates/core/player_detail.html:9
+msgid "Player chronicle"
+msgstr "Kronika gracza"
+
+#: templates/core/player_detail.html:11
+msgid "A season told through battles, rivals, and achievements."
+msgstr "Sezon opisany bitwami, rywalami i osiągnięciami."
+
+#: templates/core/player_detail.html:12
+msgid "Verification pending"
+msgstr "Oczekuje na weryfikację"
+
+#
+#: templates/core/player_detail.html:14
+msgid "Achievements earned"
+msgstr "Zdobyte osiągnięcia"
+
+#: templates/core/player_detail.html:14
+#, python-format
+msgid "of %(total)s this season"
+msgstr "z %(total)s w tym sezonie"
+
+#: templates/core/player_detail.html:26
+msgid "The badge collection"
+msgstr "Kolekcja odznak"
+
+#
+#: templates/core/player_detail.html:26
+msgid "Every deed, remembered."
+msgstr "Każdy czyn zostaje w pamięci."
+
+#: templates/core/player_detail.html:26
+#, python-format
+msgid "%(earned)s of %(total)s earned"
+msgstr "Zdobyte: %(earned)s z %(total)s"
+
+#: templates/core/player_detail.html:27
+msgid "No recorded events for this player in this season. Choose another season to see their achievements."
+msgstr "Brak zarejestrowanych wydarzeń tego gracza w tym sezonie. Wybierz inny sezon, aby zobaczyć jego osiągnięcia."
+
+#: templates/core/player_detail.html:35
+#, python-format
+msgid "Based on recorded Polish events through %(date)s. These achievements are a historical preview, not verified account awards or prize entries."
+msgstr "Na podstawie zarejestrowanych wydarzeń w Polsce do %(date)s. Osiągnięcia przedstawiają dane historyczne, a nie zweryfikowane odznaki konta ani zgłoszenia do nagród."
+
+#
+#: templates/core/trophies.html:8
+msgid "The spoils of a complete campaign"
+msgstr "Nagroda za pełną kampanię"
+
+#: templates/core/trophies.html:9
+msgid "Glory you can"
+msgstr "Chwała, którą możesz"
+
+#: templates/core/trophies.html:9
+msgid "hold in your hands."
+msgstr "trzymać w dłoniach."
+
+#: templates/core/trophies.html:10
+msgid "Every badge tells a story. The complete collection earns its place beyond the battlefield."
+msgstr "Każda odznaka opowiada historię. Pełna kolekcja zasługuje na coś więcej niż miejsce w rankingu."
+
+#: templates/core/trophies.html:15
+msgid "The 2026 trophy: a gold-toned horned war helm with a spiked halo and skull-lined pedestal."
+msgstr "Trofeum sezonu 2026: złocisty rogaty hełm z kolczastą aureolą na cokole ozdobionym czaszkami."
+
+#: templates/core/trophies.html:16
+#, python-format
+msgid "Warble · Season %(year)s"
+msgstr "Warble · Sezon %(year)s"
+
+#
+#: templates/core/trophies.html:20
+msgid "The season trophy"
+msgstr "Trofeum sezonu"
+
+#: templates/core/trophies.html:21
+#, python-format
+msgid "The %(year)s trophy"
+msgstr "Trofeum sezonu %(year)s"
+
+#: templates/core/trophies.html:22
+msgid "Beneath the gaze of the Dark Gods, glory belongs to those who endure every trial. Let this helm bear witness to your deeds, and let your rivals remember the name that rose from the ashes of the Eightpoints."
+msgstr "Pod spojrzeniem Mrocznych Bogów chwała należy do tych, którzy przetrwają każdą próbę. Niech ten hełm świadczy o twoich czynach, a rywale zapamiętają imię, które wyłoniło się z popiołu Eightpoints."
+
+#
+#: templates/core/trophies.html:25
+msgid "Every achievement. One season."
+msgstr "Wszystkie osiągnięcia. Jeden sezon."
+
+#
+#: templates/core/trophies.html:27
+msgid "Earn your eligibility"
+msgstr "Zdobądź prawo do nagrody"
+
+#: templates/core/trophies.html:28
+#, python-format
+msgid "Collect all %(total)s achievements during the %(year)s season to be eligible to earn a physical copy of this trophy."
+msgstr "Zdobądź wszystkie %(total)s osiągnięć w sezonie %(year)s, aby uzyskać możliwość otrzymania fizycznego egzemplarza tego trofeum."
+
+#: templates/core/trophies.html:29
+msgid "Achievement completion and Wartally account ownership must be verified before trophy eligibility is confirmed."
+msgstr "Przed potwierdzeniem prawa do trofeum wymagane jest zweryfikowanie zdobytych osiągnięć oraz własności konta Wartally."

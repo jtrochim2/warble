@@ -1,0 +1,1178 @@
+{
+  "version": 1,
+  "encid": "34333769eb3783",
+  "name": "Hałda Chaosu",
+  "game_system": "wc",
+  "format": "swiss",
+  "cardinality": "singles",
+  "tier": "standalone",
+  "type_description": "Tournament",
+  "state": "finished",
+  "access": "public",
+  "casual": false,
+  "scoring": {
+    "primary_points": "Result",
+    "secondary_points": "Victory points",
+    "tertiary_points": "Kill points",
+    "quaternary_points": "Strength of schedule"
+  },
+  "parent": null,
+  "organiser": "Michał \"Bułka\"",
+  "start": "2026-10-03",
+  "location": "Poland",
+  "address": "Katowice",
+  "link": "https://docs.google.com/document/d/1_Lj6a7CoynNhfE-8b-hUFSltFmYq324V27N9KNyEbMY/edit?usp=drivesdk",
+  "series": null,
+  "rounds": 3,
+  "current_round": 3,
+  "max_players": 12,
+  "participant_count": 12,
+  "battle_plans": [
+    {
+      "round": 1,
+      "title": "Skarby Południa"
+    },
+    {
+      "round": 2,
+      "title": "Fest dupny Gorewyrm tu jest!"
+    },
+    {
+      "round": 3,
+      "title": "Hałda Chaosu"
+    }
+  ],
+  "champion": null,
+  "participants": [
+    {
+      "encid": "3435323181483bea",
+      "name": "xyzq",
+      "faction": "Nighthaunt",
+      "dropped": false,
+      "managed": false,
+      "placement": 1,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 14,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 17,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 16,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 15,
+        "secondary_points": 47,
+        "tertiary_points": 0,
+        "quaternary_points": 37
+      }
+    },
+    {
+      "encid": "343532304c0a6230",
+      "name": "Pan Tulipan",
+      "faction": "Order of Azyr",
+      "dropped": false,
+      "managed": false,
+      "placement": 2,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 14,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 13,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 16,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 43,
+        "tertiary_points": 0,
+        "quaternary_points": 41
+      }
+    },
+    {
+      "encid": "34353234cc5d995d",
+      "name": "Pampararira",
+      "faction": "Soulblight Gravelords",
+      "dropped": false,
+      "managed": false,
+      "placement": 3,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 10,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 9,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 17,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 36,
+        "tertiary_points": 0,
+        "quaternary_points": 19
+      }
+    },
+    {
+      "encid": "343437386d7517cb",
+      "name": "Krzysztof H",
+      "faction": "Soulblight Gravelords",
+      "dropped": false,
+      "managed": false,
+      "placement": 4,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 10,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 9,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 13,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 32,
+        "tertiary_points": 0,
+        "quaternary_points": 32
+      }
+    },
+    {
+      "encid": "34343739264a5bf3",
+      "name": "Filip Kasolik",
+      "faction": "Maggotkin of Nurgle: Daemons",
+      "dropped": false,
+      "managed": false,
+      "placement": 5,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 10,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 13,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 8,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 31,
+        "tertiary_points": 0,
+        "quaternary_points": 23
+      }
+    },
+    {
+      "encid": "343532328dd48a1a",
+      "name": "Wojciu",
+      "faction": "Claws of Karanak",
+      "dropped": false,
+      "managed": false,
+      "placement": 6,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 11,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 12,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 5,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 28,
+        "tertiary_points": 0,
+        "quaternary_points": 28
+      }
+    },
+    {
+      "encid": "34353132a52a23aa",
+      "name": "Jagoda",
+      "faction": "Gloomspite Gitz",
+      "dropped": false,
+      "managed": false,
+      "placement": 7,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 12,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 9,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 3,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 11,
+        "secondary_points": 24,
+        "tertiary_points": 0,
+        "quaternary_points": 32
+      }
+    },
+    {
+      "encid": "34353235f821b679",
+      "name": "Jaco Fluffy Babbler",
+      "faction": "Blades of Khorne: Bloodbound",
+      "dropped": false,
+      "managed": false,
+      "placement": 8,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 10,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 6,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 14,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 30,
+        "tertiary_points": 0,
+        "quaternary_points": 23
+      }
+    },
+    {
+      "encid": "343531336a6b231f",
+      "name": "Grabski",
+      "faction": "Hedonites of Slaanesh: Sybarites",
+      "dropped": false,
+      "managed": false,
+      "placement": 9,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 12,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 9,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 5,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 26,
+        "tertiary_points": 0,
+        "quaternary_points": 32
+      }
+    },
+    {
+      "encid": "3434373719ae21fc",
+      "name": "Michał \"Bułka\"",
+      "faction": "Cities of Sigmar: Dispossessed",
+      "dropped": false,
+      "managed": false,
+      "placement": 10,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 5,
+            "secondary_points": 12,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 7,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 5,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 7,
+        "secondary_points": 24,
+        "tertiary_points": 0,
+        "quaternary_points": 28
+      }
+    },
+    {
+      "encid": "34353838d4d7bf3b",
+      "name": "Złowieszcza Gęś",
+      "faction": "Stormcast Eternals Sacrosanct Chamber",
+      "dropped": false,
+      "managed": false,
+      "placement": 11,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 10,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 9,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 3,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 3,
+        "secondary_points": 22,
+        "tertiary_points": 0,
+        "quaternary_points": 32
+      }
+    },
+    {
+      "encid": "343530301b728dfc",
+      "name": "Kacper",
+      "faction": "Gloomspite Gitz",
+      "dropped": false,
+      "managed": false,
+      "placement": 11,
+      "round_scores": [
+        {
+          "round": 1,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 10,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 2,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 7,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        },
+        {
+          "round": 3,
+          "points": {
+            "primary_points": 1,
+            "secondary_points": 5,
+            "tertiary_points": 0,
+            "quaternary_points": null
+          }
+        }
+      ],
+      "total_score": {
+        "primary_points": 3,
+        "secondary_points": 22,
+        "tertiary_points": 0,
+        "quaternary_points": 32
+      }
+    }
+  ],
+  "battles": [
+    {
+      "encid": "363834316aca32df",
+      "round": 1,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "343532304c0a6230",
+      "created_at": "2026-10-03T08:32:51Z",
+      "players": [
+        {
+          "participant": "343532304c0a6230",
+          "name": "Pan Tulipan",
+          "faction": "Order of Azyr",
+          "values": {
+            "result": 5,
+            "victory_points": 14,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "34353234cc5d995d",
+          "name": "Pampararira",
+          "faction": "Soulblight Gravelords",
+          "values": {
+            "result": 1,
+            "victory_points": 10,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383432d8d3f851",
+      "round": 1,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Michał \"Bułka\" wins",
+      "winner": "3434373719ae21fc",
+      "created_at": "2026-10-03T08:32:52Z",
+      "players": [
+        {
+          "participant": "34353838d4d7bf3b",
+          "name": "Złowieszcza Gęś",
+          "faction": "Stormcast Eternals Sacrosanct Chamber",
+          "values": {
+            "result": 1,
+            "victory_points": 10,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "3434373719ae21fc",
+          "name": "Michał \"Bułka\"",
+          "faction": "Cities of Sigmar: Dispossessed",
+          "values": {
+            "result": 5,
+            "victory_points": 12,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363834339811e20b",
+      "round": 1,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Jagoda wins",
+      "winner": "34353132a52a23aa",
+      "created_at": "2026-10-03T08:32:52Z",
+      "players": [
+        {
+          "participant": "34353132a52a23aa",
+          "name": "Jagoda",
+          "faction": "Gloomspite Gitz",
+          "values": {
+            "result": 5,
+            "victory_points": 12,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "34343739264a5bf3",
+          "name": "Filip Kasolik",
+          "faction": "Maggotkin of Nurgle: Daemons",
+          "values": {
+            "result": 1,
+            "victory_points": 10,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383434e3020bc8",
+      "round": 1,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Grabski wins",
+      "winner": "343531336a6b231f",
+      "created_at": "2026-10-03T08:32:52Z",
+      "players": [
+        {
+          "participant": "34353235f821b679",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 1,
+            "victory_points": 10,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343531336a6b231f",
+          "name": "Grabski",
+          "faction": "Hedonites of Slaanesh: Sybarites",
+          "values": {
+            "result": 5,
+            "victory_points": 12,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3638343577ddf57f",
+      "round": 1,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "3435323181483bea",
+      "created_at": "2026-10-03T08:32:52Z",
+      "players": [
+        {
+          "participant": "3435323181483bea",
+          "name": "xyzq",
+          "faction": "Nighthaunt",
+          "values": {
+            "result": 5,
+            "victory_points": 14,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343437386d7517cb",
+          "name": "Krzysztof H",
+          "faction": "Soulblight Gravelords",
+          "values": {
+            "result": 1,
+            "victory_points": 10,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3638343640c94aae",
+      "round": 1,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Wojciu wins",
+      "winner": "343532328dd48a1a",
+      "created_at": "2026-10-03T08:32:52Z",
+      "players": [
+        {
+          "participant": "343532328dd48a1a",
+          "name": "Wojciu",
+          "faction": "Claws of Karanak",
+          "values": {
+            "result": 5,
+            "victory_points": 11,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343530301b728dfc",
+          "name": "Kacper",
+          "faction": "Gloomspite Gitz",
+          "values": {
+            "result": 1,
+            "victory_points": 10,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363834370e7605ef",
+      "round": 2,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Jagoda wins",
+      "winner": "34353132a52a23aa",
+      "created_at": "2026-10-03T10:07:29Z",
+      "players": [
+        {
+          "participant": "3434373719ae21fc",
+          "name": "Michał \"Bułka\"",
+          "faction": "Cities of Sigmar: Dispossessed",
+          "values": {
+            "result": 1,
+            "victory_points": 7,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "34353132a52a23aa",
+          "name": "Jagoda",
+          "faction": "Gloomspite Gitz",
+          "values": {
+            "result": 5,
+            "victory_points": 9,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383438bb0f3ea8",
+      "round": 2,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "3435323181483bea",
+      "created_at": "2026-10-03T10:07:29Z",
+      "players": [
+        {
+          "participant": "343532304c0a6230",
+          "name": "Pan Tulipan",
+          "faction": "Order of Azyr",
+          "values": {
+            "result": 1,
+            "victory_points": 13,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "3435323181483bea",
+          "name": "xyzq",
+          "faction": "Nighthaunt",
+          "values": {
+            "result": 5,
+            "victory_points": 17,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383439898b657c",
+      "round": 2,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Wojciu wins",
+      "winner": "343532328dd48a1a",
+      "created_at": "2026-10-03T10:07:29Z",
+      "players": [
+        {
+          "participant": "343531336a6b231f",
+          "name": "Grabski",
+          "faction": "Hedonites of Slaanesh: Sybarites",
+          "values": {
+            "result": 1,
+            "victory_points": 9,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343532328dd48a1a",
+          "name": "Wojciu",
+          "faction": "Claws of Karanak",
+          "values": {
+            "result": 5,
+            "victory_points": 12,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3638353015fcd3f8",
+      "round": 2,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Filip Kasolik wins",
+      "winner": "34343739264a5bf3",
+      "created_at": "2026-10-03T10:07:29Z",
+      "players": [
+        {
+          "participant": "34353838d4d7bf3b",
+          "name": "Złowieszcza Gęś",
+          "faction": "Stormcast Eternals Sacrosanct Chamber",
+          "values": {
+            "result": 1,
+            "victory_points": 9,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "34343739264a5bf3",
+          "name": "Filip Kasolik",
+          "faction": "Maggotkin of Nurgle: Daemons",
+          "values": {
+            "result": 5,
+            "victory_points": 13,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383531a8f766bf",
+      "round": 2,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pampararira wins",
+      "winner": "34353234cc5d995d",
+      "created_at": "2026-10-03T10:07:29Z",
+      "players": [
+        {
+          "participant": "34353234cc5d995d",
+          "name": "Pampararira",
+          "faction": "Soulblight Gravelords",
+          "values": {
+            "result": 5,
+            "victory_points": 9,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343530301b728dfc",
+          "name": "Kacper",
+          "faction": "Gloomspite Gitz",
+          "values": {
+            "result": 1,
+            "victory_points": 7,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383532650372b3",
+      "round": 2,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Krzysztof H wins",
+      "winner": "343437386d7517cb",
+      "created_at": "2026-10-03T10:07:29Z",
+      "players": [
+        {
+          "participant": "34353235f821b679",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 1,
+            "victory_points": 6,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343437386d7517cb",
+          "name": "Krzysztof H",
+          "faction": "Soulblight Gravelords",
+          "values": {
+            "result": 5,
+            "victory_points": 9,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3638353366b8e533",
+      "round": 3,
+      "table": 1,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "xyzq wins",
+      "winner": "3435323181483bea",
+      "created_at": "2026-10-03T12:13:22Z",
+      "players": [
+        {
+          "participant": "3435323181483bea",
+          "name": "xyzq",
+          "faction": "Nighthaunt",
+          "values": {
+            "result": 5,
+            "victory_points": 16,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343532328dd48a1a",
+          "name": "Wojciu",
+          "faction": "Claws of Karanak",
+          "values": {
+            "result": 1,
+            "victory_points": 5,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363835349795fe99",
+      "round": 3,
+      "table": 2,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Filip Kasolik wins",
+      "winner": "34343739264a5bf3",
+      "created_at": "2026-10-03T12:13:22Z",
+      "players": [
+        {
+          "participant": "34343739264a5bf3",
+          "name": "Filip Kasolik",
+          "faction": "Maggotkin of Nurgle: Daemons",
+          "values": {
+            "result": 5,
+            "victory_points": 8,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343531336a6b231f",
+          "name": "Grabski",
+          "faction": "Hedonites of Slaanesh: Sybarites",
+          "values": {
+            "result": 1,
+            "victory_points": 5,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3638353588111259",
+      "round": 3,
+      "table": 3,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Krzysztof H wins",
+      "winner": "343437386d7517cb",
+      "created_at": "2026-10-03T12:13:22Z",
+      "players": [
+        {
+          "participant": "3434373719ae21fc",
+          "name": "Michał \"Bułka\"",
+          "faction": "Cities of Sigmar: Dispossessed",
+          "values": {
+            "result": 1,
+            "victory_points": 5,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343437386d7517cb",
+          "name": "Krzysztof H",
+          "faction": "Soulblight Gravelords",
+          "values": {
+            "result": 5,
+            "victory_points": 13,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "363835361125dae4",
+      "round": 3,
+      "table": 4,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pan Tulipan wins",
+      "winner": "343532304c0a6230",
+      "created_at": "2026-10-03T12:13:22Z",
+      "players": [
+        {
+          "participant": "34353132a52a23aa",
+          "name": "Jagoda",
+          "faction": "Gloomspite Gitz",
+          "values": {
+            "result": 1,
+            "victory_points": 3,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "343532304c0a6230",
+          "name": "Pan Tulipan",
+          "faction": "Order of Azyr",
+          "values": {
+            "result": 5,
+            "victory_points": 16,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "36383537d009e6bc",
+      "round": 3,
+      "table": 5,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Jaco Fluffy Babbler wins",
+      "winner": "34353235f821b679",
+      "created_at": "2026-10-03T12:13:23Z",
+      "players": [
+        {
+          "participant": "343530301b728dfc",
+          "name": "Kacper",
+          "faction": "Gloomspite Gitz",
+          "values": {
+            "result": 1,
+            "victory_points": 5,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "34353235f821b679",
+          "name": "Jaco Fluffy Babbler",
+          "faction": "Blades of Khorne: Bloodbound",
+          "values": {
+            "result": 5,
+            "victory_points": 14,
+            "kill_points": 0
+          }
+        }
+      ]
+    },
+    {
+      "encid": "3638353821e29717",
+      "round": 3,
+      "table": 6,
+      "matchup": null,
+      "state": "locked_for_editing",
+      "bye": false,
+      "finished": true,
+      "result": "Pampararira wins",
+      "winner": "34353234cc5d995d",
+      "created_at": "2026-10-03T12:13:23Z",
+      "players": [
+        {
+          "participant": "34353234cc5d995d",
+          "name": "Pampararira",
+          "faction": "Soulblight Gravelords",
+          "values": {
+            "result": 5,
+            "victory_points": 17,
+            "kill_points": 0
+          }
+        },
+        {
+          "participant": "34353838d4d7bf3b",
+          "name": "Złowieszcza Gęś",
+          "faction": "Stormcast Eternals Sacrosanct Chamber",
+          "values": {
+            "result": 1,
+            "victory_points": 3,
+            "kill_points": 0
+          }
+        }
+      ]
+    }
+  ],
+  "votes": []
+}

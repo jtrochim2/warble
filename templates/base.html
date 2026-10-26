@@ -1,0 +1,74 @@
+{% load static i18n %}
+<!doctype html>
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#191718">
+  <meta name="description" content="{% translate "Play Warcry. Earn achievements. Follow the season ranking on Warble." %}">
+  <title>{% block title %}Warble — {% translate "Season ranking" %}{% endblock %}</title>
+  <link rel="preload" as="image" href="{% static 'images/ashfall-citadel.webp' %}">
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+  {% if request.static_export %}<script src="{% static 'js/static-site.js' %}" defer></script>{% else %}<script src="{% static 'js/join.js' %}" defer></script>{% endif %}
+  <script src="{% static 'js/seasons.js' %}" defer></script>
+  <script src="{% static 'js/atmosphere.js' %}" defer></script>
+  <script src="{% static 'js/torches.js' %}" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.11/dist/htmx.min.js"
+          integrity="sha384-2OatzQy1H+Zd/IIrjr1TcuDGqLXeHhbooAyJY1KdQMKnr4LZ22k31GBLdYKHmVjg"
+          crossorigin="anonymous" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">{% translate "Skip to content" %}</a>
+  <div class="world" aria-hidden="true">
+    <div class="world-art">
+      <div class="world-torches" data-torch-fire data-fire-source="{% static 'images/ashfall-citadel.webp' %}"></div>
+    </div>
+    <div class="world-shade"></div>
+    <div class="world-smoke world-smoke-far"></div>
+    <div class="world-smoke world-smoke-near"></div>
+    <div class="embers" data-embers></div>
+    <div class="world-grain"></div>
+  </div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a href="{% url 'core:home' %}" class="brand" aria-label="{% translate "Warble home" %}">
+        <span>warble</span>
+      </a>
+      <nav class="site-nav" aria-label="{% translate "Main navigation" %}">
+        <a href="{% url 'core:home' %}"{% if active_page == 'ranking' %} aria-current="page"{% endif %}>{% translate "Ranking" %}</a>
+        <a href="{% url 'core:achievements' %}"{% if active_page == 'achievements' %} aria-current="page"{% endif %}>{% translate "Achievements" %}</a>
+        <a href="{% url 'core:trophies' %}"{% if active_page == 'trophies' %} aria-current="page"{% endif %}>{% translate "Trophies" %}</a>
+      </nav>
+      {% if request.static_export %}
+      <nav class="language-switch" aria-label="{% translate 'Language' %}">
+        <a href="/__language__/pl{{ request.static_source_path }}" lang="pl"{% if LANGUAGE_CODE == 'pl' %} aria-current="page"{% endif %}>PL</a>
+        <a href="/__language__/en{{ request.static_source_path }}" lang="en"{% if LANGUAGE_CODE == 'en' %} aria-current="page"{% endif %}>EN</a>
+      </nav>
+      {% else %}
+      <form class="language-switch" action="{% url 'set_language' %}" method="post" aria-label="{% translate 'Language' %}">
+        {% csrf_token %}
+        <input type="hidden" name="next" value="{{ request.get_full_path }}">
+        <button type="submit" name="language" value="pl" lang="pl" aria-label="Polski" aria-pressed="{% if LANGUAGE_CODE == 'pl' %}true{% else %}false{% endif %}">PL</button>
+        <button type="submit" name="language" value="en" lang="en" aria-label="English" aria-pressed="{% if LANGUAGE_CODE == 'en' %}true{% else %}false{% endif %}">EN</button>
+      </form>
+      {% endif %}
+      <button type="button" class="button button-header" disabled>
+        <span>{% translate "Join with" %}</span>
+        <img class="wartally-logo" src="https://wartally.com/assets/wt-logo-kunz-white-4b795892.png" alt="Wartally" width="72" height="24" decoding="async">
+      </button>
+    </header>
+    <main id="main" hx-history-elt>{% block content %}{% endblock %}</main>
+    {% if not request.static_export %}{% include "core/partials/join_dialog.html" %}{% endif %}
+    <footer class="site-footer">
+      <div class="chapter"><span class="chapter-number">I</span><span class="chapter-rule"></span><span>{% translate "Play. Achieve. Return." %}</span></div>
+      <div class="scene-credit"><span class="scene-dot"></span>{% translate "The Ashen Marches" %}</div>
+      <button class="motion-toggle" type="button" data-motion-toggle data-play-label="{% translate 'Play atmosphere' %}" data-pause-label="{% translate 'Pause atmosphere' %}" hidden aria-pressed="false" aria-label="{% translate "Pause atmosphere" %}">
+        <svg class="pause-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 3v10M11 3v10" stroke="currentColor" stroke-width="1.5"/></svg>
+        <svg class="play-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m5 3 8 5-8 5Z" stroke="currentColor"/></svg>
+        <span data-motion-label>{% translate "Pause atmosphere" %}</span>
+      </button>
+    </footer>
+  </div>
+</body>
+</html>
