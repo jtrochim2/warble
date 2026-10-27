@@ -64,6 +64,7 @@
     <footer class="site-footer">
       <div class="chapter"><span class="chapter-number">I</span><span class="chapter-rule"></span><span>{% translate "Play. Achieve. Return." %}</span></div>
       <div class="scene-credit"><span class="scene-dot"></span>{% translate "The Ashen Marches" %}</div>
+      <a class="welcome-reset" href="{% url 'core:home' %}" data-welcome-reset hidden>{% translate "Replay welcome" %} <span aria-hidden="true">↻</span></a>
       <button class="motion-toggle" type="button" data-motion-toggle data-play-label="{% translate 'Play atmosphere' %}" data-pause-label="{% translate 'Pause atmosphere' %}" hidden aria-pressed="false" aria-label="{% translate "Pause atmosphere" %}">
         <svg class="pause-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 3v10M11 3v10" stroke="currentColor" stroke-width="1.5"/></svg>
         <svg class="play-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m5 3 8 5-8 5Z" stroke="currentColor"/></svg>

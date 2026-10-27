@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Warble 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 20:40+0000\n"
+"POT-Creation-Date: 2026-10-27 06:28+0000\n"
 "PO-Revision-Date: 2026-10-25 00:00+0000\n"
 "Last-Translator: Warble contributors\n"
 "Language-Team: Polish\n"
@@ -233,10 +233,14 @@ msgid "The Ashen Marches"
 msgstr "Popielne Pogranicze"
 
 #: templates/base.html:67
+msgid "Replay welcome"
+msgstr "Powtórz powitanie"
+
+#: templates/base.html:68
 msgid "Play atmosphere"
 msgstr "Włącz animacje"
 
-#: templates/base.html:67 templates/base.html:70
+#: templates/base.html:68 templates/base.html:71
 msgid "Pause atmosphere"
 msgstr "Wstrzymaj animacje"
 

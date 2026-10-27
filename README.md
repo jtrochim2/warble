@@ -87,10 +87,13 @@ New accounts have `is_active=False` and an unusable password, following [Django'
 ## Visual design
 
 On the first ranking visit, an animated welcome introduces the season for 7 seconds,
-then reveals the standings. The “Enter the ranking” button and Escape skip it.
-Later visits go straight to the ranking, using the browser-local
+then reveals the standings. The stationary fortress emerges from darkness, the
+torches flare, embers rise, a brass line draws in, and the headline appears in
+two stages as the achievement seal glows and cools. The “Enter the ranking” button and Escape skip it.
+The hero remains above the ranking after the welcome and on later visits.
+Only the introduction animation is skipped, using the browser-local
 `warble-welcome-seen` flag (shared by both languages and seasons). Reduced-motion
-and paused-atmosphere preferences skip the welcome. Without JavaScript, the hero
+and paused-atmosphere preferences skip the animation and show the hero and ranking immediately. Without JavaScript, the hero
 and ranking remain visible. Clearing browser storage allows the welcome again.
 
 Each achievement has a unique original illustrated trophy in `static/images/badges/`, with iron, bone, brass, and dark red details. The catalog shows full-color artwork; player collections subdue unearned badges in grayscale. The shared card keeps translated names, requirements, and explicit earned states alongside the artwork. See [badge designs and generation prompts](docs/badges.md).
@@ -113,6 +116,7 @@ The landing page features original Warcry-inspired ruined-fortress artwork, a st
 ```sh
 uv run python manage.py check            # Django configuration checks
 uv run python manage.py test             # Rendering, validation, CSRF, escaping
+node scripts/test_welcome.cjs             # Welcome timing, skipping, preferences
 uv run ruff check .                      # Python linting
 uv run ruff format .                     # Python formatting
 uv run python manage.py createsuperuser  # Optional admin user (after migrate)
