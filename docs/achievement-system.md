@@ -1,12 +1,12 @@
-# Warble achievement system — proposal v0.1
+# Warble achievement system — proposal v0.2
 
-Status: the catalog and historical ranking preview are implemented. Verified account awards and prize eligibility are not implemented. The selected 2026 trophy requirement is to collect all 14 seasonal achievements. Verified eligibility and physical fulfillment are not yet implemented.
+Status: the catalog and historical ranking preview are implemented. Verified account awards and prize eligibility are not implemented. The selected 2026 trophy requirement is to collect all 15 seasonal achievements. Verified eligibility and physical fulfillment are not yet implemented.
 
 ## Purpose and season
 
 Encourage people to play Polish Warcry events, return during the season, meet different opponents, and celebrate memorable results. Use a calendar-year season with dates published before launch. Achievements reset each season; previous seasons remain visible on profiles.
 
-Start with **14 achievements, visible progress, and no points currency**. Each achievement is earned once per season. Tiered tracks are cumulative: reaching the third tier also earns the first two. The landing page ranks players by achievements earned, with shared consecutive places for equal achievement totals (1, 1, 2). Wins determine display order within each shared rank, followed by alphabetical order; neither changes the rank. This ranking is separate from any future prize mechanism.
+Start with **15 achievements, visible progress, and no points currency**. Each achievement is earned once per season. Tiered tracks are cumulative: reaching the third tier also earns the first two. The landing page ranks players by achievements earned, with shared consecutive places for equal achievement totals (1, 1, 2). Wins determine display order within each shared rank, followed by alphabetical order; neither changes the rank. This ranking is separate from any future prize mechanism.
 
 ## Calibration
 
@@ -22,6 +22,15 @@ The [historical analysis](poland-warcry-2025-2026.md) provides seven detailed 20
 
 Opponent counts are distinct people across the season, regardless of result. Rematches still count as battles and can produce wins, but do not add another distinct opponent.
 
+## Loyality
+
+Complete at least 3 distinct tournaments with the same primary faction in a season.
+They need not be consecutive. Reuse the completed-event requirement; leagues,
+missing faction labels, and incomplete tournaments are excluded. Progress is the
+largest completed-tournament count for any one primary faction. Allies do not count.
+The English display name follows the requested spelling “Loyality”; Polish is
+“Lojalność”. This is the fifteenth badge and is required for the full-collection trophy.
+
 ## Five memorable achievements
 
 | Achievement | Requirement | Qualifiers in 2026 subset |
@@ -34,7 +43,7 @@ Opponent counts are distinct people across the season, regardless of result. Rem
 
 Draws are allowed for Unbroken. Byes are not wins. Many Faces uses the event's primary roster faction, not allies; normalize faction renames before granting it. Official tied podium positions qualify unless the organizer publishes a resolved placing.
 
-In the backtest, 20 of 46 names earn at most three badges, and two earn all fourteen. This gives occasional attendees an attainable start while leaving progression for regulars. Many Faces is part of the full collection required for the 2026 trophy. Its primary-faction labels must be reconciled before completion is verified.
+In the backtest, 20 of 46 names earn at most three badges, and one earns all fifteen after adding Loyality. This gives occasional attendees an attainable start while leaving progression for regulars. Many Faces is part of the full collection required for the 2026 trophy. Its primary-faction labels must be reconciled before completion is verified.
 
 ## What counts
 
@@ -47,7 +56,7 @@ In the backtest, 20 of 46 names earn at most three badges, and two earn all four
 
 ## Season trophy eligibility — selected requirement
 
-A player who collects all 14 achievements during the 2026 season is eligible to earn a physical copy of the 2026 trophy. Account ownership and achievement completion must be verified before eligibility is confirmed. This supersedes the earlier proposed First Muster prize-draw model.
+A player who collects all 15 achievements during the 2026 season is eligible to earn a physical copy of the 2026 trophy. Account ownership and achievement completion must be verified before eligibility is confirmed. This supersedes the earlier proposed First Muster prize-draw model.
 
 The trophy page at `/trophies/` displays the user-supplied `trophy.png` as the 2026 trophy, delivered through an optimized local WebP. It describes the collection requirement in English and Polish. Completing the historical preview does not automatically grant an award or initiate fulfillment. Stock, distribution, selection among eligible players, and delivery arrangements have not been specified and are not invented by the application.
 

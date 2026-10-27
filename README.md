@@ -12,7 +12,7 @@ uv run python manage.py migrate
 uv run python manage.py runserver
 ```
 
-Open http://127.0.0.1:8000/ for the season ranking. Visit `/achievements/` for the 14 badge requirements and counting rules. The top-right **Join with Wartally** button is currently disabled. The Django join endpoint and dialog remain implemented for future activation. Enter a Wartally nickname (for example, `jtrochim`) and submit to create a Django user. Close the dialog with Escape, the close button, or a click on the backdrop. HTMX updates the form in place; without JavaScript, a successful submission redirects to the home page with the dialog open so refreshing does not resubmit it. Values are validated by a Django form, escaped by the template engine, and protected by Django CSRF middleware.
+Open http://127.0.0.1:8000/ for the season ranking. Visit `/achievements/` for the 15 badge requirements and counting rules. The top-right **Join with Wartally** button is currently disabled. The Django join endpoint and dialog remain implemented for future activation. Enter a Wartally nickname (for example, `jtrochim`) and submit to create a Django user. Close the dialog with Escape, the close button, or a click on the backdrop. HTMX updates the form in place; without JavaScript, a successful submission redirects to the home page with the dialog open so refreshing does not resubmit it. Values are validated by a Django form, escaped by the template engine, and protected by Django CSRF middleware.
 
 HTMX is loaded from a version-pinned CDN URL with subresource integrity, following the [HTMX installation documentation](https://htmx.org/docs/). An internet connection is required for the enhanced interaction; the standard form works without it.
 
@@ -68,15 +68,19 @@ These maintenance commands require GNU gettext. Catalog labels in `core/achievem
 
 The landing page ranks historical players by achievements earned, with shared places for equal achievement totals (1, 1, 2). Wins determine display order within each shared rank, followed by alphabetical order; neither changes the rank. Switch immediately with the styled 2025 / 2026 season buttons, search a nickname, or browse the paginated results. Season changes use HTMX to update the main content without a full-page reload, preserve scroll position and the submitted search, and reset pagination. The URL and Back/Forward history track the chosen year. Without HTMX, the same links navigate normally. Ranking positions remain global when searching.
 
+“Loyality” requires 3 completed tournaments with the same primary faction in one
+season. Leagues, incomplete tournaments, and missing factions do not count; the
+tournaments need not be consecutive. Progress is the largest count for any faction.
+
 `core/achievements.py` is the shared catalog and evaluator used by both the website and the backtest. `core/rankings.py` reads the local research snapshot, with a cache that refreshes when the file changes. Missing research data produces an empty state. The page labels the snapshot as historical and unverified; it does not create account awards or automatically confirm trophy eligibility.
 
-Click a player nickname in the ranking to open `/players/<nickname>/`. The player chronicle shows all 14 badges, earned and unearned states, per-badge progress, seasonal statistics, and matching year buttons for immediate season changes without reloading the page. Players absent from the selected year have an empty collection for that year; unknown nicknames return 404. Profiles share the historical preview and pending-verification status of the ranking.
+Click a player nickname in the ranking to open `/players/<nickname>/`. The player chronicle shows all 15 badges, earned and unearned states, per-badge progress, seasonal statistics, and matching year buttons for immediate season changes without reloading the page. Players absent from the selected year have an empty collection for that year; unknown nicknames return 404. Profiles share the historical preview and pending-verification status of the ranking.
 
 The Join dialog is shared across the ranking, achievements, and player pages. The artwork, motion control, and reduced-motion behavior remain available throughout the site.
 
 ## Trophies
 
-`/trophies/` showcases the 2026 season trophy using the supplied `trophy.png`. The original is preserved; `static/images/trophies/season-2026.webp` is the optimized web asset. Collecting all 14 achievements during the 2026 season makes a player eligible to earn a physical copy, subject to account-ownership and achievement verification. The page supports Polish and English and links to the achievement catalog and 2026 ranking. It does not initiate trophy fulfillment or guarantee delivery.
+`/trophies/` showcases the 2026 season trophy using the supplied `trophy.png`. The original is preserved; `static/images/trophies/season-2026.webp` is the optimized web asset. Collecting all 15 achievements during the 2026 season makes a player eligible to earn a physical copy, subject to account-ownership and achievement verification. The page supports Polish and English and links to the achievement catalog and 2026 ranking. It does not initiate trophy fulfillment or guarantee delivery.
 
 ## Joining and verification
 

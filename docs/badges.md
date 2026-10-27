@@ -5,7 +5,7 @@ Each achievement has its own original illustrated trophy. The family uses rough 
 ## Delivery and display
 
 - Generation: built-in imagegen tool, one transparent image per achievement.
-- Runtime files: `static/images/badges/<achievement_key>.webp`, each 512 × 512 with preserved alpha transparency; 1,337 KiB for the full set.
+- Runtime files: `static/images/badges/<achievement_key>.webp`, each 512 × 512 with preserved alpha transparency; optimized for web delivery.
 - Shared use: the achievement catalog and player badge collection use `core/achievements.py` and `templates/core/partials/achievement_card.html`.
 - Earned badges display in color; unearned badges use the same illustration in subdued grayscale, with a separate text status.
 - Images are decorative next to translated names and requirements, have empty alt text, and load lazily.
@@ -105,3 +105,13 @@ A heavy bronze skull medallion hanging from a short chain above a three-level ro
 File: `static/images/badges/champion.webp`
 
 A brutal jagged iron crown with broad triangular spikes set above a central weathered bone skull, a dark crimson cabochon in its brow, heavy aged brass lower rim and small broken iron laurels. The most prestigious badge, powerful crown silhouette, no elegant royal filigree.
+
+### Loyality
+
+File: `static/images/badges/loyality.webp`
+
+A single torn oxblood war banner on a jagged iron pole, bound by three interlocking
+iron oath rings, with a weathered bone skull at its foot. Original sculpted miniature
+style: rough charcoal iron, aged brass, bone and dark red cloth, warm upper-left
+light, isolated transparent background, no text or official faction insignia.
+Generated individually and optimized to 512 × 512 WebP with alpha transparency.

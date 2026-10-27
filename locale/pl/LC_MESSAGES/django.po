@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Warble 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 06:28+0000\n"
+"POT-Creation-Date: 2026-10-27 07:49+0000\n"
 "PO-Revision-Date: 2026-10-25 00:00+0000\n"
 "Last-Translator: Warble contributors\n"
 "Language-Team: Polish\n"
@@ -70,90 +70,98 @@ msgid "Complete 5 events during the season."
 msgstr "Ukończ 5 wydarzeń w sezonie."
 
 #: core/achievements.py:69
+msgid "Loyality"
+msgstr "Lojalność"
+
+#: core/achievements.py:73
+msgid "Complete 3 tournaments with the same primary faction during the season."
+msgstr "Ukończ 3 turnieje tą samą główną frakcją w jednym sezonie."
+
+#: core/achievements.py:78
 msgid "First Blood"
 msgstr "Pierwsza krew"
 
-#: core/achievements.py:73
+#: core/achievements.py:82
 msgid "Win your first battle against an opponent."
 msgstr "Wygraj pierwszą bitwę z rywalem."
 
-#: core/achievements.py:78
+#: core/achievements.py:87
 msgid "Proven Fighter"
 msgstr "Sprawdzony wojownik"
 
-#: core/achievements.py:82
+#: core/achievements.py:91
 msgid "Win 5 battles against opponents during the season."
 msgstr "Wygraj 5 bitew z rywalami w sezonie."
 
-#: core/achievements.py:87
+#: core/achievements.py:96
 msgid "Battle Hardened"
 msgstr "Zahartowany w boju"
 
-#: core/achievements.py:91
+#: core/achievements.py:100
 msgid "Win 10 battles against opponents during the season."
 msgstr "Wygraj 10 bitew z rywalami w sezonie."
 
-#: core/achievements.py:96
+#: core/achievements.py:105
 msgid "Crossed Blades"
 msgstr "Skrzyżowane ostrza"
 
-#: core/achievements.py:100
+#: core/achievements.py:109
 msgid "Face 5 different opponents during the season."
 msgstr "Zmierz się z 5 różnymi rywalami w sezonie."
 
-#: core/achievements.py:105
+#: core/achievements.py:114
 msgid "Known Rival"
 msgstr "Znany rywal"
 
-#: core/achievements.py:109
+#: core/achievements.py:118
 msgid "Face 10 different opponents during the season."
 msgstr "Zmierz się z 10 różnymi rywalami w sezonie."
 
-#: core/achievements.py:114
+#: core/achievements.py:123
 msgid "Across the Warlands"
 msgstr "Przez krainy wojny"
 
-#: core/achievements.py:118
+#: core/achievements.py:127
 msgid "Face 15 different opponents during the season."
 msgstr "Zmierz się z 15 różnymi rywalami w sezonie."
 
-#: core/achievements.py:123
+#: core/achievements.py:132
 msgid "Many Faces"
 msgstr "Wiele twarzy"
 
-#: core/achievements.py:127
+#: core/achievements.py:136
 msgid "Play 2 different primary factions at events during the season."
 msgstr "Zagraj 2 różnymi głównymi frakcjami na wydarzeniach w sezonie."
 
-#: core/achievements.py:132
+#: core/achievements.py:141
 msgid "Rise Again"
 msgstr "Powstań ponownie"
 
-#: core/achievements.py:136
+#: core/achievements.py:145
 msgid "Lose a battle, then win a later battle at the same event."
 msgstr "Przegraj bitwę, a następnie wygraj późniejszą bitwę podczas tego samego wydarzenia."
 
-#: core/achievements.py:141
+#: core/achievements.py:150
 msgid "Unbroken"
 msgstr "Niezłomny"
 
-#: core/achievements.py:146
+#: core/achievements.py:155
 msgid "Complete an event undefeated, playing at least 3 actual battles. Draws are allowed."
 msgstr "Ukończ wydarzenie bez porażki, rozgrywając co najmniej 3 rzeczywiste bitwy. Remisy są dozwolone."
 
-#: core/achievements.py:153
+#: core/achievements.py:162
 msgid "On the Podium"
 msgstr "Na podium"
 
-#: core/achievements.py:157
+#: core/achievements.py:166
 msgid "Finish an event in an official top-three position."
 msgstr "Zajmij oficjalnie jedno z trzech pierwszych miejsc w wydarzeniu."
 
-#: core/achievements.py:162
+#: core/achievements.py:171
 msgid "Champion"
 msgstr "Czempion"
 
-#: core/achievements.py:166
+#: core/achievements.py:175
 msgid "Finish an event in first place."
 msgstr "Zajmij pierwsze miejsce w wydarzeniu."
 
@@ -325,8 +333,9 @@ msgid "Earn achievements."
 msgstr "Zdobywaj osiągnięcia."
 
 #: templates/core/home.html:10
-msgid "Every tournament adds to your season. Collect all 14 achievements in 2026 to become eligible for a physical trophy."
-msgstr "Każdy turniej to kolejny krok w sezonie. Zdobądź wszystkie 14 osiągnięć w 2026 roku, aby uzyskać możliwość otrzymania fizycznego trofeum."
+#, python-format
+msgid "Every tournament adds to your season. Collect all %(total)s achievements in 2026 to become eligible for a physical trophy."
+msgstr "Każdy turniej to kolejny krok w sezonie. Zdobądź wszystkie %(total)s osiągnięć w 2026 roku, aby uzyskać możliwość otrzymania fizycznego trofeum."
 
 #: templates/core/home.html:11 templates/core/trophies.html:30
 msgid "Explore the achievements"

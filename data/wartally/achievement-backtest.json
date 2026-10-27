@@ -1,5 +1,5 @@
 {
-  "catalog_version": "proposal-v0.1",
+  "catalog_version": "proposal-v0.2",
   "years": [
     {
       "year": 2025,
@@ -9,6 +9,7 @@
         "first_muster": 74,
         "campaign_regular": 18,
         "season_veteran": 4,
+        "loyality": 3,
         "first_blood": 66,
         "proven_fighter": 16,
         "battle_hardened": 3,
@@ -29,12 +30,11 @@
         "5": 7,
         "6": 1,
         "7": 4,
-        "8": 6,
-        "9": 2,
-        "10": 3,
-        "11": 2,
-        "12": 1,
-        "13": 2
+        "8": 5,
+        "9": 3,
+        "10": 2,
+        "11": 3,
+        "13": 3
       },
       "caveat": "Incomplete event discovery; 2026 through 25 October only; unverified display-name identity and raw faction labels. Historical qualification is a calibration proxy, not a prize entry."
     },
@@ -46,6 +46,7 @@
         "first_muster": 46,
         "campaign_regular": 18,
         "season_veteran": 8,
+        "loyality": 6,
         "first_blood": 42,
         "proven_fighter": 13,
         "battle_hardened": 5,
@@ -63,15 +64,16 @@
         "2": 6,
         "3": 10,
         "4": 4,
-        "5": 4,
-        "6": 2,
-        "7": 3,
-        "8": 4,
+        "5": 3,
+        "6": 3,
+        "7": 2,
+        "8": 5,
         "10": 3,
-        "11": 2,
+        "11": 1,
         "12": 1,
         "13": 1,
-        "14": 2
+        "14": 2,
+        "15": 1
       },
       "caveat": "Incomplete event discovery; 2026 through 25 October only; unverified display-name identity and raw faction labels. Historical qualification is a calibration proxy, not a prize entry."
     }

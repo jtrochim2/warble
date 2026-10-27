@@ -65,6 +65,15 @@ ACHIEVEMENTS = (
         "III",
     ),
     badge(
+        "loyality",
+        _("Loyality"),
+        "campaign",
+        "loyal_tournaments",
+        3,
+        _("Complete 3 tournaments with the same primary faction during the season."),
+        "III",
+    ),
+    badge(
         "first_blood",
         _("First Blood"),
         "victories",
@@ -171,6 +180,7 @@ ACHIEVEMENTS = (
 
 def evaluate_season(dataset, year):
     """Return display-name-based progress, not verified account awards."""
+    faction_tournaments = defaultdict(lambda: defaultdict(set))
     people = defaultdict(
         lambda: {
             "events": 0,
@@ -214,6 +224,14 @@ def evaluate_season(dataset, year):
             completed = credited_rounds == set(range(1, event["rounds"] + 1))
             if completed and len(battles) >= 2:
                 player["events"] += 1
+                if (
+                    event.get("event_kind") == "tournament"
+                    and participant["faction"]
+                    and participant["faction"] != "Faction missing"
+                ):
+                    faction_tournaments[nickname][participant["faction"]].add(
+                        event["id"]
+                    )
             player["matches"] += len(battles)
             player["wins"] += participant["wins"]
             if participant["faction"] != "Faction missing":
@@ -240,6 +258,10 @@ def evaluate_season(dataset, year):
             key: len(value) if isinstance(value, set) else value
             for key, value in player.items()
         }
+        metrics["loyal_tournaments"] = max(
+            (len(events) for events in faction_tournaments[nickname].values()),
+            default=0,
+        )
         earned = [
             achievement
             for achievement in ACHIEVEMENTS

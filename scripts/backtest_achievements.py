@@ -44,7 +44,7 @@ def backtest(dataset, year):
 def main():
     dataset = json.loads((DATA_DIR / "poland-2025-2026.json").read_text())
     output = {
-        "catalog_version": "proposal-v0.1",
+        "catalog_version": "proposal-v0.2",
         "years": [backtest(dataset, year) for year in (2025, 2026)],
     }
     destination = DATA_DIR / "achievement-backtest.json"

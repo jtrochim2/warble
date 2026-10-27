@@ -145,8 +145,8 @@ class SeasonPageTests(SimpleTestCase):
         rows = response.context["ranking_page"].paginator.object_list
         scores = [(row["achievement_count"], row["wins"]) for row in rows]
         self.assertEqual(scores, sorted(scores, reverse=True))
-        self.assertEqual(rows[0]["achievement_count"], 14)
-        self.assertEqual([row["rank"] for row in rows[:3]], [1, 1, 2])
+        self.assertEqual(rows[0]["achievement_count"], 15)
+        self.assertEqual([row["rank"] for row in rows[:3]], [1, 2, 2])
         self.assertNotEqual(rows[0]["wins"], rows[1]["wins"])
         rank = 0
         previous = None
@@ -195,7 +195,7 @@ class SeasonPageTests(SimpleTestCase):
             sum(
                 len(group["badges"]) for group in response.context["achievement_groups"]
             ),
-            14,
+            15,
         )
         self.assertContains(response, 'id="join-dialog"')
         self.assertContains(response, 'aria-current="page">Achievements')
@@ -311,7 +311,7 @@ class PlayerDetailTests(SimpleTestCase):
         self.assertEqual(response.context["player"]["rank"], expected["rank"])
         groups = response.context["achievement_groups"]
         badges = [badge for group in groups for badge in group["badges"]]
-        self.assertEqual(len(badges), 14)
+        self.assertEqual(len(badges), 15)
         self.assertEqual(
             sum(b["unlocked"] for b in badges), expected["achievement_count"]
         )
@@ -365,7 +365,7 @@ class PlayerDetailTests(SimpleTestCase):
             sum(
                 len(group["badges"]) for group in response.context["achievement_groups"]
             ),
-            14,
+            15,
         )
 
     def test_unicode_player_and_unknown_player(self):
@@ -398,12 +398,12 @@ class PlayerDetailTests(SimpleTestCase):
         nickname = next(
             row["nickname"]
             for row in response.context["ranking_page"].paginator.object_list
-            if row["achievement_count"] == 14
+            if row["achievement_count"] == 15
         )
         response = self.client.get(
             reverse("core:player_detail", kwargs={"nickname": nickname})
         )
-        self.assertEqual(response.context["player"]["achievement_count"], 14)
+        self.assertEqual(response.context["player"]["achievement_count"], 15)
         self.assertNotContains(response, "badge-locked")
 
 
@@ -424,7 +424,7 @@ class BadgeArtworkTests(SimpleTestCase):
                 self.assertEqual(contents[:4], b"RIFF")
                 self.assertEqual(contents[8:12], b"WEBP")
                 hashes.add(hashlib.sha256(contents).hexdigest())
-        self.assertEqual(len(hashes), 14)
+        self.assertEqual(len(hashes), 15)
 
     def test_catalog_and_player_profile_render_the_badge_artwork(self):
         from .achievements import ACHIEVEMENTS
@@ -449,11 +449,11 @@ class TrophyPageTests(SimpleTestCase):
         response = self.client.get(reverse("core:trophies"))
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.context["trophy_year"], 2026)
-        self.assertEqual(response.context["achievement_total"], 14)
+        self.assertEqual(response.context["achievement_total"], 15)
         self.assertContains(response, "/static/images/trophies/season-2026.webp")
         self.assertIsNotNone(finders.find("images/trophies/season-2026.webp"))
         self.assertContains(
-            response, "Collect all 14 achievements during the 2026 season"
+            response, "Collect all 15 achievements during the 2026 season"
         )
         self.assertContains(response, "eligible to earn a physical copy")
         self.assertContains(response, 'aria-current="page">Trophies')
@@ -464,16 +464,18 @@ class TrophyPageTests(SimpleTestCase):
         response = self.client.get(reverse("core:trophies"), HTTP_ACCEPT_LANGUAGE="pl")
         self.assertContains(response, '<html lang="pl">')
         self.assertContains(response, "Trofeum sezonu 2026")
-        self.assertContains(response, "wszystkie 14 osiągnięć")
+        self.assertContains(response, "wszystkie 15 osiągnięć")
         self.assertContains(response, "fizycznego egzemplarza tego trofeum")
         self.assertContains(response, 'aria-current="page">Trofea')
         self.assertNotContains(response, "Collect all")
 
 
 class RankingTrophyEmblemTests(SimpleTestCase):
-    def test_complete_collection_has_trophy_emblem_but_thirteen_badges_do_not(self):
+    def test_complete_collection_has_trophy_emblem_but_partial_collection_does_not(
+        self,
+    ):
         response = self.client.get(
-            reverse("core:home"), {"season": "2026", "q": "jtrochim"}
+            reverse("core:home"), {"season": "2026", "q": "Pan Tulipan"}
         )
         self.assertContains(response, 'class="trophy-emblem"', count=1)
         self.assertContains(response, "eligible for the season trophy")
@@ -482,13 +484,13 @@ class RankingTrophyEmblemTests(SimpleTestCase):
             reverse("core:home"), {"season": "2026", "q": "xyzq"}
         )
         self.assertEqual(
-            list(response.context["ranking_page"])[0]["achievement_count"], 13
+            list(response.context["ranking_page"])[0]["achievement_count"], 14
         )
         self.assertNotContains(response, 'class="trophy-emblem"')
 
     def test_trophy_emblem_label_is_translated(self):
         response = self.client.get(
-            reverse("core:home"), {"q": "jtrochim"}, HTTP_ACCEPT_LANGUAGE="pl"
+            reverse("core:home"), {"q": "Pan Tulipan"}, HTTP_ACCEPT_LANGUAGE="pl"
         )
         self.assertContains(
             response, "Wszystkie osiągnięcia zdobyte — prawo do trofeum sezonu"
