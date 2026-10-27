@@ -3,12 +3,13 @@
 {% block title %}{% translate "Season ranking" %} — Warble{% endblock %}
 {% block content %}
   <div class="content-page ranking-page">
-    <section class="page-intro" aria-labelledby="ranking-title">
+    <section class="page-intro welcome-hero" data-welcome-hero aria-labelledby="ranking-title">
       <div>
         <div class="hero-kicker"><span class="ornament-line"></span><span>{% translate "Warcry · Poland" %}</span></div>
         <h1 id="ranking-title">{% translate "Play Warcry." %}<br><em>{% translate "Earn achievements." %}</em></h1>
         <p class="page-description">{% translate "Every tournament adds to your season. Collect all 14 achievements in 2026 to become eligible for a physical trophy." %}</p>
         <a class="text-link" href="{% url 'core:achievements' %}">{% translate "Explore the achievements" %} <span aria-hidden="true">→</span></a>
+        <div class="welcome-action"><button class="button" type="button" data-welcome-skip>{% translate "Enter the ranking" %} <span aria-hidden="true">→</span></button></div>
       </div>
       <a class="season-seal" href="{% url 'core:achievements' %}">
         <span>{% translate "The complete collection" %}</span><strong>{{ achievement_total }}</strong><span>{% translate "Seasonal achievements" %}</span>

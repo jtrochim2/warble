@@ -10,6 +10,7 @@
   <title>{% block title %}Warble — {% translate "Season ranking" %}{% endblock %}</title>
   <link rel="preload" as="image" href="{% static 'images/ashfall-citadel.webp' %}">
   <link rel="stylesheet" href="{% static 'css/app.css' %}">
+  <script src="{% static 'js/welcome.js' %}"></script>
   {% if request.static_export %}<script src="{% static 'js/static-site.js' %}" defer></script>{% else %}<script src="{% static 'js/join.js' %}" defer></script>{% endif %}
   <script src="{% static 'js/seasons.js' %}" defer></script>
   <script src="{% static 'js/atmosphere.js' %}" defer></script>

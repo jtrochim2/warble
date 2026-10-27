@@ -86,6 +86,13 @@ New accounts have `is_active=False` and an unusable password, following [Django'
 
 ## Visual design
 
+On the first ranking visit, an animated welcome introduces the season for 7 seconds,
+then reveals the standings. The “Enter the ranking” button and Escape skip it.
+Later visits go straight to the ranking, using the browser-local
+`warble-welcome-seen` flag (shared by both languages and seasons). Reduced-motion
+and paused-atmosphere preferences skip the welcome. Without JavaScript, the hero
+and ranking remain visible. Clearing browser storage allows the welcome again.
+
 Each achievement has a unique original illustrated trophy in `static/images/badges/`, with iron, bone, brass, and dark red details. The catalog shows full-color artwork; player collections subdue unearned badges in grayscale. The shared card keeps translated names, requirements, and explicit earned states alongside the artwork. See [badge designs and generation prompts](docs/badges.md).
 
 The landing page features original Warcry-inspired ruined-fortress artwork, a stationary background illustration, layered drifting smoke, embers, and flickering fire on the two foreground braziers. The fire overlays stay aligned as the background scales and share the pause and reduced-motion controls. Pause the atmosphere using the footer control; OS reduced-motion settings disable animation automatically. Artwork is served locally as an optimized WebP; typography uses system fonts. See [art direction and generation prompt](docs/art-direction.md) for asset details.

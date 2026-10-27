@@ -384,3 +384,35 @@ meter::-moz-meter-bar { background: #c79360; }
 
 
 .ranking-table tr[hidden] { display: none; }
+
+/* A single welcome, then a direct route to the standings on later visits. */
+.welcome-action { display: none; }
+html[data-welcome="first"] .welcome-hero {
+  position: relative;
+  min-height: calc(100svh - 210px);
+  box-sizing: border-box;
+}
+html[data-welcome="first"] .welcome-hero > div > * {
+  animation: welcome-rise .9s both cubic-bezier(.2,.7,.2,1);
+}
+html[data-welcome="first"] .welcome-hero h1 { animation-delay: .18s; }
+html[data-welcome="first"] .welcome-hero .page-description { animation-delay: .4s; }
+html[data-welcome="first"] .welcome-hero .text-link { animation-delay: .55s; }
+html[data-welcome="first"] .welcome-action { display: block; margin-top: 1.2rem; animation-delay: .7s; }
+html[data-welcome="first"] .welcome-hero .season-seal { animation: welcome-seal 1.8s both ease-out; }
+html[data-welcome="first"] .ranking-page > .ranking-panel { display: none; }
+html[data-welcome="seen"] .welcome-hero { display: none; }
+html[data-welcome="seen"] .ranking-page { padding-top: 2rem; }
+html[data-welcome-reveal="true"] .ranking-page > .ranking-panel { animation: welcome-rise .65s both ease-out; }
+@keyframes welcome-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes welcome-seal {
+  from { opacity: 0; transform: scale(.9); box-shadow: 0 0 0 #cb804600; }
+  65% { opacity: 1; box-shadow: 0 0 65px #cb804640, inset 0 0 35px #cb80461a; }
+  to { opacity: 1; transform: scale(1); box-shadow: 0 0 18px #cb804618; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .welcome-hero *, .ranking-page > .ranking-panel { animation: none !important; }
+}

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Warble 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 20:18+0000\n"
+"POT-Creation-Date: 2026-10-26 20:40+0000\n"
 "PO-Revision-Date: 2026-10-25 00:00+0000\n"
 "Last-Translator: Warble contributors\n"
 "Language-Team: Polish\n"
@@ -187,56 +187,56 @@ msgid "Play Warcry. Earn achievements. Follow the season ranking on Warble."
 msgstr "Graj w Warcry. Zdobywaj osiągnięcia. Śledź ranking sezonu w Warble."
 
 #: templates/base.html:10 templates/core/home.html:3
-#: templates/core/home.html:19
+#: templates/core/home.html:20
 msgid "Season ranking"
 msgstr "Ranking sezonu"
 
-#: templates/base.html:22
+#: templates/base.html:23
 msgid "Skip to content"
 msgstr "Przejdź do treści"
 
-#: templates/base.html:35
+#: templates/base.html:36
 msgid "Warble home"
 msgstr "Warble — strona główna"
 
-#: templates/base.html:38
+#: templates/base.html:39
 msgid "Main navigation"
 msgstr "Nawigacja główna"
 
-#: templates/base.html:39
+#: templates/base.html:40
 msgid "Ranking"
 msgstr "Ranking"
 
-#: templates/base.html:40 templates/core/achievements.html:3
-#: templates/core/home.html:41
+#: templates/base.html:41 templates/core/achievements.html:3
+#: templates/core/home.html:42
 msgid "Achievements"
 msgstr "Osiągnięcia"
 
-#: templates/base.html:41 templates/core/trophies.html:3
+#: templates/base.html:42 templates/core/trophies.html:3
 msgid "Trophies"
 msgstr "Trofea"
 
-#: templates/base.html:44 templates/base.html:49
+#: templates/base.html:45 templates/base.html:50
 msgid "Language"
 msgstr "Język"
 
-#: templates/base.html:57
+#: templates/base.html:58
 msgid "Join with"
 msgstr "Dołącz przez"
 
-#: templates/base.html:64
+#: templates/base.html:65
 msgid "Play. Achieve. Return."
 msgstr "Graj. Zdobywaj. Wracaj."
 
-#: templates/base.html:65
+#: templates/base.html:66
 msgid "The Ashen Marches"
 msgstr "Popielne Pogranicze"
 
-#: templates/base.html:66
+#: templates/base.html:67
 msgid "Play atmosphere"
 msgstr "Włącz animacje"
 
-#: templates/base.html:66 templates/base.html:69
+#: templates/base.html:67 templates/base.html:70
 msgid "Pause atmosphere"
 msgstr "Wstrzymaj animacje"
 
@@ -328,130 +328,136 @@ msgstr "Każdy turniej to kolejny krok w sezonie. Zdobądź wszystkie 14 osiągn
 msgid "Explore the achievements"
 msgstr "Poznaj osiągnięcia"
 
+#: templates/core/home.html:12
+#, fuzzy
+#| msgid "See the season ranking"
+msgid "Enter the ranking"
+msgstr "Zobacz ranking sezonu"
+
 #
-#: templates/core/home.html:14 templates/core/trophies.html:25
+#: templates/core/home.html:15 templates/core/trophies.html:25
 msgid "The complete collection"
 msgstr "Pełna kolekcja"
 
-#: templates/core/home.html:14
+#: templates/core/home.html:15
 msgid "Seasonal achievements"
 msgstr "Osiągnięcia sezonowe"
 
-#: templates/core/home.html:19
+#: templates/core/home.html:20
 msgid "The gathering of warbands"
 msgstr "Zgromadzenie band"
 
-#: templates/core/home.html:20 templates/core/player_detail.html:12
+#: templates/core/home.html:21 templates/core/player_detail.html:12
 msgid "Historical standings"
 msgstr "Ranking historyczny"
 
-#: templates/core/home.html:23
+#: templates/core/home.html:24
 msgid "Players"
 msgstr "Gracze"
 
-#: templates/core/home.html:24 templates/core/home.html:41
+#: templates/core/home.html:25 templates/core/home.html:42
 #: templates/core/player_detail.html:19
 msgid "Events"
 msgstr "Wydarzenia"
 
-#: templates/core/home.html:25 templates/core/home.html:47
+#: templates/core/home.html:26 templates/core/home.html:48
 #: templates/core/player_detail.html:20
 msgid "Battles"
 msgstr "Bitwy"
 
-#: templates/core/home.html:26
+#: templates/core/home.html:27
 msgid "Rank is determined by achievements. Wins order players within the same rank."
 msgstr "O miejscu decyduje liczba osiągnięć. Zwycięstwa ustalają kolejność graczy zajmujących to samo miejsce."
 
-#: templates/core/home.html:29
+#: templates/core/home.html:30
 msgid "Find a player in the season ranking"
 msgstr "Znajdź gracza w rankingu sezonu"
 
-#: templates/core/home.html:32 templates/core/home.html:33
+#: templates/core/home.html:33 templates/core/home.html:34
 msgid "Find a player"
 msgstr "Znajdź gracza"
 
-#: templates/core/home.html:33
+#: templates/core/home.html:34
 msgid "Search Wartally nickname"
 msgstr "Wpisz pseudonim z Wartally"
 
-#: templates/core/home.html:37
+#: templates/core/home.html:38
 msgid "Clear search"
 msgstr "Wyczyść wyszukiwanie"
 
-#: templates/core/home.html:40
+#: templates/core/home.html:41
 #, python-format
 msgid "%(year)s historical achievement ranking, ordered by wins within shared ranks"
 msgstr "Historyczny ranking osiągnięć %(year)s, uporządkowany według zwycięstw w ramach wspólnych miejsc"
 
-#: templates/core/home.html:41 templates/core/player_detail.html:18
+#: templates/core/home.html:42 templates/core/player_detail.html:18
 msgid "Rank"
 msgstr "Miejsce"
 
-#: templates/core/home.html:41
+#: templates/core/home.html:42
 msgid "Player"
 msgstr "Gracz"
 
-#: templates/core/home.html:41 templates/core/player_detail.html:21
+#: templates/core/home.html:42 templates/core/player_detail.html:21
 msgid "Wins"
 msgstr "Zwycięstwa"
 
-#: templates/core/home.html:43
+#: templates/core/home.html:44
 #, fuzzy
 #| msgid "Player not found."
 msgid "No players found."
 msgstr "Nie znaleziono gracza."
 
-#: templates/core/home.html:47
+#: templates/core/home.html:48
 msgid "All achievements collected — eligible for the season trophy"
 msgstr "Wszystkie osiągnięcia zdobyte — prawo do trofeum sezonu"
 
-#: templates/core/home.html:47 templates/core/player_detail.html:22
+#: templates/core/home.html:48 templates/core/player_detail.html:22
 msgid "Opponents"
 msgstr "Rywale"
 
-#: templates/core/home.html:49
+#: templates/core/home.html:50
 #, python-format
 msgid "%(nickname)s: %(earned)s of %(total)s achievements"
 msgstr "%(nickname)s: %(earned)s z %(total)s osiągnięć"
 
-#: templates/core/home.html:49
+#: templates/core/home.html:50
 #, python-format
 msgid "%(earned)s of %(total)s"
 msgstr "%(earned)s z %(total)s"
 
-#: templates/core/home.html:52
+#: templates/core/home.html:53
 #, python-format
 msgid "No players match “%(query)s”. Try another nickname."
 msgstr "Nie znaleziono graczy pasujących do „%(query)s”. Spróbuj innego pseudonimu."
 
-#: templates/core/home.html:52
+#: templates/core/home.html:53
 msgid "The field is quiet. Season standings will appear when results are available."
 msgstr "Na polu bitwy cisza. Ranking sezonu pojawi się, gdy będą dostępne wyniki."
 
-#: templates/core/home.html:57
+#: templates/core/home.html:58
 msgid "Ranking pages"
 msgstr "Strony rankingu"
 
-#: templates/core/home.html:57
+#: templates/core/home.html:58
 #, python-format
 msgid "Players %(first)s–%(last)s of %(total)s"
 msgstr "Gracze %(first)s–%(last)s z %(total)s"
 
-#: templates/core/home.html:57
+#: templates/core/home.html:58
 msgid "Previous"
 msgstr "Poprzednia"
 
-#: templates/core/home.html:57
+#: templates/core/home.html:58
 #, python-format
 msgid "Page %(page)s of %(pages)s"
 msgstr "Strona %(page)s z %(pages)s"
 
-#: templates/core/home.html:57
+#: templates/core/home.html:58
 msgid "Next"
 msgstr "Następna"
 
-#: templates/core/home.html:59
+#: templates/core/home.html:60
 #, python-format
 msgid "Recorded Polish events through %(date)s. Names and achievements are a historical preview; player verification is pending. Prize rules will be announced separately."
 msgstr "Zarejestrowane wydarzenia w Polsce do %(date)s. Pseudonimy i osiągnięcia przedstawiają dane historyczne; weryfikacja graczy jest w toku. Zasady nagród zostaną ogłoszone osobno."
