@@ -57,7 +57,7 @@
       {% if ranking_page.paginator.num_pages > 1 %}
       <nav class="ranking-pagination" aria-label="{% translate "Ranking pages" %}"><span>{% blocktranslate with first=ranking_page.start_index last=ranking_page.end_index total=ranking_page.paginator.count %}Players {{ first }}–{{ last }} of {{ total }}{% endblocktranslate %}</span><div>{% if previous_url %}<a href="{{ previous_url }}" rel="prev">← {% translate "Previous" %}</a>{% endif %}<span>{% blocktranslate with page=ranking_page.number pages=ranking_page.paginator.num_pages %}Page {{ page }} of {{ pages }}{% endblocktranslate %}</span>{% if next_url %}<a href="{{ next_url }}" rel="next">{% translate "Next" %} →</a>{% endif %}</div></nav>
       {% endif %}
-      <p class="ranking-note">{% blocktranslate with date=snapshot_date|default:"—" %}Recorded Polish events through {{ date }}. Names and achievements are a historical preview; player verification is pending. Prize rules will be announced separately.{% endblocktranslate %}</p>
+      <p class="ranking-note">{% blocktranslate with date=snapshot_date|default:"—" %}Recorded Polish events through {{ date }}. Names and achievements are a historical preview.{% endblocktranslate %}</p>
     </section>
   </div>
 {% endblock %}

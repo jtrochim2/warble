@@ -459,8 +459,8 @@ msgstr "Następna"
 
 #: templates/core/home.html:60
 #, python-format
-msgid "Recorded Polish events through %(date)s. Names and achievements are a historical preview; player verification is pending. Prize rules will be announced separately."
-msgstr "Zarejestrowane wydarzenia w Polsce do %(date)s. Pseudonimy i osiągnięcia przedstawiają dane historyczne; weryfikacja graczy jest w toku. Zasady nagród zostaną ogłoszone osobno."
+msgid "Recorded Polish events through %(date)s. Names and achievements are a historical preview."
+msgstr "Zarejestrowane wydarzenia w Polsce do %(date)s. Pseudonimy i osiągnięcia przedstawiają dane historyczne."
 
 #: templates/core/partials/achievement_card.html:8
 #: templates/core/player_detail.html:31
